@@ -13,12 +13,6 @@
 [submodule "XArchive"]
 	path = XArchive
 	url = https://github.com/horsicq/XArchive.git
-[submodule "QYara"]
-	path = QYara
-	url = https://github.com/horsicq/QYara.git
-[submodule "QOpenSSL"]
-	path = QOpenSSL
-	url = https://github.com/horsicq/QOpenSSL.git
 [submodule "XQwt"]
 	path = XQwt
 	url = https://github.com/horsicq/XQwt.git
@@ -31,3 +25,51 @@
 [submodule "XTranslation"]
 	path = XTranslation
 	url = https://github.com/horsicq/XTranslation.git
+[submodule "XDEX"]
+	path = XDEX
+	url = https://github.com/horsicq/XDEX.git
+[submodule "FormatDialogs"]
+	path = FormatDialogs
+	url = https://github.com/horsicq/FormatDialogs.git
+[submodule "FormatWidgets"]
+	path = FormatWidgets
+	url = https://github.com/horsicq/FormatWidgets.git
+[submodule "Controls"]
+	path = Controls
+	url = https://github.com/horsicq/Controls.git
+[submodule "QHexView"]
+	path = QHexView
+	url = https://github.com/horsicq/QHexView.git
+[submodule "XMemoryMapWidget"]
+	path = XMemoryMapWidget
+	url = https://github.com/horsicq/XMemoryMapWidget.git
+[submodule "XEntropyWidget"]
+	path = XEntropyWidget
+	url = https://github.com/horsicq/XEntropyWidget.git
+[submodule "XDisasm"]
+	path = XDisasm
+	url = https://github.com/horsicq/XDisasm.git
+[submodule "XCapstone"]
+	path = XCapstone
+	url = https://github.com/horsicq/XCapstone.git
+[submodule "XHashWidget"]
+	path = XHashWidget
+	url = https://github.com/horsicq/XHashWidget.git
+[submodule "die_script"]
+	path = die_script
+	url = https://github.com/horsicq/die_script.git
+[submodule "die_widget"]
+	path = die_widget
+	url = https://github.com/horsicq/die_widget.git
+[submodule "nfd_widget"]
+	path = nfd_widget
+	url = https://github.com/horsicq/nfd_widget.git
+[submodule "archive_widget"]
+	path = archive_widget
+	url = https://github.com/horsicq/archive_widget.git
+[submodule "XMIME"]
+	path = XMIME
+	url = https://github.com/horsicq/XMIME.git
+[submodule "XSingleApplication"]
+	path = XSingleApplication
+	url = https://github.com/horsicq/XSingleApplication.git
