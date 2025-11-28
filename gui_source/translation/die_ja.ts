@@ -1,85 +1,788 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="ja_JP">
+<TS version="2.1" language="ja">
+<context>
+    <name>Archive_widget</name>
+    <message>
+        <source>Form</source>
+        <translation>フォーム</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation>種類</translation>
+    </message>
+    <message>
+        <source>Filter</source>
+        <translation>絞り込み</translation>
+    </message>
+    <message>
+        <source>Tree</source>
+        <translation>ツリー</translation>
+    </message>
+    <message>
+        <source>Table</source>
+        <translation>テーブル</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>開く</translation>
+    </message>
+    <message>
+        <source>Scan</source>
+        <translation>スキャン</translation>
+    </message>
+    <message>
+        <source>Hex</source>
+        <translation>16 進数</translation>
+    </message>
+    <message>
+        <source>Strings</source>
+        <translation>文字列</translation>
+    </message>
+    <message>
+        <source>Entropy</source>
+        <translation>エントロピー</translation>
+    </message>
+    <message>
+        <source>Hash</source>
+        <translation>ハッシュ</translation>
+    </message>
+    <message>
+        <source>Copy</source>
+        <translation>コピー</translation>
+    </message>
+    <message>
+        <source>File name</source>
+        <translation>ファイル名</translation>
+    </message>
+    <message>
+        <source>Dump to file</source>
+        <translation>ファイルにダンプ</translation>
+    </message>
+    <message>
+        <source>Save file</source>
+        <translation>保存</translation>
+    </message>
+    <message>
+        <source>Error</source>
+        <translation>エラー</translation>
+    </message>
+    <message>
+        <source>Cannot save file</source>
+        <translation>ファイルを保存できませんでした</translation>
+    </message>
+</context>
 <context>
     <name>BinaryWidget</name>
     <message>
-        <location filename="../../FormatWidgets/Binary/binarywidget.ui" line="37"/>
         <source>Reload</source>
         <translation>再読み込み</translation>
     </message>
     <message>
-        <location filename="../../FormatWidgets/Binary/binarywidget.ui" line="57"/>
         <source>Readonly</source>
+        <translation>読み取り専用</translation>
+    </message>
+    <message>
+        <source>Next visited</source>
         <translation></translation>
+    </message>
+    <message>
+        <source>Previous visited</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Info</source>
+        <translation>情報</translation>
+    </message>
+    <message>
+        <source>Visualization</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Hex</source>
+        <translation>16 進数</translation>
+    </message>
+    <message>
+        <source>Disasm</source>
+        <translation>Disasm</translation>
+    </message>
+    <message>
+        <source>Hash</source>
+        <translation>ハッシュ</translation>
+    </message>
+    <message>
+        <source>Strings</source>
+        <translation>文字列</translation>
+    </message>
+    <message>
+        <source>Signatures</source>
+        <translation>署名</translation>
+    </message>
+    <message>
+        <source>Memory map</source>
+        <translation>メモリ マップ</translation>
+    </message>
+    <message>
+        <source>Entropy</source>
+        <translation>エントロピー</translation>
+    </message>
+    <message>
+        <source>Extractor</source>
+        <translation>抽出</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>検索</translation>
+    </message>
+</context>
+<context>
+    <name>Binary_Script</name>
+    <message>
+        <source>Invalid handle</source>
+        <translation>無効なハンドル</translation>
+    </message>
+</context>
+<context>
+    <name>CreateViewModelProcess</name>
+    <message>
+        <source>File</source>
+        <translation>ファイル</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>サイズ</translation>
+    </message>
+</context>
+<context>
+    <name>DEXSectionHeaderWidget</name>
+    <message>
+        <source>Readonly</source>
+        <translation>読み取り専用</translation>
+    </message>
+</context>
+<context>
+    <name>DEXWidget</name>
+    <message>
+        <source>Reload</source>
+        <translation>再読み込み</translation>
+    </message>
+    <message>
+        <source>Readonly</source>
+        <translation>読み取り専用</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>保存</translation>
+    </message>
+    <message>
+        <source>Next visited</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Previous visited</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Info</source>
+        <translation>情報</translation>
+    </message>
+    <message>
+        <source>Visualization</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Hex</source>
+        <translation>16 進数</translation>
+    </message>
+    <message>
+        <source>Hash</source>
+        <translation>ハッシュ</translation>
+    </message>
+    <message>
+        <source>Strings</source>
+        <translation>文字列</translation>
+    </message>
+    <message>
+        <source>Signatures</source>
+        <translation>署名</translation>
+    </message>
+    <message>
+        <source>Memory map</source>
+        <translation>メモリ マップ</translation>
+    </message>
+    <message>
+        <source>Entropy</source>
+        <translation>エントロピー</translation>
+    </message>
+    <message>
+        <source>Extractor</source>
+        <translation>抽出</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>検索</translation>
+    </message>
+</context>
+<context>
+    <name>DIEOptionsWidget</name>
+    <message>
+        <source>Scan after open</source>
+        <translation>開いたらすぐスキャン開始</translation>
+    </message>
+    <message>
+        <source>Flags</source>
+        <translation>フラグ</translation>
+    </message>
+    <message>
+        <source>Recursive scan</source>
+        <translation>ファイル スキャン</translation>
+    </message>
+    <message>
+        <source>Deep scan</source>
+        <translation>ディープスキャン</translation>
+    </message>
+    <message>
+        <source>Heuristic scan</source>
+        <translation>ヒューリスティック スキャン</translation>
+    </message>
+    <message>
+        <source>Aggressive scan</source>
+        <translation>ファイル スキャン</translation>
+    </message>
+    <message>
+        <source>Verbose</source>
+        <translation>冗長な</translation>
+    </message>
+    <message>
+        <source>All types</source>
+        <translation>すべての種類</translation>
+    </message>
+    <message>
+        <source>Profiling</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Sort</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Highlight</source>
+        <translation>ハイライト</translation>
+    </message>
+    <message>
+        <source>Hide unknown</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Buffer size</source>
+        <translation>バッファーサイズ</translation>
+    </message>
+    <message>
+        <source>Scan</source>
+        <translation>スキャン</translation>
+    </message>
+    <message>
+        <source>Database</source>
+        <translation>データベース</translation>
+    </message>
+    <message>
+        <source>Extra database</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Custom database</source>
+        <translation>カスタム データベース</translation>
+    </message>
+    <message>
+        <source>Open directory</source>
+        <translation>ディレクトリを開く</translation>
+    </message>
+</context>
+<context>
+    <name>DIEWidgetAdvanced</name>
+    <message>
+        <source>Form</source>
+        <translation>フォーム</translation>
+    </message>
+    <message>
+        <source>Signatures</source>
+        <translation>署名</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>保存</translation>
+    </message>
+    <message>
+        <source>Scan</source>
+        <translation>スキャン</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation>種類</translation>
+    </message>
+    <message>
+        <source>Flags</source>
+        <translation>フラグ</translation>
+    </message>
+    <message>
+        <source>Database</source>
+        <translation>データベース</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>結果</translation>
+    </message>
+    <message>
+        <source>Signature</source>
+        <translation>署名</translation>
+    </message>
+    <message>
+        <source>Signature name</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Text files</source>
+        <translation>テキスト ファイル</translation>
+    </message>
+    <message>
+        <source>All files</source>
+        <translation>すべてのファイル</translation>
+    </message>
+    <message>
+        <source>Error</source>
+        <translation>エラー</translation>
+    </message>
+    <message>
+        <source>Cannot save file</source>
+        <translation>ファイルを保存できませんでした</translation>
     </message>
 </context>
 <context>
     <name>DIE_Widget</name>
     <message>
-        <location filename="../../die_widget/die_widget.ui" line="66"/>
         <source>Signatures</source>
         <translation>署名</translation>
     </message>
     <message>
-        <location filename="../../die_widget/die_widget.ui" line="86"/>
-        <source>Deep scan</source>
-        <translation>ディープスキャン</translation>
+        <source>Directory</source>
+        <translation>ディレクトリ</translation>
     </message>
     <message>
-        <location filename="../../die_widget/die_widget.ui" line="126"/>
-        <location filename="../../die_widget/die_widget.cpp" line="152"/>
-        <location filename="../../die_widget/die_widget.cpp" line="156"/>
         <source>Log</source>
         <translation>ログ</translation>
     </message>
     <message>
-        <location filename="../../die_widget/die_widget.ui" line="171"/>
-        <location filename="../../die_widget/die_widget.cpp" line="121"/>
-        <location filename="../../die_widget/die_widget.cpp" line="210"/>
         <source>Scan</source>
         <translation>スキャン</translation>
     </message>
     <message>
-        <location filename="../../die_widget/die_widget.cpp" line="104"/>
         <source>Stop</source>
         <translation>停止</translation>
     </message>
     <message>
-        <location filename="../../die_widget/die_widget.cpp" line="162"/>
+        <source>Flags</source>
+        <translation>フラグ</translation>
+    </message>
+    <message>
+        <source>Database</source>
+        <translation>データベース</translation>
+    </message>
+    <message>
         <source>msec</source>
-        <translation></translation>
+        <translation>ミリ秒</translation>
+    </message>
+    <message>
+        <source>Copy as</source>
+        <translation>以下をコピー</translation>
+    </message>
+</context>
+<context>
+    <name>DiE_Script</name>
+    <message>
+        <source>Unknown</source>
+        <translation>不明</translation>
+    </message>
+    <message>
+        <source>Cannot load database</source>
+        <translation>データベースを読み込めませんでした</translation>
+    </message>
+</context>
+<context>
+    <name>DiE_ScriptEngine</name>
+    <message>
+        <source>Cannot find</source>
+        <translation>見つけられませんでした</translation>
     </message>
 </context>
 <context>
     <name>DialogAbout</name>
     <message>
-        <location filename="../dialogabout.ui" line="17"/>
         <source>About</source>
         <translation>情報</translation>
     </message>
     <message>
-        <location filename="../dialogabout.ui" line="105"/>
+        <source>OK</source>
+        <translation>OK</translation>
+    </message>
+    <message>
+        <source>Bugreports</source>
+        <translation>バグ報告</translation>
+    </message>
+    <message>
+        <source>Website</source>
+        <translation>Webサイト</translation>
+    </message>
+    <message>
         <source>Donate</source>
+        <translation>寄付</translation>
+    </message>
+    <message>
+        <source>Source code</source>
+        <translation>ソース コード</translation>
+    </message>
+</context>
+<context>
+    <name>DialogArchive</name>
+    <message>
+        <source>Archive</source>
+        <translation>アーカイブ</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>開く</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>閉じる</translation>
+    </message>
+</context>
+<context>
+    <name>DialogAsmSignature</name>
+    <message>
+        <source>Signature</source>
+        <translation>署名</translation>
+    </message>
+    <message>
+        <source>Spaces</source>
+        <translation>スペース</translation>
+    </message>
+    <message>
+        <source>Upper</source>
+        <translation>大文字</translation>
+    </message>
+    <message>
+        <source>Wildcard</source>
+        <translation>ワイルドカード</translation>
+    </message>
+    <message>
+        <source>Copy</source>
+        <translation>コピー</translation>
+    </message>
+    <message>
+        <source>OK</source>
+        <translation>OK</translation>
+    </message>
+    <message>
+        <source>Relative virtual address</source>
+        <translation>相対仮想ADD</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>アドレス</translation>
+    </message>
+    <message>
+        <source>Bytes</source>
+        <translation>バイト</translation>
+    </message>
+    <message>
+        <source>Opcode</source>
+        <translation>Opcode</translation>
+    </message>
+</context>
+<context>
+    <name>DialogBits8</name>
+    <message>
+        <source>Bits</source>
+        <translation>Bits</translation>
+    </message>
+    <message>
+        <source>Hex</source>
+        <translation>16 進数</translation>
+    </message>
+    <message>
+        <source>Signed</source>
+        <translation>署名済み</translation>
+    </message>
+    <message>
+        <source>Unsigned</source>
+        <translation>署名なし</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>キャンセル</translation>
+    </message>
+    <message>
+        <source>OK</source>
+        <translation>OK</translation>
+    </message>
+</context>
+<context>
+    <name>DialogBookmarks</name>
+    <message>
+        <source>Bookmarks</source>
+        <translation>ブックマーク</translation>
+    </message>
+    <message>
+        <source>OK</source>
+        <translation>OK</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>配置</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>サイズ</translation>
+    </message>
+    <message>
+        <source>Color</source>
+        <translation>色</translation>
+    </message>
+    <message>
+        <source>Comment</source>
+        <translation>コメント</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>アドレス</translation>
+    </message>
+    <message>
+        <source>Offset</source>
+        <translation>オフセット</translation>
+    </message>
+    <message>
+        <source>Background</source>
+        <translation>背景</translation>
+    </message>
+</context>
+<context>
+    <name>DialogDIEScanDirectory</name>
+    <message>
+        <source>Directory scan</source>
+        <translation>ディレクトリのスキャン</translation>
+    </message>
+    <message>
+        <source>Directory</source>
+        <translation>ディレクトリ</translation>
+    </message>
+    <message>
+        <source>Subdirectories</source>
+        <translation>サブディレクトリ</translation>
+    </message>
+    <message>
+        <source>Scan</source>
+        <translation>スキャン</translation>
+    </message>
+    <message>
+        <source>Clear</source>
+        <translation>消去</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>保存</translation>
+    </message>
+    <message>
+        <source>OK</source>
+        <translation>OK</translation>
+    </message>
+    <message>
+        <source>Flags</source>
+        <translation>フラグ</translation>
+    </message>
+    <message>
+        <source>Open directory</source>
+        <translation>ディレクトリを開く</translation>
+    </message>
+    <message>
+        <source>msec</source>
+        <translation>ミリ秒</translation>
+    </message>
+    <message>
+        <source>Text documents</source>
+        <translation>テキスト文書</translation>
+    </message>
+    <message>
+        <source>Save result</source>
+        <translation>結果を保存</translation>
+    </message>
+</context>
+<context>
+    <name>DialogDIESignatures</name>
+    <message>
+        <source>Signatures</source>
+        <translation>署名</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>保存</translation>
+    </message>
+    <message>
+        <source>Readonly</source>
+        <translation>読み取り専用</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>実行</translation>
+    </message>
+    <message>
+        <source>Debug</source>
+        <translation>デバッグ</translation>
+    </message>
+    <message>
+        <source>Recursive scan</source>
+        <translation>ファイル スキャン</translation>
+    </message>
+    <message>
+        <source>Deep scan</source>
+        <translation>ディープスキャン</translation>
+    </message>
+    <message>
+        <source>Verbose</source>
+        <translation>冗長な</translation>
+    </message>
+    <message>
+        <source>Heuristic scan</source>
+        <translation>ヒューリスティック スキャン</translation>
+    </message>
+    <message>
+        <source>Profiling</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../dialogabout.ui" line="217"/>
-        <source>Thanks</source>
-        <translation>Thanks</translation>
+        <source>Find</source>
+        <translation>検索</translation>
     </message>
     <message>
-        <location filename="../dialogabout.ui" line="273"/>
-        <source>Libraries</source>
-        <translation>ライブラリ</translation>
+        <source>Next</source>
+        <translation>次</translation>
     </message>
     <message>
-        <location filename="../dialogabout.ui" line="331"/>
-        <source>Check updates</source>
+        <source>Detect</source>
+        <translation>検知</translation>
+    </message>
+    <message>
+        <source>Show type</source>
+        <translation>型を表示</translation>
+    </message>
+    <message>
+        <source>Show version</source>
+        <translation>バージョンを表示</translation>
+    </message>
+    <message>
+        <source>Show info</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../dialogabout.ui" line="338"/>
+        <source>Clear result</source>
+        <translation>結果の消去</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>閉じる</translation>
+    </message>
+    <message>
+        <source>Database</source>
+        <translation>データベース</translation>
+    </message>
+    <message>
+        <source>Debugger</source>
+        <translation>デバッガ</translation>
+    </message>
+    <message>
+        <source>msec</source>
+        <translation>ミリ秒</translation>
+    </message>
+</context>
+<context>
+    <name>DialogDIESignaturesElapsed</name>
+    <message>
+        <source>Elapsed</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>OK</source>
+        <translation>OK</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>時間</translation>
+    </message>
+    <message>
+        <source>Script</source>
+        <translation>スクリプト</translation>
+    </message>
+</context>
+<context>
+    <name>DialogDataInspector</name>
+    <message>
+        <source>Data inspector</source>
+        <translation>データ インスペクター</translation>
+    </message>
+    <message>
+        <source>Readonly</source>
+        <translation>読み取り専用</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>閉じる</translation>
+    </message>
+    <message>
+        <source>Endianness</source>
+        <translation>エンディアン</translation>
+    </message>
+    <message>
+        <source>Offset</source>
+        <translation>オフセット</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>サイズ</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>名前</translation>
+    </message>
+    <message>
+        <source>Value</source>
+        <translation>値</translation>
+    </message>
+    <message>
+        <source>Unicode</source>
+        <translation>ユニコード</translation>
+    </message>
+    <message>
+        <source>Binary</source>
+        <translation>バイナリ</translation>
+    </message>
+</context>
+<context>
+    <name>DialogDemangle</name>
+    <message>
+        <source>Demangle</source>
+        <translation>デマングル</translation>
+    </message>
+    <message>
+        <source>OK</source>
+        <translation>OK</translation>
+    </message>
+</context>
+<context>
+    <name>DialogDieHexViewer</name>
+    <message>
+        <source>Scripts</source>
+        <translation>スクリプト</translation>
+    </message>
+    <message>
         <source>OK</source>
         <translation>OK</translation>
     </message>
@@ -87,40 +790,33 @@
 <context>
     <name>DialogDisasm</name>
     <message>
-        <location filename="../../XDisasm/dialogdisasm.ui" line="17"/>
         <source>Disasm</source>
-        <translation></translation>
+        <translation>Disasm</translation>
     </message>
     <message>
-        <location filename="../../XDisasm/dialogdisasm.ui" line="51"/>
         <source>Close</source>
-        <translation></translation>
+        <translation>閉じる</translation>
     </message>
 </context>
 <context>
     <name>DialogDisasmLabels</name>
     <message>
-        <location filename="../../XDisasm/dialogdisasmlabels.ui" line="17"/>
         <source>Labels</source>
-        <translation></translation>
+        <translation>ラベル</translation>
     </message>
     <message>
-        <location filename="../../XDisasm/dialogdisasmlabels.ui" line="63"/>
         <source>Go to</source>
-        <translation></translation>
+        <translation>移動</translation>
     </message>
     <message>
-        <location filename="../../XDisasm/dialogdisasmlabels.ui" line="70"/>
         <source>Close</source>
-        <translation></translation>
+        <translation>閉じる</translation>
     </message>
     <message>
-        <location filename="../../XDisasm/dialogdisasmlabels.cpp" line="37"/>
         <source>Name</source>
         <translation>名前</translation>
     </message>
     <message>
-        <location filename="../../XDisasm/dialogdisasmlabels.cpp" line="38"/>
         <source>Address</source>
         <translation>アドレス</translation>
     </message>
@@ -128,50 +824,30 @@
 <context>
     <name>DialogDisasmProcess</name>
     <message>
-        <location filename="../../XDisasm/dialogdisasmprocess.ui" line="14"/>
         <source>Disasm</source>
-        <translation></translation>
+        <translation>Disasm</translation>
     </message>
     <message>
-        <location filename="../../XDisasm/dialogdisasmprocess.ui" line="22"/>
         <source>Opcodes</source>
-        <translation></translation>
+        <translation>Opcodes</translation>
     </message>
     <message>
-        <location filename="../../XDisasm/dialogdisasmprocess.ui" line="59"/>
         <source>Calls</source>
-        <translation></translation>
+        <translation>コール</translation>
     </message>
     <message>
-        <location filename="../../XDisasm/dialogdisasmprocess.ui" line="96"/>
         <source>Jumps</source>
-        <translation></translation>
+        <translation>ジャンプ</translation>
     </message>
     <message>
-        <location filename="../../XDisasm/dialogdisasmprocess.ui" line="133"/>
         <source>Ref to</source>
-        <translation></translation>
+        <translation>参照先</translation>
     </message>
     <message>
-        <location filename="../../XDisasm/dialogdisasmprocess.ui" line="170"/>
         <source>Ref from</source>
-        <translation></translation>
+        <translation>参照元</translation>
     </message>
     <message>
-        <location filename="../../XDisasm/dialogdisasmprocess.ui" line="426"/>
-        <source>Cancel</source>
-        <translation>キャンセル</translation>
-    </message>
-</context>
-<context>
-    <name>DialogDump</name>
-    <message>
-        <location filename="../../FormatDialogs/dialogdump.ui" line="17"/>
-        <source>Dump</source>
-        <translation>ダンプ</translation>
-    </message>
-    <message>
-        <location filename="../../FormatDialogs/dialogdump.ui" line="51"/>
         <source>Cancel</source>
         <translation>キャンセル</translation>
     </message>
@@ -179,98 +855,106 @@
 <context>
     <name>DialogDumpProcess</name>
     <message>
-        <location filename="../../FormatDialogs/dialogdumpprocess.ui" line="17"/>
         <source>Dump</source>
         <translation>ダンプ</translation>
     </message>
+</context>
+<context>
+    <name>DialogEditString</name>
     <message>
-        <location filename="../../FormatDialogs/dialogdumpprocess.ui" line="51"/>
+        <source>String</source>
+        <translation>文字列</translation>
+    </message>
+    <message>
+        <source>Keep size</source>
+        <translation>サイズを保持</translation>
+    </message>
+    <message>
+        <source>Null-terminated</source>
+        <translation>null終端文字</translation>
+    </message>
+    <message>
+        <source>OK</source>
+        <translation>OK</translation>
+    </message>
+    <message>
         <source>Cancel</source>
         <translation>キャンセル</translation>
     </message>
     <message>
-        <location filename="../../FormatDialogs/dialogdumpprocess.cpp" line="66"/>
-        <source>Error</source>
-        <translation>エラー</translation>
+        <source>Bytes available</source>
+        <translation>利用可能なバイト</translation>
     </message>
 </context>
 <context>
     <name>DialogEntropy</name>
     <message>
-        <location filename="../../XEntropyWidget/dialogentropy.ui" line="17"/>
         <source>Entropy</source>
         <translation>エントロピー</translation>
     </message>
     <message>
-        <location filename="../../XEntropyWidget/dialogentropy.ui" line="51"/>
         <source>Close</source>
-        <translation></translation>
+        <translation>閉じる</translation>
     </message>
 </context>
 <context>
-    <name>DialogEntropyProcess</name>
+    <name>DialogFindText</name>
     <message>
-        <location filename="../../XEntropyWidget/dialogentropyprocess.ui" line="14"/>
-        <source>Process</source>
-        <translation></translation>
+        <source>Find</source>
+        <translation>検索</translation>
     </message>
     <message>
-        <location filename="../../XEntropyWidget/dialogentropyprocess.ui" line="58"/>
+        <source>Match case</source>
+        <translation>大文字小文字を区別</translation>
+    </message>
+    <message>
+        <source>OK</source>
+        <translation>OK</translation>
+    </message>
+    <message>
         <source>Cancel</source>
         <translation>キャンセル</translation>
-    </message>
-    <message>
-        <location filename="../../XEntropyWidget/dialogentropyprocess.cpp" line="66"/>
-        <source>Error</source>
-        <translation>エラー</translation>
     </message>
 </context>
 <context>
     <name>DialogGoToAddress</name>
     <message>
-        <location filename="../../FormatDialogs/dialoggotoaddress.ui" line="17"/>
         <source>Go to address</source>
         <translation>アドレスに移動</translation>
     </message>
     <message>
-        <location filename="../../FormatDialogs/dialoggotoaddress.ui" line="26"/>
         <source>Address</source>
         <translation>アドレス</translation>
     </message>
     <message>
-        <location filename="../../FormatDialogs/dialoggotoaddress.ui" line="88"/>
+        <source>Hex</source>
+        <translation>16 進数</translation>
+    </message>
+    <message>
         <source>OK</source>
         <translation>OK</translation>
     </message>
     <message>
-        <location filename="../../FormatDialogs/dialoggotoaddress.ui" line="95"/>
         <source>Cancel</source>
         <translation>キャンセル</translation>
     </message>
     <message>
-        <location filename="../../FormatDialogs/dialoggotoaddress.cpp" line="38"/>
         <source>Virtual address</source>
         <translation>仮想アドレス</translation>
     </message>
     <message>
-        <location filename="../../FormatDialogs/dialoggotoaddress.cpp" line="39"/>
-        <location filename="../../FormatDialogs/dialoggotoaddress.cpp" line="44"/>
-        <location filename="../../FormatDialogs/dialoggotoaddress.cpp" line="49"/>
         <source>Value</source>
         <translation>値</translation>
     </message>
     <message>
-        <location filename="../../FormatDialogs/dialoggotoaddress.cpp" line="43"/>
-        <source>File offset</source>
-        <translation>オフセット値</translation>
+        <source>Offset</source>
+        <translation>オフセット</translation>
     </message>
     <message>
-        <location filename="../../FormatDialogs/dialoggotoaddress.cpp" line="48"/>
         <source>Relative virtual address</source>
         <translation>相対仮想ADD</translation>
     </message>
     <message>
-        <location filename="../../FormatDialogs/dialoggotoaddress.cpp" line="97"/>
         <source>Invalid</source>
         <translation>無効</translation>
     </message>
@@ -278,276 +962,397 @@
 <context>
     <name>DialogHash</name>
     <message>
-        <location filename="../../XHashWidget/dialoghash.ui" line="17"/>
         <source>Hash</source>
-        <translation></translation>
+        <translation>ハッシュ</translation>
     </message>
     <message>
-        <location filename="../../XHashWidget/dialoghash.ui" line="51"/>
         <source>Close</source>
-        <translation></translation>
+        <translation>閉じる</translation>
     </message>
 </context>
 <context>
-    <name>DialogHex</name>
+    <name>DialogHexEdit</name>
     <message>
-        <location filename="../../QHexView/dialoghex.ui" line="51"/>
+        <source>Edit</source>
+        <translation>編集</translation>
+    </message>
+    <message>
         <source>Close</source>
-        <translation></translation>
+        <translation>閉じる</translation>
     </message>
 </context>
 <context>
     <name>DialogHexSignature</name>
     <message>
-        <location filename="../../FormatDialogs/dialoghexsignature.ui" line="17"/>
         <source>Signature</source>
         <translation>署名</translation>
     </message>
     <message>
-        <location filename="../../FormatDialogs/dialoghexsignature.ui" line="128"/>
         <source>Spaces</source>
         <translation>スペース</translation>
     </message>
     <message>
-        <location filename="../../FormatDialogs/dialoghexsignature.ui" line="135"/>
         <source>Upper</source>
         <translation>大文字</translation>
     </message>
     <message>
-        <location filename="../../FormatDialogs/dialoghexsignature.ui" line="145"/>
         <source>Wildcard</source>
-        <translation></translation>
+        <translation>ワイルドカード</translation>
     </message>
     <message>
-        <location filename="../../FormatDialogs/dialoghexsignature.ui" line="184"/>
+        <source>Scan</source>
+        <translation>スキャン</translation>
+    </message>
+    <message>
         <source>Copy</source>
         <translation>コピー</translation>
     </message>
     <message>
-        <location filename="../../FormatDialogs/dialoghexsignature.ui" line="191"/>
         <source>OK</source>
         <translation>OK</translation>
     </message>
 </context>
 <context>
-    <name>DialogInfo</name>
+    <name>DialogHexView</name>
     <message>
-        <location filename="../../FormatDialogs/dialoginfo.ui" line="17"/>
-        <location filename="../../die_widget/dialoginfo.ui" line="17"/>
-        <source>Info</source>
-        <translation>情報</translation>
-    </message>
-    <message>
-        <location filename="../../FormatDialogs/dialoginfo.ui" line="48"/>
-        <location filename="../../die_widget/dialoginfo.ui" line="48"/>
         <source>Close</source>
-        <translation></translation>
+        <translation>閉じる</translation>
     </message>
 </context>
 <context>
-    <name>DialogLog</name>
+    <name>DialogMIME</name>
     <message>
-        <location filename="../../die_widget/dialoglog.ui" line="17"/>
-        <source>Log</source>
-        <translation>ログ</translation>
-    </message>
-    <message>
-        <location filename="../../die_widget/dialoglog.ui" line="48"/>
         <source>Close</source>
-        <translation></translation>
+        <translation>閉じる</translation>
     </message>
 </context>
 <context>
     <name>DialogMemoryMap</name>
     <message>
-        <location filename="../../XMemoryMapWidget/dialogmemorymap.ui" line="17"/>
         <source>Memory map</source>
-        <translation></translation>
+        <translation>メモリ マップ</translation>
     </message>
     <message>
-        <location filename="../../XMemoryMapWidget/dialogmemorymap.ui" line="51"/>
         <source>Close</source>
-        <translation></translation>
+        <translation>閉じる</translation>
+    </message>
+</context>
+<context>
+    <name>DialogModelInfo</name>
+    <message>
+        <source>Save</source>
+        <translation>保存</translation>
+    </message>
+    <message>
+        <source>OK</source>
+        <translation>OK</translation>
+    </message>
+    <message>
+        <source>Save file</source>
+        <translation>保存</translation>
+    </message>
+    <message>
+        <source>Text files</source>
+        <translation>テキスト ファイル</translation>
+    </message>
+    <message>
+        <source>All files</source>
+        <translation>すべてのファイル</translation>
+    </message>
+</context>
+<context>
+    <name>DialogMultiDisasm</name>
+    <message>
+        <source>Disasm</source>
+        <translation>Disasm</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>閉じる</translation>
+    </message>
+</context>
+<context>
+    <name>DialogMultiDisasmSignature</name>
+    <message>
+        <source>Signature</source>
+        <translation>署名</translation>
+    </message>
+    <message>
+        <source>Spaces</source>
+        <translation>スペース</translation>
+    </message>
+    <message>
+        <source>Upper</source>
+        <translation>大文字</translation>
+    </message>
+    <message>
+        <source>Wildcard</source>
+        <translation>ワイルドカード</translation>
+    </message>
+    <message>
+        <source>Scan</source>
+        <translation>スキャン</translation>
+    </message>
+    <message>
+        <source>Copy</source>
+        <translation>コピー</translation>
+    </message>
+    <message>
+        <source>OK</source>
+        <translation>OK</translation>
+    </message>
+    <message>
+        <source>Relative virtual address</source>
+        <translation>相対仮想ADD</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>アドレス</translation>
+    </message>
+    <message>
+        <source>Bytes</source>
+        <translation>バイト</translation>
+    </message>
+    <message>
+        <source>Opcode</source>
+        <translation>Opcode</translation>
+    </message>
+</context>
+<context>
+    <name>DialogMultiSearchProcess</name>
+    <message>
+        <source>Search strings</source>
+        <translation>文字列を検索</translation>
+    </message>
+    <message>
+        <source>Search signatures</source>
+        <translation>署名</translation>
+    </message>
+    <message>
+        <source>Search values</source>
+        <translation>値を検索する</translation>
+    </message>
+    <message>
+        <source>Create view model</source>
+        <translation>ビューモデル作成</translation>
+    </message>
+</context>
+<context>
+    <name>DialogNFDScan</name>
+    <message>
+        <source>Scan</source>
+        <translation>スキャン</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>閉じる</translation>
+    </message>
+</context>
+<context>
+    <name>DialogNFDScanDirectory</name>
+    <message>
+        <source>Directory scan</source>
+        <translation>ディレクトリのスキャン</translation>
+    </message>
+    <message>
+        <source>Directory</source>
+        <translation>ディレクトリ</translation>
+    </message>
+    <message>
+        <source>Subdirectories</source>
+        <translation>サブディレクトリ</translation>
+    </message>
+    <message>
+        <source>Scan</source>
+        <translation>スキャン</translation>
+    </message>
+    <message>
+        <source>Clear</source>
+        <translation>消去</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>保存</translation>
+    </message>
+    <message>
+        <source>OK</source>
+        <translation>OK</translation>
+    </message>
+    <message>
+        <source>Flags</source>
+        <translation>フラグ</translation>
+    </message>
+    <message>
+        <source>Open directory</source>
+        <translation>ディレクトリを開く</translation>
+    </message>
+    <message>
+        <source>msec</source>
+        <translation>ミリ秒</translation>
+    </message>
+    <message>
+        <source>Text documents</source>
+        <translation>テキスト文書</translation>
+    </message>
+    <message>
+        <source>Save result</source>
+        <translation>結果を保存</translation>
+    </message>
+</context>
+<context>
+    <name>DialogNFDScanProcess</name>
+    <message>
+        <source>Text documents</source>
+        <translation>テキスト文書</translation>
+    </message>
+    <message>
+        <source>Save result</source>
+        <translation>結果を保存</translation>
+    </message>
+</context>
+<context>
+    <name>DialogNFDWidgetAdvanced</name>
+    <message>
+        <source>Close</source>
+        <translation>閉じる</translation>
     </message>
 </context>
 <context>
     <name>DialogOptions</name>
     <message>
-        <location filename="../dialogoptions.ui" line="17"/>
         <source>Options</source>
         <translation>設定</translation>
     </message>
     <message>
-        <location filename="../dialogoptions.ui" line="57"/>
-        <source>Save last directory</source>
-        <translation>最後に使用したディレクトリを保持</translation>
-    </message>
-    <message>
-        <location filename="../dialogoptions.ui" line="64"/>
-        <source>Stay on top</source>
-        <translation>常に最前面表示</translation>
-    </message>
-    <message>
-        <location filename="../dialogoptions.ui" line="71"/>
-        <source>Save backup</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="../dialogoptions.ui" line="107"/>
-        <source>Scan after open</source>
-        <translation>開いてすぐにスキャンを開始</translation>
-    </message>
-    <message>
-        <location filename="../dialogoptions.ui" line="114"/>
-        <location filename="../dialogoptions.cpp" line="33"/>
         <source>Scan</source>
         <translation>スキャン</translation>
     </message>
     <message>
-        <location filename="../dialogoptions.ui" line="148"/>
-        <source>Database</source>
-        <translation></translation>
+        <source>Signatures</source>
+        <translation>署名</translation>
     </message>
     <message>
-        <location filename="../dialogoptions.ui" line="179"/>
+        <source>Hex</source>
+        <translation>16 進数</translation>
+    </message>
+    <message>
+        <source>Disasm</source>
+        <translation>Disasm</translation>
+    </message>
+    <message>
+        <source>Online tools</source>
+        <translation>オンラインツール</translation>
+    </message>
+    <message>
         <source>Info</source>
         <translation>情報</translation>
     </message>
+</context>
+<context>
+    <name>DialogRemove</name>
     <message>
-        <location filename="../dialogoptions.ui" line="239"/>
-        <source>Style</source>
-        <translation></translation>
+        <source>Remove</source>
+        <translation>削除</translation>
     </message>
     <message>
-        <location filename="../dialogoptions.ui" line="287"/>
-        <source>Language</source>
-        <translation></translation>
+        <source>Offset</source>
+        <translation>オフセット</translation>
     </message>
     <message>
-        <location filename="../dialogoptions.ui" line="342"/>
-        <source>Register</source>
-        <translation>登録</translation>
+        <source>Size</source>
+        <translation>サイズ</translation>
     </message>
     <message>
-        <location filename="../dialogoptions.ui" line="349"/>
-        <source>Clear</source>
-        <translation>クリア</translation>
+        <source>Hex</source>
+        <translation>16 進数</translation>
     </message>
     <message>
-        <location filename="../dialogoptions.ui" line="405"/>
         <source>OK</source>
         <translation>OK</translation>
     </message>
     <message>
-        <location filename="../dialogoptions.ui" line="412"/>
         <source>Cancel</source>
         <translation>キャンセル</translation>
     </message>
     <message>
-        <location filename="../dialogoptions.cpp" line="32"/>
-        <source>General</source>
-        <translation>一般</translation>
-    </message>
-    <message>
-        <location filename="../dialogoptions.cpp" line="34"/>
-        <source>Appearance</source>
-        <translation>外観</translation>
-    </message>
-    <message>
-        <location filename="../dialogoptions.cpp" line="36"/>
-        <source>Context</source>
-        <translation>コンテキスト</translation>
-    </message>
-    <message>
-        <location filename="../dialogoptions.cpp" line="93"/>
-        <source>Information</source>
-        <translation>インフォメーション</translation>
-    </message>
-    <message>
-        <location filename="../dialogoptions.cpp" line="93"/>
-        <source>Please restart the application</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="../dialogoptions.cpp" line="109"/>
-        <location filename="../dialogoptions.cpp" line="139"/>
-        <source>Open directory</source>
-        <translation>ディレクトリを開く</translation>
+        <source>Invalid</source>
+        <translation>無効</translation>
     </message>
 </context>
 <context>
-    <name>DialogProcessData</name>
+    <name>DialogResize</name>
     <message>
-        <location filename="../../FormatWidgets/dialogprocessdata.ui" line="17"/>
-        <source>Process</source>
-        <translation></translation>
+        <source>Resize</source>
+        <translation>リサイズ</translation>
     </message>
     <message>
-        <location filename="../../FormatWidgets/dialogprocessdata.ui" line="51"/>
+        <source>Size</source>
+        <translation>サイズ</translation>
+    </message>
+    <message>
+        <source>Hex</source>
+        <translation>16 進数</translation>
+    </message>
+    <message>
+        <source>OK</source>
+        <translation>OK</translation>
+    </message>
+    <message>
         <source>Cancel</source>
         <translation>キャンセル</translation>
-    </message>
-    <message>
-        <location filename="../../FormatWidgets/dialogprocessdata.cpp" line="65"/>
-        <source>Error</source>
-        <translation>エラー</translation>
     </message>
 </context>
 <context>
     <name>DialogSearch</name>
     <message>
-        <location filename="../../FormatDialogs/dialogsearch.ui" line="17"/>
         <source>Search</source>
         <translation>検索</translation>
     </message>
     <message>
-        <location filename="../../FormatDialogs/dialogsearch.ui" line="41"/>
-        <source>Search from</source>
-        <translation>検索開始位置</translation>
-    </message>
-    <message>
-        <location filename="../../FormatDialogs/dialogsearch.ui" line="71"/>
         <source>String</source>
-        <translation></translation>
+        <translation>文字列</translation>
     </message>
     <message>
-        <location filename="../../FormatDialogs/dialogsearch.ui" line="94"/>
         <source>Match case</source>
         <translation>大文字小文字を区別</translation>
     </message>
     <message>
-        <location filename="../../FormatDialogs/dialogsearch.ui" line="127"/>
         <source>Signature</source>
         <translation>署名</translation>
     </message>
     <message>
-        <location filename="../../FormatDialogs/dialogsearch.ui" line="149"/>
-        <location filename="../../FormatDialogs/dialogsearch.ui" line="157"/>
         <source>Value</source>
         <translation>値</translation>
     </message>
     <message>
-        <location filename="../../FormatDialogs/dialogsearch.ui" line="222"/>
-        <source>Endianness</source>
-        <translation>エンディアン</translation>
-    </message>
-    <message>
-        <location filename="../../FormatDialogs/dialogsearch.ui" line="354"/>
         <source>OK</source>
         <translation>OK</translation>
     </message>
     <message>
-        <location filename="../../FormatDialogs/dialogsearch.ui" line="361"/>
         <source>Cancel</source>
         <translation>キャンセル</translation>
     </message>
     <message>
-        <location filename="../../FormatDialogs/dialogsearch.cpp" line="47"/>
+        <source>Search from</source>
+        <translation>検索開始位置</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation>種類</translation>
+    </message>
+    <message>
+        <source>Endianness</source>
+        <translation>エンディアン</translation>
+    </message>
+    <message>
+        <source>Hex</source>
+        <translation>16 進数</translation>
+    </message>
+    <message>
         <source>Begin</source>
         <translation>先頭</translation>
     </message>
     <message>
-        <location filename="../../FormatDialogs/dialogsearch.cpp" line="48"/>
         <source>Cursor</source>
         <translation>カーソル</translation>
     </message>
@@ -555,260 +1360,593 @@
 <context>
     <name>DialogSearchProcess</name>
     <message>
-        <location filename="../../FormatDialogs/dialogsearchprocess.ui" line="14"/>
         <source>Search</source>
         <translation>検索</translation>
     </message>
     <message>
-        <location filename="../../FormatDialogs/dialogsearchprocess.ui" line="58"/>
         <source>Cancel</source>
         <translation>キャンセル</translation>
     </message>
+</context>
+<context>
+    <name>DialogSearchSignatures</name>
     <message>
-        <location filename="../../FormatDialogs/dialogsearchprocess.cpp" line="69"/>
-        <source>Error</source>
-        <translation>エラー</translation>
+        <source>Signatures</source>
+        <translation>署名</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>閉じる</translation>
     </message>
 </context>
 <context>
     <name>DialogSearchStrings</name>
     <message>
-        <location filename="../../FormatWidgets/SearchStrings/dialogsearchstrings.ui" line="17"/>
         <source>Strings</source>
-        <translation></translation>
+        <translation>文字列</translation>
     </message>
     <message>
-        <location filename="../../FormatWidgets/SearchStrings/dialogsearchstrings.ui" line="51"/>
         <source>Close</source>
-        <translation></translation>
+        <translation>閉じる</translation>
     </message>
 </context>
 <context>
-    <name>DialogSearchStringsProcess</name>
+    <name>DialogSearchValues</name>
     <message>
-        <location filename="../../FormatWidgets/SearchStrings/dialogsearchstringsprocess.ui" line="14"/>
-        <location filename="../../FormatWidgets/SearchStrings/dialogsearchstringsprocess.cpp" line="73"/>
-        <source>Search strings</source>
-        <translation></translation>
+        <source>Search</source>
+        <translation>検索</translation>
     </message>
     <message>
-        <location filename="../../FormatWidgets/SearchStrings/dialogsearchstringsprocess.ui" line="45"/>
-        <source>Cancel</source>
-        <translation>キャンセル</translation>
-    </message>
-    <message>
-        <location filename="../../FormatWidgets/SearchStrings/dialogsearchstringsprocess.cpp" line="81"/>
-        <source>Create view model</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="../../FormatWidgets/SearchStrings/dialogsearchstringsprocess.cpp" line="95"/>
-        <source>Error</source>
-        <translation>エラー</translation>
+        <source>Close</source>
+        <translation>閉じる</translation>
     </message>
 </context>
 <context>
     <name>DialogSectionHeader</name>
     <message>
-        <location filename="../../FormatWidgets/dialogsectionheader.ui" line="17"/>
         <source>Section</source>
-        <translation></translation>
+        <translation>セクション</translation>
     </message>
 </context>
 <context>
-    <name>DialogSignatures</name>
+    <name>DialogSelectStyle</name>
     <message>
-        <location filename="../../die_widget/dialogsignatures.ui" line="17"/>
-        <source>Signatures</source>
-        <translation>署名</translation>
+        <source>Style</source>
+        <translation>スタイル</translation>
+    </message>
+</context>
+<context>
+    <name>DialogShortcuts</name>
+    <message>
+        <source>Shortcuts</source>
+        <translation>ショートカット</translation>
     </message>
     <message>
-        <location filename="../../die_widget/dialogsignatures.ui" line="60"/>
-        <source>Save</source>
-        <translation>保存</translation>
+        <source>Filter</source>
+        <translation>絞り込み</translation>
     </message>
     <message>
-        <location filename="../../die_widget/dialogsignatures.ui" line="80"/>
-        <source>Run</source>
-        <translation type="unfinished"></translation>
+        <source>Clear</source>
+        <translation>消去</translation>
     </message>
     <message>
-        <location filename="../../die_widget/dialogsignatures.ui" line="87"/>
-        <source>Debug</source>
-        <translation type="unfinished"></translation>
+        <source>Default</source>
+        <translation>標準</translation>
     </message>
     <message>
-        <location filename="../../die_widget/dialogsignatures.ui" line="98"/>
-        <source>Read only</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../die_widget/dialogsignatures.ui" line="118"/>
-        <source>Show type</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../die_widget/dialogsignatures.ui" line="125"/>
-        <source>Show version</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../die_widget/dialogsignatures.ui" line="132"/>
-        <source>Show options</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../die_widget/dialogsignatures.ui" line="139"/>
-        <source>Deep scan</source>
-        <translation>ディープスキャン</translation>
-    </message>
-    <message>
-        <location filename="../../die_widget/dialogsignatures.ui" line="189"/>
-        <source>Clear result</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../die_widget/dialogsignatures.ui" line="196"/>
         <source>Close</source>
-        <translation></translation>
+        <translation>閉じる</translation>
     </message>
     <message>
-        <location filename="../../die_widget/dialogsignatures.cpp" line="42"/>
-        <source>Database</source>
-        <translation></translation>
+        <source>Name</source>
+        <translation>名前</translation>
     </message>
     <message>
-        <location filename="../../die_widget/dialogsignatures.cpp" line="157"/>
-        <source>Debugger</source>
-        <translation></translation>
+        <source>Shortcut</source>
+        <translation>ショートカット</translation>
     </message>
     <message>
-        <location filename="../../die_widget/dialogsignatures.cpp" line="170"/>
-        <source>msec</source>
-        <translation></translation>
+        <source>Cannot set shortcut</source>
+        <translation>ショートカットの設定に失敗しました</translation>
+    </message>
+</context>
+<context>
+    <name>DialogShowData</name>
+    <message>
+        <source>Data</source>
+        <translation>データ</translation>
+    </message>
+    <message>
+        <source>Group</source>
+        <translation>グループ</translation>
+    </message>
+    <message>
+        <source>Copy</source>
+        <translation>コピー</translation>
+    </message>
+    <message>
+        <source>OK</source>
+        <translation>OK</translation>
+    </message>
+    <message>
+        <source>Hex</source>
+        <translation>16 進数</translation>
+    </message>
+    <message>
+        <source>Plain Text</source>
+        <translation>プレーンテキスト</translation>
+    </message>
+</context>
+<context>
+    <name>DialogShowImage</name>
+    <message>
+        <source>Image</source>
+        <translation>イメージ</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>閉じる</translation>
     </message>
 </context>
 <context>
     <name>DialogStaticScan</name>
     <message>
-        <location filename="../../StaticScan/dialogstaticscan.ui" line="17"/>
         <source>Scan</source>
         <translation>スキャン</translation>
     </message>
     <message>
-        <location filename="../../StaticScan/dialogstaticscan.ui" line="165"/>
-        <source>Cancel</source>
-        <translation>キャンセル</translation>
+        <source>Recursive scan</source>
+        <translation>ファイル スキャン</translation>
     </message>
     <message>
-        <location filename="../../StaticScan/dialogstaticscan.cpp" line="98"/>
+        <source>Deep scan</source>
+        <translation>ディープスキャン</translation>
+    </message>
+    <message>
+        <source>Heuristic scan</source>
+        <translation>ヒューリスティック スキャン</translation>
+    </message>
+    <message>
+        <source>Verbose</source>
+        <translation>冗長な</translation>
+    </message>
+    <message>
+        <source>All types</source>
+        <translation>すべての種類</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>閉じる</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>結果</translation>
+    </message>
+</context>
+<context>
+    <name>DialogStaticScanDirectory</name>
+    <message>
+        <source>Directory scan</source>
+        <translation>ディレクトリのスキャン</translation>
+    </message>
+    <message>
+        <source>Directory</source>
+        <translation>ディレクトリ</translation>
+    </message>
+    <message>
+        <source>Subdirectories</source>
+        <translation>サブディレクトリ</translation>
+    </message>
+    <message>
+        <source>Recursive scan</source>
+        <translation>ファイル スキャン</translation>
+    </message>
+    <message>
+        <source>Deep scan</source>
+        <translation>ディープスキャン</translation>
+    </message>
+    <message>
+        <source>Heuristic scan</source>
+        <translation>ヒューリスティック スキャン</translation>
+    </message>
+    <message>
+        <source>Verbose</source>
+        <translation>冗長な</translation>
+    </message>
+    <message>
+        <source>All types</source>
+        <translation>すべての種類</translation>
+    </message>
+    <message>
+        <source>Scan</source>
+        <translation>スキャン</translation>
+    </message>
+    <message>
+        <source>Clear</source>
+        <translation>消去</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>保存</translation>
+    </message>
+    <message>
+        <source>OK</source>
+        <translation>OK</translation>
+    </message>
+    <message>
+        <source>Open directory</source>
+        <translation>ディレクトリを開く</translation>
+    </message>
+    <message>
+        <source>msec</source>
+        <translation>ミリ秒</translation>
+    </message>
+    <message>
         <source>Text documents</source>
-        <translation></translation>
+        <translation>テキスト文書</translation>
     </message>
     <message>
-        <location filename="../../StaticScan/dialogstaticscan.cpp" line="99"/>
         <source>Save result</source>
         <translation>結果を保存</translation>
     </message>
 </context>
 <context>
+    <name>DialogStaticScanProcess</name>
+    <message>
+        <source>Text documents</source>
+        <translation>テキスト文書</translation>
+    </message>
+    <message>
+        <source>Save result</source>
+        <translation>結果を保存</translation>
+    </message>
+</context>
+<context>
+    <name>DialogTextInfo</name>
+    <message>
+        <source>Info</source>
+        <translation>情報</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>保存</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>閉じる</translation>
+    </message>
+    <message>
+        <source>Text documents</source>
+        <translation>テキスト文書</translation>
+    </message>
+    <message>
+        <source>Save result</source>
+        <translation>結果を保存</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>結果</translation>
+    </message>
+</context>
+<context>
+    <name>DialogViewColors</name>
+    <message>
+        <source>Colors</source>
+        <translation>色</translation>
+    </message>
+    <message>
+        <source>OK</source>
+        <translation>OK</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>キャンセル</translation>
+    </message>
+    <message>
+        <source>Color</source>
+        <translation>色</translation>
+    </message>
+    <message>
+        <source>Background</source>
+        <translation>背景</translation>
+    </message>
+</context>
+<context>
+    <name>DialogVisualization</name>
+    <message>
+        <source>Visualization</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>閉じる</translation>
+    </message>
+</context>
+<context>
+    <name>DialogXDataConvertor</name>
+    <message>
+        <source>Data convertor</source>
+        <translation>データ コンバーター</translation>
+    </message>
+    <message>
+        <source>OK</source>
+        <translation>OK</translation>
+    </message>
+</context>
+<context>
+    <name>DialogXDynStructs</name>
+    <message>
+        <source>Close</source>
+        <translation>閉じる</translation>
+    </message>
+</context>
+<context>
+    <name>DialogXExtractor</name>
+    <message>
+        <source>Extractor</source>
+        <translation>抽出</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>閉じる</translation>
+    </message>
+</context>
+<context>
+    <name>DialogXFileInfo</name>
+    <message>
+        <source>Info</source>
+        <translation>情報</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>閉じる</translation>
+    </message>
+</context>
+<context>
+    <name>DialogXInfoDBTransferProcess</name>
+    <message>
+        <source>Analyze</source>
+        <translation>分析</translation>
+    </message>
+    <message>
+        <source>Disasm</source>
+        <translation>Disasm</translation>
+    </message>
+    <message>
+        <source>Symbols</source>
+        <translation>シンボル</translation>
+    </message>
+    <message>
+        <source>Clear</source>
+        <translation>消去</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>削除</translation>
+    </message>
+    <message>
+        <source>Export</source>
+        <translation>エクスポート</translation>
+    </message>
+    <message>
+        <source>Import</source>
+        <translation>インポート</translation>
+    </message>
+    <message>
+        <source>Scan for IAT</source>
+        <translation>IATをスキャンする</translation>
+    </message>
+    <message>
+        <source>Get IAT</source>
+        <translation>IATを取得</translation>
+    </message>
+</context>
+<context>
+    <name>DialogXSymbols</name>
+    <message>
+        <source>Symbols</source>
+        <translation>シンボル</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>閉じる</translation>
+    </message>
+    <message>
+        <source>Functions</source>
+        <translation>関数</translation>
+    </message>
+    <message>
+        <source>References</source>
+        <translation>参照</translation>
+    </message>
+</context>
+<context>
+    <name>DialogXVirusTotal</name>
+    <message>
+        <source>Close</source>
+        <translation>閉じる</translation>
+    </message>
+</context>
+<context>
+    <name>DialogYARAWidgetAdvanced</name>
+    <message>
+        <source>Close</source>
+        <translation>閉じる</translation>
+    </message>
+</context>
+<context>
+    <name>DumpProcess</name>
+    <message>
+        <source>Invalid offset</source>
+        <translation>無効なオフセット</translation>
+    </message>
+    <message>
+        <source>Invalid size</source>
+        <translation>無効なサイズ</translation>
+    </message>
+    <message>
+        <source>Cannot read file</source>
+        <translation>ファイルの読み込みに失敗しました</translation>
+    </message>
+    <message>
+        <source>Cannot fix dump file</source>
+        <translation>ダンプを修正できませんでした</translation>
+    </message>
+    <message>
+        <source>Cannot open dump file</source>
+        <translation>ダンプファイルを開けませんでした</translation>
+    </message>
+    <message>
+        <source>Cannot write data to file</source>
+        <translation>ファイルへのデータ書き込みに失敗しました</translation>
+    </message>
+</context>
+<context>
+    <name>ELFProcessData</name>
+    <message>
+        <source>Name</source>
+        <translation>名前</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation>種類</translation>
+    </message>
+    <message>
+        <source>Bind</source>
+        <translation>バインド</translation>
+    </message>
+</context>
+<context>
     <name>ELFSectionHeaderWidget</name>
     <message>
-        <location filename="../../FormatWidgets/ELF/elfsectionheaderwidget.ui" line="50"/>
         <source>Readonly</source>
-        <translation></translation>
+        <translation>読み取り専用</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>保存</translation>
+    </message>
+    <message>
+        <source>Header</source>
+        <translation>ヘッダ</translation>
     </message>
 </context>
 <context>
     <name>ELFWidget</name>
     <message>
-        <location filename="../../FormatWidgets/ELF/elfwidget.ui" line="37"/>
         <source>Reload</source>
         <translation>再読み込み</translation>
     </message>
     <message>
-        <location filename="../../FormatWidgets/ELF/elfwidget.ui" line="57"/>
         <source>Readonly</source>
+        <translation>読み取り専用</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>保存</translation>
+    </message>
+    <message>
+        <source>Next visited</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../../FormatWidgets/ELF/elfwidget.cpp" line="86"/>
+        <source>Previous visited</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Info</source>
+        <translation>情報</translation>
+    </message>
+    <message>
+        <source>Visualization</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Hex</source>
+        <translation>16 進数</translation>
+    </message>
+    <message>
+        <source>Disasm</source>
+        <translation>Disasm</translation>
+    </message>
+    <message>
+        <source>Hash</source>
+        <translation>ハッシュ</translation>
+    </message>
+    <message>
         <source>Strings</source>
-        <translation></translation>
+        <translation>文字列</translation>
     </message>
     <message>
-        <location filename="../../FormatWidgets/ELF/elfwidget.cpp" line="87"/>
+        <source>Signatures</source>
+        <translation>署名</translation>
+    </message>
+    <message>
         <source>Memory map</source>
-        <translation></translation>
+        <translation>メモリ マップ</translation>
     </message>
     <message>
-        <location filename="../../FormatWidgets/ELF/elfwidget.cpp" line="88"/>
-        <location filename="../../FormatWidgets/ELF/elfwidget.cpp" line="896"/>
-        <location filename="../../FormatWidgets/ELF/elfwidget.cpp" line="978"/>
         <source>Entropy</source>
         <translation>エントロピー</translation>
     </message>
     <message>
-        <location filename="../../FormatWidgets/ELF/elfwidget.cpp" line="89"/>
-        <source>Heuristic scan</source>
-        <translation></translation>
+        <source>Extractor</source>
+        <translation>抽出</translation>
     </message>
     <message>
-        <location filename="../../FormatWidgets/ELF/elfwidget.cpp" line="808"/>
-        <location filename="../../FormatWidgets/ELF/elfwidget.cpp" line="887"/>
-        <location filename="../../FormatWidgets/ELF/elfwidget.cpp" line="969"/>
-        <location filename="../../FormatWidgets/ELF/elfwidget.cpp" line="1002"/>
-        <location filename="../../FormatWidgets/ELF/elfwidget.cpp" line="1031"/>
-        <location filename="../../FormatWidgets/ELF/elfwidget.cpp" line="1064"/>
-        <source>Edit</source>
-        <translation>編集</translation>
+        <source>Search</source>
+        <translation>検索</translation>
+    </message>
+    <message>
+        <source>Sections</source>
+        <translation>セクション</translation>
+    </message>
+    <message>
+        <source>Unknown</source>
+        <translation>不明</translation>
+    </message>
+    <message>
+        <source>Header</source>
+        <translation>ヘッダ</translation>
     </message>
 </context>
 <context>
     <name>EntropyProcess</name>
     <message>
-        <location filename="../../XEntropyWidget/entropyprocess.cpp" line="57"/>
         <source>packed</source>
         <translation>パック済み</translation>
     </message>
     <message>
-        <location filename="../../XEntropyWidget/entropyprocess.cpp" line="61"/>
         <source>not packed</source>
-        <translation>未パック</translation>
+        <translation>パックなし</translation>
     </message>
 </context>
 <context>
     <name>FormResult</name>
     <message>
-        <location filename="../../StaticScan/formresult.ui" line="44"/>
         <source>Clear</source>
-        <translation>クリア</translation>
+        <translation>消去</translation>
     </message>
     <message>
-        <location filename="../../StaticScan/formresult.ui" line="51"/>
         <source>Save</source>
         <translation>保存</translation>
     </message>
     <message>
-        <location filename="../../StaticScan/formresult.cpp" line="52"/>
         <source>msec</source>
-        <translation></translation>
+        <translation>ミリ秒</translation>
     </message>
 </context>
 <context>
     <name>FormStaticScan</name>
     <message>
-        <location filename="../../StaticScan/formstaticscan.ui" line="34"/>
         <source>Recursive</source>
-        <translation></translation>
+        <translation>再帰的</translation>
     </message>
     <message>
-        <location filename="../../StaticScan/formstaticscan.ui" line="44"/>
         <source>Deep scan</source>
         <translation>ディープスキャン</translation>
     </message>
     <message>
-        <location filename="../../StaticScan/formstaticscan.ui" line="73"/>
         <source>Scan</source>
         <translation>スキャン</translation>
     </message>
@@ -816,1394 +1954,4546 @@
 <context>
     <name>FormatWidget</name>
     <message>
-        <location filename="../../FormatWidgets/formatwidget.cpp" line="116"/>
         <source>Error</source>
         <translation>エラー</translation>
     </message>
     <message>
-        <location filename="../../FormatWidgets/formatwidget.cpp" line="116"/>
         <source>Cannot save file</source>
-        <translation></translation>
+        <translation>ファイルを保存できませんでした</translation>
     </message>
     <message>
-        <location filename="../../FormatWidgets/formatwidget.cpp" line="470"/>
-        <location filename="../../FormatWidgets/formatwidget.cpp" line="539"/>
-        <source>Name</source>
-        <translation>名前</translation>
+        <source>Dump all</source>
+        <translation>全てダンプ</translation>
     </message>
     <message>
-        <location filename="../../FormatWidgets/formatwidget.cpp" line="471"/>
-        <source>Offset</source>
-        <translation>オフセット</translation>
-    </message>
-    <message>
-        <location filename="../../FormatWidgets/formatwidget.cpp" line="472"/>
-        <source>Type</source>
-        <translation>種類</translation>
-    </message>
-    <message>
-        <location filename="../../FormatWidgets/formatwidget.cpp" line="473"/>
-        <location filename="../../FormatWidgets/formatwidget.cpp" line="540"/>
-        <source>Value</source>
-        <translation>値</translation>
-    </message>
-</context>
-<context>
-    <name>FormatsWidget</name>
-    <message>
-        <location filename="../../FormatWidgets/formatswidget.ui" line="40"/>
-        <source>File type</source>
-        <translation>ファイルの種類</translation>
-    </message>
-    <message>
-        <location filename="../../FormatWidgets/formatswidget.ui" line="80"/>
-        <source>Entry point</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="../../FormatWidgets/formatswidget.ui" line="136"/>
-        <source>Disasm</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="../../FormatWidgets/formatswidget.ui" line="146"/>
-        <source>Base address</source>
-        <translation>基準アドレス</translation>
-    </message>
-    <message>
-        <location filename="../../FormatWidgets/formatswidget.ui" line="189"/>
-        <source>Memory map</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="../../FormatWidgets/formatswidget.ui" line="359"/>
-        <location filename="../../FormatWidgets/formatswidget.ui" line="454"/>
-        <source>Overlay</source>
-        <translation>オーバーレイ</translation>
-    </message>
-    <message>
-        <location filename="../../FormatWidgets/formatswidget.ui" line="419"/>
-        <source>Export</source>
-        <translation>エクスポート</translation>
-    </message>
-    <message>
-        <location filename="../../FormatWidgets/formatswidget.ui" line="426"/>
-        <source>Import</source>
-        <translation>インポート</translation>
-    </message>
-    <message>
-        <location filename="../../FormatWidgets/formatswidget.ui" line="433"/>
-        <source>Resources</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="../../FormatWidgets/formatswidget.ui" line="465"/>
-        <location filename="../../FormatWidgets/formatswidget.ui" line="761"/>
-        <location filename="../../FormatWidgets/formatswidget.ui" line="1043"/>
-        <source>Sections</source>
-        <translation>セクション</translation>
-    </message>
-    <message>
-        <location filename="../../FormatWidgets/formatswidget.ui" line="638"/>
-        <source>Manifest</source>
-        <translation>Manifest</translation>
-    </message>
-    <message>
-        <location filename="../../FormatWidgets/formatswidget.ui" line="645"/>
-        <source>Version</source>
-        <translation>バージョン</translation>
-    </message>
-    <message>
-        <location filename="../../FormatWidgets/formatswidget.ui" line="919"/>
-        <source>Commands</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="../../FormatWidgets/formatswidget.ui" line="981"/>
-        <source>Segments</source>
-        <translation>セグメント</translation>
-    </message>
-    <message>
-        <location filename="../../FormatWidgets/formatswidget.ui" line="1144"/>
-        <source>Libraries</source>
-        <translation>ライブラリ</translation>
-    </message>
-    <message>
-        <location filename="../../FormatWidgets/formatswidget.ui" line="1214"/>
-        <source>Scan</source>
-        <translation>スキャン</translation>
-    </message>
-    <message>
-        <location filename="../../FormatWidgets/formatswidget.ui" line="1254"/>
-        <source>Endianness</source>
-        <translation>エンディアン</translation>
-    </message>
-    <message>
-        <location filename="../../FormatWidgets/formatswidget.ui" line="1294"/>
-        <source>Mode</source>
-        <translation>モード</translation>
-    </message>
-    <message>
-        <location filename="../../FormatWidgets/formatswidget.ui" line="1328"/>
-        <source>Architecture</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="../../FormatWidgets/formatswidget.ui" line="1362"/>
-        <source>Type</source>
-        <translation>種類</translation>
-    </message>
-</context>
-<context>
-    <name>GuiMainWindow</name>
-    <message>
-        <location filename="../guimainwindow.ui" line="21"/>
-        <source>File name</source>
-        <translation>ファイル名</translation>
-    </message>
-    <message>
-        <location filename="../guimainwindow.ui" line="69"/>
-        <source>Hash</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="../guimainwindow.ui" line="76"/>
-        <source>Strings</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="../guimainwindow.ui" line="83"/>
-        <source>Entropy</source>
-        <translation>エントロピー</translation>
-    </message>
-    <message>
-        <location filename="../guimainwindow.ui" line="110"/>
-        <source>Options</source>
-        <translation>設定</translation>
-    </message>
-    <message>
-        <location filename="../guimainwindow.ui" line="117"/>
-        <source>About</source>
-        <translation>情報</translation>
-    </message>
-    <message>
-        <location filename="../guimainwindow.ui" line="124"/>
-        <source>Exit</source>
-        <translation>終了</translation>
-    </message>
-    <message>
-        <location filename="../guimainwindow.cpp" line="250"/>
-        <source>Open file</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="../guimainwindow.cpp" line="250"/>
-        <source>All files</source>
-        <translation></translation>
-    </message>
-</context>
-<context>
-    <name>HeurWidget</name>
-    <message>
-        <location filename="../../StaticScan/heurwidget.ui" line="32"/>
-        <location filename="../../StaticScan/heurwidget.ui" line="95"/>
-        <source>Scan</source>
-        <translation>スキャン</translation>
-    </message>
-    <message>
-        <location filename="../../StaticScan/heurwidget.ui" line="52"/>
-        <source>Recursive scan</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="../../StaticScan/heurwidget.ui" line="62"/>
-        <source>Deep scan</source>
-        <translation>ディープスキャン</translation>
-    </message>
-    <message>
-        <location filename="../../StaticScan/heurwidget.ui" line="72"/>
-        <source>Heuristic scan</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="../../StaticScan/heurwidget.ui" line="110"/>
-        <source>Heuristic</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="../../StaticScan/heurwidget.cpp" line="85"/>
-        <source>Type</source>
-        <translation>種類</translation>
-    </message>
-    <message>
-        <location filename="../../StaticScan/heurwidget.cpp" line="86"/>
-        <source>Name</source>
-        <translation>名前</translation>
-    </message>
-    <message>
-        <location filename="../../StaticScan/heurwidget.cpp" line="87"/>
-        <source>Value</source>
-        <translation>値</translation>
-    </message>
-</context>
-<context>
-    <name>LESectionHeaderWidget</name>
-    <message>
-        <location filename="../../FormatWidgets/LE/lesectionheaderwidget.ui" line="50"/>
-        <source>Readonly</source>
-        <translation></translation>
-    </message>
-</context>
-<context>
-    <name>LEWidget</name>
-    <message>
-        <location filename="../../FormatWidgets/LE/lewidget.ui" line="37"/>
-        <source>Reload</source>
-        <translation>再読み込み</translation>
-    </message>
-    <message>
-        <location filename="../../FormatWidgets/LE/lewidget.ui" line="57"/>
-        <source>Readonly</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="../../FormatWidgets/LE/lewidget.cpp" line="87"/>
-        <source>Strings</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="../../FormatWidgets/LE/lewidget.cpp" line="88"/>
-        <source>Memory map</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="../../FormatWidgets/LE/lewidget.cpp" line="89"/>
-        <location filename="../../FormatWidgets/LE/lewidget.cpp" line="592"/>
-        <source>Entropy</source>
-        <translation>エントロピー</translation>
-    </message>
-    <message>
-        <location filename="../../FormatWidgets/LE/lewidget.cpp" line="90"/>
-        <source>Heuristic scan</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="../../FormatWidgets/LE/lewidget.cpp" line="97"/>
-        <source>Overlay</source>
-        <translation>オーバーレイ</translation>
-    </message>
-    <message>
-        <location filename="../../FormatWidgets/LE/lewidget.cpp" line="583"/>
-        <source>Edit</source>
-        <translation>編集</translation>
-    </message>
-</context>
-<context>
-    <name>MACHSectionHeaderWidget</name>
-    <message>
-        <location filename="../../FormatWidgets/MACH/machsectionheaderwidget.ui" line="50"/>
-        <source>Readonly</source>
-        <translation></translation>
-    </message>
-</context>
-<context>
-    <name>MACHWidget</name>
-    <message>
-        <location filename="../../FormatWidgets/MACH/machwidget.ui" line="37"/>
-        <source>Reload</source>
-        <translation>再読み込み</translation>
-    </message>
-    <message>
-        <location filename="../../FormatWidgets/MACH/machwidget.ui" line="57"/>
-        <source>Readonly</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="../../FormatWidgets/MACH/machwidget.cpp" line="80"/>
-        <source>Strings</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="../../FormatWidgets/MACH/machwidget.cpp" line="81"/>
-        <source>Memory map</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="../../FormatWidgets/MACH/machwidget.cpp" line="82"/>
-        <source>Entropy</source>
-        <translation>エントロピー</translation>
-    </message>
-    <message>
-        <location filename="../../FormatWidgets/MACH/machwidget.cpp" line="83"/>
-        <source>Heuristic scan</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="../../FormatWidgets/MACH/machwidget.cpp" line="90"/>
-        <source>Commands</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="../../FormatWidgets/MACH/machwidget.cpp" line="99"/>
-        <source>Segments</source>
-        <translation>セグメント</translation>
-    </message>
-    <message>
-        <location filename="../../FormatWidgets/MACH/machwidget.cpp" line="108"/>
-        <source>Sections</source>
-        <translation>セクション</translation>
-    </message>
-    <message>
-        <location filename="../../FormatWidgets/MACH/machwidget.cpp" line="117"/>
-        <source>Libraries</source>
-        <translation>ライブラリ</translation>
-    </message>
-    <message>
-        <location filename="../../FormatWidgets/MACH/machwidget.cpp" line="650"/>
-        <source>Type</source>
-        <translation>種類</translation>
-    </message>
-    <message>
-        <location filename="../../FormatWidgets/MACH/machwidget.cpp" line="654"/>
-        <source>Library</source>
-        <translation></translation>
-    </message>
-</context>
-<context>
-    <name>MSDOSWidget</name>
-    <message>
-        <location filename="../../FormatWidgets/MSDOS/msdoswidget.ui" line="37"/>
-        <source>Reload</source>
-        <translation>再読み込み</translation>
-    </message>
-    <message>
-        <location filename="../../FormatWidgets/MSDOS/msdoswidget.ui" line="57"/>
-        <source>Readonly</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="../../FormatWidgets/MSDOS/msdoswidget.cpp" line="85"/>
-        <source>Strings</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="../../FormatWidgets/MSDOS/msdoswidget.cpp" line="86"/>
-        <source>Memory map</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="../../FormatWidgets/MSDOS/msdoswidget.cpp" line="87"/>
-        <source>Entropy</source>
-        <translation>エントロピー</translation>
-    </message>
-    <message>
-        <location filename="../../FormatWidgets/MSDOS/msdoswidget.cpp" line="88"/>
-        <source>Heuristic scan</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="../../FormatWidgets/MSDOS/msdoswidget.cpp" line="93"/>
-        <source>Overlay</source>
-        <translation>オーバーレイ</translation>
-    </message>
-</context>
-<context>
-    <name>NESectionHeaderWidget</name>
-    <message>
-        <location filename="../../FormatWidgets/NE/nesectionheaderwidget.ui" line="50"/>
-        <source>Readonly</source>
-        <translation></translation>
-    </message>
-</context>
-<context>
-    <name>NEWidget</name>
-    <message>
-        <location filename="../../FormatWidgets/NE/newidget.ui" line="37"/>
-        <source>Reload</source>
-        <translation>再読み込み</translation>
-    </message>
-    <message>
-        <location filename="../../FormatWidgets/NE/newidget.ui" line="57"/>
-        <source>Readonly</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="../../FormatWidgets/NE/newidget.cpp" line="87"/>
-        <source>Strings</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="../../FormatWidgets/NE/newidget.cpp" line="88"/>
-        <source>Memory map</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="../../FormatWidgets/NE/newidget.cpp" line="89"/>
-        <source>Entropy</source>
-        <translation>エントロピー</translation>
-    </message>
-    <message>
-        <location filename="../../FormatWidgets/NE/newidget.cpp" line="90"/>
-        <source>Detect</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="../../FormatWidgets/NE/newidget.cpp" line="98"/>
-        <source>Segments</source>
-        <translation>セグメント</translation>
-    </message>
-    <message>
-        <location filename="../../FormatWidgets/NE/newidget.cpp" line="103"/>
-        <source>Overlay</source>
-        <translation>オーバーレイ</translation>
-    </message>
-</context>
-<context>
-    <name>NFD_Widget</name>
-    <message>
-        <location filename="../../nfd_widget/nfd_widget.ui" line="67"/>
-        <source>Recursive scan</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="../../nfd_widget/nfd_widget.ui" line="74"/>
-        <source>Deep scan</source>
-        <translation>ディープスキャン</translation>
-    </message>
-    <message>
-        <location filename="../../nfd_widget/nfd_widget.ui" line="81"/>
-        <source>Heuristic scan</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="../../nfd_widget/nfd_widget.ui" line="162"/>
-        <location filename="../../nfd_widget/nfd_widget.cpp" line="107"/>
-        <location filename="../../nfd_widget/nfd_widget.cpp" line="145"/>
-        <source>Scan</source>
-        <translation>スキャン</translation>
-    </message>
-    <message>
-        <location filename="../../nfd_widget/nfd_widget.cpp" line="91"/>
-        <source>Stop</source>
-        <translation>停止</translation>
-    </message>
-    <message>
-        <location filename="../../nfd_widget/nfd_widget.cpp" line="141"/>
-        <source>msec</source>
-        <translation></translation>
-    </message>
-</context>
-<context>
-    <name>PEProcessData</name>
-    <message>
-        <location filename="../../FormatWidgets/PE/peprocessdata.cpp" line="509"/>
-        <source>Resources</source>
-        <translation></translation>
-    </message>
-</context>
-<context>
-    <name>PESectionHeaderWidget</name>
-    <message>
-        <location filename="../../FormatWidgets/PE/pesectionheaderwidget.ui" line="53"/>
-        <source>Readonly</source>
-        <translation></translation>
-    </message>
-</context>
-<context>
-    <name>PEWidget</name>
-    <message>
-        <location filename="../../FormatWidgets/PE/pewidget.ui" line="40"/>
-        <source>Reload</source>
-        <translation>再読み込み</translation>
-    </message>
-    <message>
-        <location filename="../../FormatWidgets/PE/pewidget.ui" line="67"/>
-        <location filename="../../FormatWidgets/PE/pewidget.cpp" line="107"/>
-        <source>Disasm</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="../../FormatWidgets/PE/pewidget.ui" line="74"/>
-        <location filename="../../FormatWidgets/PE/pewidget.cpp" line="109"/>
-        <source>Strings</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="../../FormatWidgets/PE/pewidget.ui" line="81"/>
-        <location filename="../../FormatWidgets/PE/pewidget.cpp" line="110"/>
-        <source>Memory map</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="../../FormatWidgets/PE/pewidget.ui" line="88"/>
-        <location filename="../../FormatWidgets/PE/pewidget.cpp" line="111"/>
-        <location filename="../../FormatWidgets/PE/pewidget.cpp" line="1635"/>
-        <source>Entropy</source>
-        <translation>エントロピー</translation>
-    </message>
-    <message>
-        <location filename="../../FormatWidgets/PE/pewidget.ui" line="95"/>
-        <location filename="../../FormatWidgets/PE/pewidget.cpp" line="112"/>
-        <source>Heuristic scan</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="../../FormatWidgets/PE/pewidget.ui" line="102"/>
-        <source>Readonly</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="../../FormatWidgets/PE/pewidget.cpp" line="121"/>
-        <source>Sections</source>
-        <translation>セクション</translation>
-    </message>
-    <message>
-        <location filename="../../FormatWidgets/PE/pewidget.cpp" line="213"/>
-        <source>Overlay</source>
-        <translation>オーバーレイ</translation>
-    </message>
-    <message>
-        <location filename="../../FormatWidgets/PE/pewidget.cpp" line="953"/>
-        <source>Calculate</source>
-        <translation>計算</translation>
-    </message>
-    <message>
-        <location filename="../../FormatWidgets/PE/pewidget.cpp" line="1626"/>
-        <location filename="../../FormatWidgets/PE/pewidget.cpp" line="2015"/>
-        <location filename="../../FormatWidgets/PE/pewidget.cpp" line="2058"/>
-        <location filename="../../FormatWidgets/PE/pewidget.cpp" line="2093"/>
-        <location filename="../../FormatWidgets/PE/pewidget.cpp" line="2128"/>
-        <location filename="../../FormatWidgets/PE/pewidget.cpp" line="2163"/>
-        <location filename="../../FormatWidgets/PE/pewidget.cpp" line="2198"/>
-        <source>Edit</source>
-        <translation>編集</translation>
-    </message>
-    <message>
-        <location filename="../../FormatWidgets/PE/pewidget.cpp" line="1794"/>
-        <location filename="../../FormatWidgets/PE/pewidget.cpp" line="1795"/>
-        <location filename="../../FormatWidgets/PE/pewidget.cpp" line="1796"/>
-        <location filename="../../FormatWidgets/PE/pewidget.cpp" line="1797"/>
-        <location filename="../../FormatWidgets/PE/pewidget.cpp" line="1798"/>
-        <location filename="../../FormatWidgets/PE/pewidget.cpp" line="1799"/>
-        <location filename="../../FormatWidgets/PE/pewidget.cpp" line="1800"/>
-        <source>Header</source>
-        <translation>ヘッダ</translation>
-    </message>
-</context>
-<context>
-    <name>QHexView</name>
-    <message>
-        <location filename="../../QHexView/qhexview.cpp" line="1118"/>
-        <source>Cannot save file</source>
-        <translation></translation>
-    </message>
-</context>
-<context>
-    <name>QHexViewWidget</name>
-    <message>
-        <location filename="../../QHexView/qhexviewwidget.ui" line="50"/>
-        <location filename="../../QHexView/qhexviewwidget.cpp" line="285"/>
-        <source>Go to address</source>
-        <translation>アドレスに移動</translation>
-    </message>
-    <message>
-        <location filename="../../QHexView/qhexviewwidget.ui" line="57"/>
-        <source>Cursor</source>
-        <translation>カーソル</translation>
-    </message>
-    <message>
-        <location filename="../../QHexView/qhexviewwidget.ui" line="77"/>
-        <source>Selection</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="../../QHexView/qhexviewwidget.ui" line="97"/>
-        <source>Size</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="../../QHexView/qhexviewwidget.ui" line="136"/>
-        <source>Readonly</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="../../QHexView/qhexviewwidget.cpp" line="203"/>
-        <source>Raw data</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="../../QHexView/qhexviewwidget.cpp" line="205"/>
-        <source>Save dump</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="../../QHexView/qhexviewwidget.cpp" line="290"/>
-        <source>Dump to file</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="../../QHexView/qhexviewwidget.cpp" line="295"/>
-        <source>Signature</source>
-        <translation>署名</translation>
-    </message>
-    <message>
-        <location filename="../../QHexView/qhexviewwidget.cpp" line="306"/>
-        <source>Find</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="../../QHexView/qhexviewwidget.cpp" line="311"/>
-        <source>Find next</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="../../QHexView/qhexviewwidget.cpp" line="316"/>
-        <source>Select</source>
-        <translation>選択</translation>
-    </message>
-    <message>
-        <location filename="../../QHexView/qhexviewwidget.cpp" line="318"/>
-        <source>Select all</source>
-        <translation>すべて選択</translation>
-    </message>
-    <message>
-        <location filename="../../QHexView/qhexviewwidget.cpp" line="325"/>
-        <source>Copy</source>
-        <translation>コピー</translation>
-    </message>
-    <message>
-        <location filename="../../QHexView/qhexviewwidget.cpp" line="327"/>
-        <source>Copy as hex</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="../../QHexView/qhexviewwidget.cpp" line="341"/>
-        <source>Error</source>
-        <translation>エラー</translation>
-    </message>
-</context>
-<context>
-    <name>QObject</name>
-    <message>
-        <location filename="../../FormatWidgets/PE/pe_defs.cpp" line="258"/>
-        <source>Address</source>
-        <translation>アドレス</translation>
-    </message>
-    <message>
-        <location filename="../../FormatWidgets/PE/pe_defs.cpp" line="259"/>
-        <source>Offset</source>
-        <translation>オフセット</translation>
-    </message>
-    <message>
-        <location filename="../../FormatWidgets/PE/pe_defs.cpp" line="260"/>
-        <source>Size</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="../../Formats/xbinary.cpp" line="2668"/>
-        <source>Read error</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="../../Formats/xbinary.cpp" line="2675"/>
-        <source>Write error</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="../../Formats/xbinary.cpp" line="2700"/>
-        <source>Cannot open file</source>
-        <translation></translation>
-    </message>
-</context>
-<context>
-    <name>SearchStrings</name>
-    <message>
-        <location filename="../../FormatWidgets/SearchStrings/searchstrings.cpp" line="285"/>
-        <source>Maximum</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="../../FormatWidgets/SearchStrings/searchstrings.cpp" line="293"/>
-        <source>Read error</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="../../FormatWidgets/SearchStrings/searchstrings.cpp" line="322"/>
-        <source>Address</source>
-        <translation>アドレス</translation>
-    </message>
-    <message>
-        <location filename="../../FormatWidgets/SearchStrings/searchstrings.cpp" line="322"/>
-        <source>Offset</source>
-        <translation>オフセット</translation>
-    </message>
-    <message>
-        <location filename="../../FormatWidgets/SearchStrings/searchstrings.cpp" line="323"/>
-        <source>Size</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="../../FormatWidgets/SearchStrings/searchstrings.cpp" line="324"/>
-        <source>Type</source>
-        <translation>種類</translation>
-    </message>
-    <message>
-        <location filename="../../FormatWidgets/SearchStrings/searchstrings.cpp" line="325"/>
-        <source>String</source>
-        <translation></translation>
-    </message>
-</context>
-<context>
-    <name>SearchStringsWidget</name>
-    <message>
-        <location filename="../../FormatWidgets/SearchStrings/searchstringswidget.ui" line="61"/>
-        <source>Search</source>
-        <translation>検索</translation>
-    </message>
-    <message>
-        <location filename="../../FormatWidgets/SearchStrings/searchstringswidget.ui" line="103"/>
-        <source>Filter</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="../../FormatWidgets/SearchStrings/searchstringswidget.ui" line="140"/>
         <source>Save</source>
         <translation>保存</translation>
     </message>
     <message>
-        <location filename="../../FormatWidgets/SearchStrings/searchstringswidget.cpp" line="105"/>
-        <source>Save file</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="../../FormatWidgets/SearchStrings/searchstringswidget.cpp" line="105"/>
-        <source>Strings</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="../../FormatWidgets/SearchStrings/searchstringswidget.cpp" line="105"/>
         <source>Text files</source>
-        <translation></translation>
+        <translation>テキスト ファイル</translation>
     </message>
     <message>
-        <location filename="../../FormatWidgets/SearchStrings/searchstringswidget.cpp" line="105"/>
         <source>All files</source>
-        <translation></translation>
+        <translation>すべてのファイル</translation>
     </message>
     <message>
-        <location filename="../../FormatWidgets/SearchStrings/searchstringswidget.cpp" line="157"/>
-        <source>Copy string</source>
-        <translation></translation>
+        <source>Dump</source>
+        <translation>ダンプ</translation>
     </message>
     <message>
-        <location filename="../../FormatWidgets/SearchStrings/searchstringswidget.cpp" line="165"/>
-        <source>Copy address</source>
-        <translation></translation>
+        <source>Save dump</source>
+        <translation>ダンプを保存</translation>
     </message>
     <message>
-        <location filename="../../FormatWidgets/SearchStrings/searchstringswidget.cpp" line="169"/>
-        <source>Copy offset</source>
-        <translation></translation>
+        <source>Raw data</source>
+        <translation>Raw データ</translation>
     </message>
     <message>
-        <location filename="../../FormatWidgets/SearchStrings/searchstringswidget.cpp" line="176"/>
-        <source>Copy size</source>
-        <translation></translation>
-    </message>
-</context>
-<context>
-    <name>SpecAbstract</name>
-    <message>
-        <location filename="../../SpecAbstract/specabstract.cpp" line="148"/>
-        <location filename="../../SpecAbstract/specabstract.cpp" line="178"/>
-        <location filename="../../SpecAbstract/specabstract.cpp" line="182"/>
-        <location filename="../../SpecAbstract/specabstract.cpp" line="193"/>
-        <location filename="../../SpecAbstract/specabstract.cpp" line="197"/>
-        <location filename="../../SpecAbstract/specabstract.cpp" line="233"/>
-        <location filename="../../SpecAbstract/specabstract.cpp" line="762"/>
-        <location filename="../../SpecAbstract/specabstract.cpp" line="766"/>
-        <source>Unknown</source>
-        <translation></translation>
+        <source>Name</source>
+        <translation>名前</translation>
     </message>
     <message>
-        <location filename="../../SpecAbstract/specabstract.cpp" line="183"/>
-        <location filename="../../SpecAbstract/specabstract.cpp" line="767"/>
-        <source>Header</source>
-        <translation>ヘッダ</translation>
+        <source>Offset</source>
+        <translation>オフセット</translation>
     </message>
     <message>
-        <location filename="../../SpecAbstract/specabstract.cpp" line="184"/>
-        <location filename="../../SpecAbstract/specabstract.cpp" line="768"/>
-        <source>Overlay</source>
-        <translation>オーバーレイ</translation>
+        <source>Type</source>
+        <translation>種類</translation>
     </message>
     <message>
-        <location filename="../../SpecAbstract/specabstract.cpp" line="185"/>
-        <source>Archive record</source>
-        <translation></translation>
+        <source>Value</source>
+        <translation>値</translation>
     </message>
     <message>
-        <location filename="../../SpecAbstract/specabstract.cpp" line="198"/>
-        <location filename="../../SpecAbstract/specabstract.cpp" line="777"/>
-        <source>Archive</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="../../SpecAbstract/specabstract.cpp" line="199"/>
-        <source>Certificate</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="../../SpecAbstract/specabstract.cpp" line="200"/>
-        <source>Compiler</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="../../SpecAbstract/specabstract.cpp" line="201"/>
-        <source>Converter</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="../../SpecAbstract/specabstract.cpp" line="202"/>
-        <source>Database</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="../../SpecAbstract/specabstract.cpp" line="203"/>
-        <source>Debug data</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="../../SpecAbstract/specabstract.cpp" line="204"/>
-        <source>protection</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="../../SpecAbstract/specabstract.cpp" line="205"/>
-        <source>extender</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="../../SpecAbstract/specabstract.cpp" line="206"/>
-        <source>Format</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="../../SpecAbstract/specabstract.cpp" line="207"/>
-        <source>Generic</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="../../SpecAbstract/specabstract.cpp" line="208"/>
-        <source>Image</source>
-        <translation>イメージ</translation>
-    </message>
-    <message>
-        <location filename="../../SpecAbstract/specabstract.cpp" line="209"/>
-        <source>Installer</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="../../SpecAbstract/specabstract.cpp" line="210"/>
-        <source>Installer data</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="../../SpecAbstract/specabstract.cpp" line="211"/>
-        <source>Joiner</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="../../SpecAbstract/specabstract.cpp" line="212"/>
-        <source>Library</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="../../SpecAbstract/specabstract.cpp" line="213"/>
-        <source>Linker</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="../../SpecAbstract/specabstract.cpp" line="214"/>
-        <source>compressor</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="../../SpecAbstract/specabstract.cpp" line="215"/>
-        <source>obfuscator</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="../../SpecAbstract/specabstract.cpp" line="216"/>
-        <source>Packer</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="../../SpecAbstract/specabstract.cpp" line="217"/>
-        <location filename="../../SpecAbstract/specabstract.cpp" line="225"/>
-        <source>Tool</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="../../SpecAbstract/specabstract.cpp" line="218"/>
-        <source>Protector</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="../../SpecAbstract/specabstract.cpp" line="219"/>
-        <source>Protector data</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="../../SpecAbstract/specabstract.cpp" line="221"/>
-        <source>data</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="../../SpecAbstract/specabstract.cpp" line="222"/>
-        <source>Sign tool</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="../../SpecAbstract/specabstract.cpp" line="223"/>
-        <source>Source code</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="../../SpecAbstract/specabstract.cpp" line="224"/>
-        <source>Stub</source>
-        <translation>Stub</translation>
-    </message>
-    <message>
-        <location filename="../../SpecAbstract/specabstract.cpp" line="769"/>
-        <source>Entry point</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="../../SpecAbstract/specabstract.cpp" line="770"/>
-        <source>Section name</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="../../SpecAbstract/specabstract.cpp" line="772"/>
-        <source>Code section</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="../../SpecAbstract/specabstract.cpp" line="773"/>
-        <source>Entry point section</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="../../SpecAbstract/specabstract.cpp" line="774"/>
-        <location filename="../../SpecAbstract/specabstract.cpp" line="775"/>
-        <source>String</source>
-        <translation></translation>
-    </message>
-</context>
-<context>
-    <name>StaticScan</name>
-    <message>
-        <location filename="../../StaticScan/staticscan.cpp" line="74"/>
-        <source>File scan</source>
-        <translation>ファイル スキャン</translation>
-    </message>
-    <message>
-        <location filename="../../StaticScan/staticscan.cpp" line="87"/>
-        <source>Directory scan</source>
-        <translation>ディレクトリのスキャン</translation>
-    </message>
-    <message>
-        <location filename="../../StaticScan/staticscan.cpp" line="117"/>
-        <source>Device scan</source>
-        <translation></translation>
-    </message>
-</context>
-<context>
-    <name>StaticScanItemModel</name>
-    <message>
-        <location filename="../../StaticScan/staticscanitemmodel.cpp" line="26"/>
-        <source>Result</source>
-        <translation></translation>
-    </message>
-</context>
-<context>
-    <name>ToolsWidget</name>
-    <message>
-        <location filename="../../FormatWidgets/toolswidget.ui" line="58"/>
-        <source>Strings</source>
-        <translation></translation>
-    </message>
-</context>
-<context>
-    <name>XComboBoxEx</name>
-    <message>
-        <location filename="../../Controls/xcomboboxex.cpp" line="54"/>
         <source>Flags</source>
         <translation>フラグ</translation>
     </message>
 </context>
 <context>
-    <name>XDisasmModel</name>
+    <name>FormatsWidget</name>
     <message>
-        <location filename="../../XDisasm/xdisasmmodel.cpp" line="51"/>
-        <source>Address</source>
-        <translation>アドレス</translation>
+        <source>File type</source>
+        <translation>ファイルの種類</translation>
     </message>
     <message>
-        <location filename="../../XDisasm/xdisasmmodel.cpp" line="52"/>
+        <source>File size</source>
+        <translation>ファイル サイズ</translation>
+    </message>
+    <message>
+        <source>Base address</source>
+        <translation>基準アドレス</translation>
+    </message>
+    <message>
+        <source>Entry point</source>
+        <translation>エントリ ポイント</translation>
+    </message>
+    <message>
+        <source>Memory map</source>
+        <translation>メモリ マップ</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>検索</translation>
+    </message>
+    <message>
+        <source>File info</source>
+        <translation>ファイル情報</translation>
+    </message>
+    <message>
+        <source>Strings</source>
+        <translation>文字列</translation>
+    </message>
+    <message>
+        <source>Hash</source>
+        <translation>ハッシュ</translation>
+    </message>
+    <message>
+        <source>Disasm</source>
+        <translation>Disasm</translation>
+    </message>
+    <message>
+        <source>Entropy</source>
+        <translation>エントロピー</translation>
+    </message>
+    <message>
+        <source>Extractor</source>
+        <translation>抽出</translation>
+    </message>
+    <message>
+        <source>Signatures</source>
+        <translation>署名</translation>
+    </message>
+    <message>
+        <source>Hex</source>
+        <translation>16 進数</translation>
+    </message>
+    <message>
+        <source>Visualization</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Files</source>
+        <translation>ファイル</translation>
+    </message>
+    <message>
+        <source>Unpack</source>
+        <translation>アンパック</translation>
+    </message>
+    <message>
+        <source>Overlay</source>
+        <translation>オーバーレイ</translation>
+    </message>
+    <message>
+        <source>Export</source>
+        <translation>エクスポート</translation>
+    </message>
+    <message>
+        <source>Import</source>
+        <translation>インポート</translation>
+    </message>
+    <message>
+        <source>Resources</source>
+        <translation>リソース</translation>
+    </message>
+    <message>
+        <source>Sections</source>
+        <translation>セクション</translation>
+    </message>
+    <message>
+        <source>Time date stamp</source>
+        <translation>日付スタンプ</translation>
+    </message>
+    <message>
+        <source>Size of image</source>
+        <translation>画像のサイズ</translation>
+    </message>
+    <message>
+        <source>Manifest</source>
+        <translation>Manifest</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>バージョン</translation>
+    </message>
+    <message>
+        <source>Programs</source>
+        <translation>プログラム</translation>
+    </message>
+    <message>
+        <source>Commands</source>
+        <translation>コマンド</translation>
+    </message>
+    <message>
+        <source>Segments</source>
+        <translation>セグメント</translation>
+    </message>
+    <message>
+        <source>Libraries</source>
+        <translation>ライブラリ</translation>
+    </message>
+    <message>
+        <source>Scan</source>
+        <translation>スキャン</translation>
+    </message>
+    <message>
+        <source>Endianness</source>
+        <translation>エンディアン</translation>
+    </message>
+    <message>
+        <source>Mode</source>
+        <translation>モード</translation>
+    </message>
+    <message>
+        <source>Architecture</source>
+        <translation>アーキテクチャ</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation>種類</translation>
+    </message>
+    <message>
+        <source>Scan engine</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Archive</source>
+        <translation>アーカイブ</translation>
+    </message>
+    <message>
+        <source>Binary</source>
+        <translation>バイナリ</translation>
+    </message>
+    <message>
+        <source>Open directory</source>
+        <translation>ディレクトリを開く</translation>
+    </message>
+</context>
+<context>
+    <name>GuiMainWindow</name>
+    <message>
+        <source>File name</source>
+        <translation>ファイル名</translation>
+    </message>
+    <message>
+        <source>Advanced</source>
+        <translation>高度な</translation>
+    </message>
+    <message>
+        <source>Demangle</source>
+        <translation>デマングル</translation>
+    </message>
+    <message>
+        <source>Shortcuts</source>
+        <translation>ショートカット</translation>
+    </message>
+    <message>
+        <source>Options</source>
+        <translation>設定</translation>
+    </message>
+    <message>
+        <source>About</source>
+        <translation>情報</translation>
+    </message>
+    <message>
+        <source>Exit</source>
+        <translation>終了</translation>
+    </message>
+    <message>
+        <source>Open file</source>
+        <translation>ファイルを開く</translation>
+    </message>
+    <message>
+        <source>Recent files</source>
+        <translation>最近使ったファイル</translation>
+    </message>
+    <message>
+        <source>Error</source>
+        <translation>エラー</translation>
+    </message>
+    <message>
+        <source>All files</source>
+        <translation>すべてのファイル</translation>
+    </message>
+</context>
+<context>
+    <name>HashProcess</name>
+    <message>
+        <source>Import</source>
+        <translation>インポート</translation>
+    </message>
+</context>
+<context>
+    <name>HeurWidget</name>
+    <message>
+        <source>Type</source>
+        <translation>種類</translation>
+    </message>
+    <message>
+        <source>Recursive scan</source>
+        <translation>ファイル スキャン</translation>
+    </message>
+    <message>
+        <source>Deep scan</source>
+        <translation>ディープスキャン</translation>
+    </message>
+    <message>
+        <source>Heuristic scan</source>
+        <translation>ヒューリスティック スキャン</translation>
+    </message>
+    <message>
+        <source>Verbose</source>
+        <translation>冗長な</translation>
+    </message>
+    <message>
+        <source>All types</source>
+        <translation>すべての種類</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>保存</translation>
+    </message>
+    <message>
+        <source>Scan</source>
+        <translation>スキャン</translation>
+    </message>
+    <message>
+        <source>Heuristic</source>
+        <translation>ヒューリスティック</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>結果</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>名前</translation>
+    </message>
+    <message>
+        <source>Value</source>
+        <translation>値</translation>
+    </message>
+</context>
+<context>
+    <name>InvWidget</name>
+    <message>
+        <source>Hex</source>
+        <translation>16 進数</translation>
+    </message>
+    <message>
+        <source>Disasm</source>
+        <translation>Disasm</translation>
+    </message>
+</context>
+<context>
+    <name>LESectionHeaderWidget</name>
+    <message>
+        <source>Readonly</source>
+        <translation>読み取り専用</translation>
+    </message>
+</context>
+<context>
+    <name>LEWidget</name>
+    <message>
+        <source>Reload</source>
+        <translation>再読み込み</translation>
+    </message>
+    <message>
+        <source>Readonly</source>
+        <translation>読み取り専用</translation>
+    </message>
+    <message>
+        <source>Next visited</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Previous visited</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Info</source>
+        <translation>情報</translation>
+    </message>
+    <message>
+        <source>Visualization</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Hex</source>
+        <translation>16 進数</translation>
+    </message>
+    <message>
+        <source>Disasm</source>
+        <translation>Disasm</translation>
+    </message>
+    <message>
+        <source>Hash</source>
+        <translation>ハッシュ</translation>
+    </message>
+    <message>
+        <source>Strings</source>
+        <translation>文字列</translation>
+    </message>
+    <message>
+        <source>Signatures</source>
+        <translation>署名</translation>
+    </message>
+    <message>
+        <source>Memory map</source>
+        <translation>メモリ マップ</translation>
+    </message>
+    <message>
+        <source>Entropy</source>
+        <translation>エントロピー</translation>
+    </message>
+    <message>
+        <source>Extractor</source>
+        <translation>抽出</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>検索</translation>
+    </message>
+    <message>
+        <source>Overlay</source>
+        <translation>オーバーレイ</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>編集</translation>
+    </message>
+</context>
+<context>
+    <name>MACHOFATWidget</name>
+    <message>
+        <source>Form</source>
+        <translation>フォーム</translation>
+    </message>
+</context>
+<context>
+    <name>MACHProcessData</name>
+    <message>
+        <source>Name</source>
+        <translation>名前</translation>
+    </message>
+    <message>
         <source>Offset</source>
         <translation>オフセット</translation>
     </message>
     <message>
-        <location filename="../../XDisasm/xdisasmmodel.cpp" line="53"/>
-        <source>Label</source>
+        <source>Address</source>
+        <translation>アドレス</translation>
+    </message>
+    <message>
+        <source>Opcode</source>
+        <translation>Opcode</translation>
+    </message>
+    <message>
+        <source>Value</source>
+        <translation>値</translation>
+    </message>
+</context>
+<context>
+    <name>MACHSectionHeaderWidget</name>
+    <message>
+        <source>Readonly</source>
+        <translation>読み取り専用</translation>
+    </message>
+</context>
+<context>
+    <name>MACHWidget</name>
+    <message>
+        <source>Reload</source>
+        <translation>再読み込み</translation>
+    </message>
+    <message>
+        <source>Readonly</source>
+        <translation>読み取り専用</translation>
+    </message>
+    <message>
+        <source>Next visited</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../../XDisasm/xdisasmmodel.cpp" line="54"/>
+        <source>Previous visited</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Info</source>
+        <translation>情報</translation>
+    </message>
+    <message>
+        <source>Visualization</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Hex</source>
+        <translation>16 進数</translation>
+    </message>
+    <message>
+        <source>Disasm</source>
+        <translation>Disasm</translation>
+    </message>
+    <message>
+        <source>Hash</source>
+        <translation>ハッシュ</translation>
+    </message>
+    <message>
+        <source>Strings</source>
+        <translation>文字列</translation>
+    </message>
+    <message>
+        <source>Signatures</source>
+        <translation>署名</translation>
+    </message>
+    <message>
+        <source>Memory map</source>
+        <translation>メモリ マップ</translation>
+    </message>
+    <message>
+        <source>Entropy</source>
+        <translation>エントロピー</translation>
+    </message>
+    <message>
+        <source>Extractor</source>
+        <translation>抽出</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>検索</translation>
+    </message>
+    <message>
+        <source>Commands</source>
+        <translation>コマンド</translation>
+    </message>
+    <message>
+        <source>Segments</source>
+        <translation>セグメント</translation>
+    </message>
+    <message>
+        <source>Sections</source>
+        <translation>セクション</translation>
+    </message>
+    <message>
+        <source>Rebase</source>
+        <translation>リベース</translation>
+    </message>
+    <message>
+        <source>Binding</source>
+        <translation>バインディング</translation>
+    </message>
+    <message>
+        <source>Weak binding</source>
+        <translation>弱い結合</translation>
+    </message>
+    <message>
+        <source>Lazy binding</source>
+        <translation>遅延バインディング</translation>
+    </message>
+    <message>
+        <source>Export</source>
+        <translation>エクスポート</translation>
+    </message>
+    <message>
+        <source>String table</source>
+        <translation>文字列テーブル</translation>
+    </message>
+    <message>
+        <source>Symbol table</source>
+        <translation>シンボル テーブル</translation>
+    </message>
+    <message>
+        <source>Table of contents</source>
+        <translation>目次</translation>
+    </message>
+    <message>
+        <source>Modules</source>
+        <translation>モジュール</translation>
+    </message>
+    <message>
+        <source>External references</source>
+        <translation>外部参照</translation>
+    </message>
+    <message>
+        <source>Indirect symbols</source>
+        <translation>間接記号</translation>
+    </message>
+    <message>
+        <source>Local relocation</source>
+        <translation>ローカル再割り当て</translation>
+    </message>
+    <message>
+        <source>Functions</source>
+        <translation>関数</translation>
+    </message>
+    <message>
+        <source>Data in code</source>
+        <translation>コードのデータ</translation>
+    </message>
+    <message>
+        <source>Unknown</source>
+        <translation>不明</translation>
+    </message>
+    <message>
+        <source>Header</source>
+        <translation>ヘッダ</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>編集</translation>
+    </message>
+    <message>
+        <source>Demangle</source>
+        <translation>デマングル</translation>
+    </message>
+</context>
+<context>
+    <name>MSDOSWidget</name>
+    <message>
+        <source>Reload</source>
+        <translation>再読み込み</translation>
+    </message>
+    <message>
+        <source>Readonly</source>
+        <translation>読み取り専用</translation>
+    </message>
+    <message>
+        <source>Dump</source>
+        <translation>ダンプ</translation>
+    </message>
+    <message>
+        <source>Next visited</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Previous visited</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Info</source>
+        <translation>情報</translation>
+    </message>
+    <message>
+        <source>Visualization</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Hex</source>
+        <translation>16 進数</translation>
+    </message>
+    <message>
+        <source>Disasm</source>
+        <translation>Disasm</translation>
+    </message>
+    <message>
+        <source>Hash</source>
+        <translation>ハッシュ</translation>
+    </message>
+    <message>
+        <source>Strings</source>
+        <translation>文字列</translation>
+    </message>
+    <message>
+        <source>Signatures</source>
+        <translation>署名</translation>
+    </message>
+    <message>
+        <source>Memory map</source>
+        <translation>メモリ マップ</translation>
+    </message>
+    <message>
+        <source>Entropy</source>
+        <translation>エントロピー</translation>
+    </message>
+    <message>
+        <source>Extractor</source>
+        <translation>抽出</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>検索</translation>
+    </message>
+    <message>
+        <source>Overlay</source>
+        <translation>オーバーレイ</translation>
+    </message>
+</context>
+<context>
+    <name>MultiSearch</name>
+    <message>
+        <source>Number</source>
+        <translation>数字</translation>
+    </message>
+    <message>
+        <source>Offset</source>
+        <translation>オフセット</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>アドレス</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>サイズ</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation>種類</translation>
+    </message>
+    <message>
+        <source>String</source>
+        <translation>文字列</translation>
+    </message>
+    <message>
+        <source>Value</source>
+        <translation>値</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>名前</translation>
+    </message>
+</context>
+<context>
+    <name>NESectionHeaderWidget</name>
+    <message>
+        <source>Readonly</source>
+        <translation>読み取り専用</translation>
+    </message>
+</context>
+<context>
+    <name>NEWidget</name>
+    <message>
+        <source>Reload</source>
+        <translation>再読み込み</translation>
+    </message>
+    <message>
+        <source>Readonly</source>
+        <translation>読み取り専用</translation>
+    </message>
+    <message>
+        <source>Next visited</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Previous visited</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Info</source>
+        <translation>情報</translation>
+    </message>
+    <message>
+        <source>Visualization</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Hex</source>
+        <translation>16 進数</translation>
+    </message>
+    <message>
+        <source>Disasm</source>
+        <translation>Disasm</translation>
+    </message>
+    <message>
+        <source>Hash</source>
+        <translation>ハッシュ</translation>
+    </message>
+    <message>
+        <source>Strings</source>
+        <translation>文字列</translation>
+    </message>
+    <message>
+        <source>Signatures</source>
+        <translation>署名</translation>
+    </message>
+    <message>
+        <source>Memory map</source>
+        <translation>メモリ マップ</translation>
+    </message>
+    <message>
+        <source>Entropy</source>
+        <translation>エントロピー</translation>
+    </message>
+    <message>
+        <source>Extractor</source>
+        <translation>抽出</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>検索</translation>
+    </message>
+    <message>
+        <source>Segments</source>
+        <translation>セグメント</translation>
+    </message>
+    <message>
+        <source>Overlay</source>
+        <translation>オーバーレイ</translation>
+    </message>
+</context>
+<context>
+    <name>NFDOptionsWidget</name>
+    <message>
+        <source>Scan after open</source>
+        <translation>開いたらすぐスキャン開始</translation>
+    </message>
+    <message>
+        <source>Recursive scan</source>
+        <translation>ファイル スキャン</translation>
+    </message>
+    <message>
+        <source>Deep scan</source>
+        <translation>ディープスキャン</translation>
+    </message>
+    <message>
+        <source>Heuristic scan</source>
+        <translation>ヒューリスティック スキャン</translation>
+    </message>
+    <message>
+        <source>Verbose</source>
+        <translation>冗長な</translation>
+    </message>
+    <message>
+        <source>All types</source>
+        <translation>すべての種類</translation>
+    </message>
+    <message>
+        <source>Highlight</source>
+        <translation>ハイライト</translation>
+    </message>
+    <message>
+        <source>Buffer size</source>
+        <translation>バッファーサイズ</translation>
+    </message>
+</context>
+<context>
+    <name>NFDWidgetAdvanced</name>
+    <message>
+        <source>Save</source>
+        <translation>保存</translation>
+    </message>
+    <message>
+        <source>Scan</source>
+        <translation>スキャン</translation>
+    </message>
+    <message>
+        <source>Heuristic</source>
+        <translation>ヒューリスティック</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation>種類</translation>
+    </message>
+    <message>
+        <source>Flags</source>
+        <translation>フラグ</translation>
+    </message>
+    <message>
+        <source>Heuristics</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>結果</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>名前</translation>
+    </message>
+    <message>
+        <source>Value</source>
+        <translation>値</translation>
+    </message>
+</context>
+<context>
+    <name>NFD_Widget</name>
+    <message>
+        <source>Info</source>
+        <translation>情報</translation>
+    </message>
+    <message>
+        <source>Directory</source>
+        <translation>ディレクトリ</translation>
+    </message>
+    <message>
+        <source>Scan</source>
+        <translation>スキャン</translation>
+    </message>
+    <message>
+        <source>Stop</source>
+        <translation>停止</translation>
+    </message>
+    <message>
+        <source>Flags</source>
+        <translation>フラグ</translation>
+    </message>
+    <message>
+        <source>msec</source>
+        <translation>ミリ秒</translation>
+    </message>
+</context>
+<context>
+    <name>PDFWidget</name>
+    <message>
+        <source>Reload</source>
+        <translation>再読み込み</translation>
+    </message>
+    <message>
+        <source>Hex</source>
+        <translation>16 進数</translation>
+    </message>
+    <message>
+        <source>Strings</source>
+        <translation>文字列</translation>
+    </message>
+    <message>
+        <source>Memory map</source>
+        <translation>メモリ マップ</translation>
+    </message>
+    <message>
+        <source>Entropy</source>
+        <translation>エントロピー</translation>
+    </message>
+    <message>
+        <source>Heuristic scan</source>
+        <translation>ヒューリスティック スキャン</translation>
+    </message>
+    <message>
+        <source>Readonly</source>
+        <translation>読み取り専用</translation>
+    </message>
+    <message>
+        <source>Info</source>
+        <translation>情報</translation>
+    </message>
+    <message>
+        <source>Visualization</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Hash</source>
+        <translation>ハッシュ</translation>
+    </message>
+    <message>
+        <source>Signatures</source>
+        <translation>署名</translation>
+    </message>
+    <message>
+        <source>Extractor</source>
+        <translation>抽出</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>検索</translation>
+    </message>
+</context>
+<context>
+    <name>PEProcessData</name>
+    <message>
+        <source>Section</source>
+        <translation>セクション</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>名前</translation>
+    </message>
+    <message>
+        <source>Relative address</source>
+        <translation>相対アドレス</translation>
+    </message>
+    <message>
+        <source>Virtual size</source>
+        <translation>仮想サイズ</translation>
+    </message>
+    <message>
+        <source>File offset</source>
+        <translation>オフセット値</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>サイズ</translation>
+    </message>
+    <message>
+        <source>Flags</source>
+        <translation>フラグ</translation>
+    </message>
+    <message>
+        <source>Info</source>
+        <translation>情報</translation>
+    </message>
+    <message>
+        <source>Header</source>
+        <translation>ヘッダ</translation>
+    </message>
+    <message>
+        <source>Overlay</source>
+        <translation>オーバーレイ</translation>
+    </message>
+    <message>
+        <source>Entry point</source>
+        <translation>エントリ ポイント</translation>
+    </message>
+    <message>
+        <source>Export</source>
+        <translation>エクスポート</translation>
+    </message>
+    <message>
+        <source>Import</source>
+        <translation>インポート</translation>
+    </message>
+    <message>
+        <source>Resources</source>
+        <translation>リソース</translation>
+    </message>
+    <message>
+        <source>Exceptions</source>
+        <translation>例外</translation>
+    </message>
+    <message>
+        <source>Relocs</source>
+        <translation>再配置</translation>
+    </message>
+    <message>
+        <source>Debug</source>
+        <translation>デバッグ</translation>
+    </message>
+    <message>
+        <source>Load config</source>
+        <translation>構成を読み込み</translation>
+    </message>
+    <message>
+        <source>Bound import</source>
+        <translation>バインドされたインポート</translation>
+    </message>
+    <message>
+        <source>Delay import</source>
+        <translation>遅延インポート</translation>
+    </message>
+    <message>
+        <source>Tags</source>
+        <translation>タグ</translation>
+    </message>
+    <message>
+        <source>Description</source>
+        <translation>説明</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation>種類</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>アドレス</translation>
+    </message>
+    <message>
+        <source>Hash</source>
+        <translation>ハッシュ</translation>
+    </message>
+    <message>
+        <source>Offset</source>
+        <translation>オフセット</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>言語</translation>
+    </message>
+    <message>
+        <source>String</source>
+        <translation>文字列</translation>
+    </message>
+    <message>
+        <source>Certificate</source>
+        <translation>証明書</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>状態</translation>
+    </message>
+    <message>
+        <source>Program name</source>
+        <translation>プログラム名</translation>
+    </message>
+    <message>
+        <source>Publisher</source>
+        <translation>開発者</translation>
+    </message>
+    <message>
+        <source>More info</source>
+        <translation>詳細情報</translation>
+    </message>
+    <message>
+        <source>Serial number</source>
+        <translation>シリアルナンバー</translation>
+    </message>
+    <message>
+        <source>Issuer</source>
+        <translation>発行者</translation>
+    </message>
+    <message>
+        <source>Subject</source>
+        <translation>主題</translation>
+    </message>
+    <message>
+        <source>Algorithm</source>
+        <translation>アルゴリズム</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>バージョン</translation>
+    </message>
+    <message>
+        <source>Count</source>
+        <translation>個数</translation>
+    </message>
+    <message>
+        <source>Sorted</source>
+        <translation>並び替え済み</translation>
+    </message>
+</context>
+<context>
+    <name>PESectionHeaderWidget</name>
+    <message>
+        <source>Readonly</source>
+        <translation>読み取り専用</translation>
+    </message>
+</context>
+<context>
+    <name>PEToolsWidget</name>
+    <message>
+        <source>Tools</source>
+        <translation>ツール</translation>
+    </message>
+    <message>
+        <source>Add</source>
+        <translation>追加</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>削除</translation>
+    </message>
+    <message>
+        <source>Dump</source>
+        <translation>ダンプ</translation>
+    </message>
+    <message>
+        <source>Overlay</source>
+        <translation>オーバーレイ</translation>
+    </message>
+    <message>
+        <source>Save dump</source>
+        <translation>ダンプを保存</translation>
+    </message>
+    <message>
+        <source>Raw data</source>
+        <translation>Raw データ</translation>
+    </message>
+</context>
+<context>
+    <name>PEWidget</name>
+    <message>
+        <source>Reload</source>
+        <translation>再読み込み</translation>
+    </message>
+    <message>
+        <source>Readonly</source>
+        <translation>読み取り専用</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>保存</translation>
+    </message>
+    <message>
+        <source>Dump</source>
+        <translation>ダンプ</translation>
+    </message>
+    <message>
+        <source>String table</source>
+        <translation>文字列テーブル</translation>
+    </message>
+    <message>
+        <source>Dump all</source>
+        <translation>全てダンプ</translation>
+    </message>
+    <message>
+        <source>Show valid</source>
+        <translation>有効を表示</translation>
+    </message>
+    <message>
+        <source>Table</source>
+        <translation>テーブル</translation>
+    </message>
+    <message>
+        <source>Extract all icons</source>
+        <translation>全てのアイコンを抽出</translation>
+    </message>
+    <message>
+        <source>Extract all cursors</source>
+        <translation>全てのカーソルを抽出</translation>
+    </message>
+    <message>
+        <source>Tree</source>
+        <translation>ツリー</translation>
+    </message>
+    <message>
+        <source>Format</source>
+        <translation>書式</translation>
+    </message>
+    <message>
+        <source>Check</source>
+        <translation>チェック</translation>
+    </message>
+    <message>
+        <source>Next visited</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Previous visited</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Hash</source>
+        <translation>ハッシュ</translation>
+    </message>
+    <message>
+        <source>Info</source>
+        <translation>情報</translation>
+    </message>
+    <message>
+        <source>Visualization</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Hex</source>
+        <translation>16 進数</translation>
+    </message>
+    <message>
+        <source>Disasm</source>
+        <translation>Disasm</translation>
+    </message>
+    <message>
+        <source>Strings</source>
+        <translation>文字列</translation>
+    </message>
+    <message>
+        <source>Signatures</source>
+        <translation>署名</translation>
+    </message>
+    <message>
+        <source>Memory map</source>
+        <translation>メモリ マップ</translation>
+    </message>
+    <message>
+        <source>Entropy</source>
+        <translation>エントロピー</translation>
+    </message>
+    <message>
+        <source>Extractor</source>
+        <translation>抽出</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>検索</translation>
+    </message>
+    <message>
+        <source>Tools</source>
+        <translation>ツール</translation>
+    </message>
+    <message>
+        <source>Signature</source>
+        <translation>署名</translation>
+    </message>
+    <message>
+        <source>Sections</source>
+        <translation>セクション</translation>
+    </message>
+    <message>
+        <source>Export</source>
+        <translation>エクスポート</translation>
+    </message>
+    <message>
+        <source>Import</source>
+        <translation>インポート</translation>
+    </message>
+    <message>
+        <source>Resources</source>
+        <translation>リソース</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>バージョン</translation>
+    </message>
+    <message>
+        <source>Manifest</source>
+        <translation>Manifest</translation>
+    </message>
+    <message>
+        <source>Exceptions</source>
+        <translation>例外</translation>
+    </message>
+    <message>
+        <source>Certificate</source>
+        <translation>証明書</translation>
+    </message>
+    <message>
+        <source>Relocs</source>
+        <translation>再配置</translation>
+    </message>
+    <message>
+        <source>Debug</source>
+        <translation>デバッグ</translation>
+    </message>
+    <message>
+        <source>Callbacks</source>
+        <translation>コールバック</translation>
+    </message>
+    <message>
+        <source>Load config</source>
+        <translation>構成を読み込み</translation>
+    </message>
+    <message>
+        <source>Bound import</source>
+        <translation>バインドされたインポート</translation>
+    </message>
+    <message>
+        <source>Delay import</source>
+        <translation>遅延インポート</translation>
+    </message>
+    <message>
+        <source>Metadata</source>
+        <translation>メタデータ</translation>
+    </message>
+    <message>
+        <source>Metadata table</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Overlay</source>
+        <translation>オーバーレイ</translation>
+    </message>
+    <message>
+        <source>Calculate</source>
+        <translation>計算</translation>
+    </message>
+    <message>
+        <source>Unknown</source>
+        <translation>不明</translation>
+    </message>
+    <message>
+        <source>Header</source>
+        <translation>ヘッダ</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>編集</translation>
+    </message>
+    <message>
+        <source>Dump to file</source>
+        <translation>ファイルにダンプ</translation>
+    </message>
+    <message>
+        <source>Demangle</source>
+        <translation>デマングル</translation>
+    </message>
+</context>
+<context>
+    <name>QObject</name>
+    <message>
+        <source>Type</source>
+        <translation>種類</translation>
+    </message>
+    <message>
+        <source>Count</source>
+        <translation>個数</translation>
+    </message>
+    <message>
+        <source>Offset</source>
+        <translation>オフセット</translation>
+    </message>
+    <message>
+        <source>String</source>
+        <translation>文字列</translation>
+    </message>
+    <message>
+        <source>Library name</source>
+        <translation>ライブラリ名</translation>
+    </message>
+    <message>
+        <source>Interpreter</source>
+        <translation>通訳者</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>名前</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>バージョン</translation>
+    </message>
+    <message>
+        <source>Length</source>
+        <translation>長さ</translation>
+    </message>
+    <message>
+        <source>Value</source>
+        <translation>値</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>アドレス</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>サイズ</translation>
+    </message>
+    <message>
+        <source>Cannot open file</source>
+        <translation>ファイルを開けませんでした</translation>
+    </message>
+</context>
+<context>
+    <name>QwtPlotRenderer</name>
+    <message>
+        <source>Documents</source>
+        <translation>ドキュメント</translation>
+    </message>
+    <message>
+        <source>Images</source>
+        <translation>イメージ</translation>
+    </message>
+    <message>
+        <source>Export File Name</source>
+        <translation>ファイル名のエクスポート</translation>
+    </message>
+</context>
+<context>
+    <name>QwtPolarRenderer</name>
+    <message>
+        <source>Documents</source>
+        <translation>ドキュメント</translation>
+    </message>
+    <message>
+        <source>Images</source>
+        <translation>イメージ</translation>
+    </message>
+    <message>
+        <source>Export File Name</source>
+        <translation>ファイル名のエクスポート</translation>
+    </message>
+</context>
+<context>
+    <name>ScanItemModel</name>
+    <message>
+        <source>Result</source>
+        <translation>結果</translation>
+    </message>
+</context>
+<context>
+    <name>SearchSignaturesOptionsWidget</name>
+    <message>
+        <source>Form</source>
+        <translation>フォーム</translation>
+    </message>
+    <message>
+        <source>Search signatures</source>
+        <translation>署名</translation>
+    </message>
+    <message>
+        <source>Open directory</source>
+        <translation>ディレクトリを開く</translation>
+    </message>
+</context>
+<context>
+    <name>SearchSignaturesWidget</name>
+    <message>
+        <source>Save</source>
+        <translation>保存</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>検索</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>ファイル</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation>種類</translation>
+    </message>
+    <message>
+        <source>Endianness</source>
+        <translation>エンディアン</translation>
+    </message>
+    <message>
+        <source>Info</source>
+        <translation>情報</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>結果</translation>
+    </message>
+    <message>
+        <source>Signatures</source>
+        <translation>署名</translation>
+    </message>
+    <message>
+        <source>Copy</source>
+        <translation>コピー</translation>
+    </message>
+    <message>
+        <source>Follow in</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>名前</translation>
+    </message>
+    <message>
+        <source>Signature</source>
+        <translation>署名</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>アドレス</translation>
+    </message>
+    <message>
+        <source>Offset</source>
+        <translation>オフセット</translation>
+    </message>
+    <message>
+        <source>Hex</source>
+        <translation>16 進数</translation>
+    </message>
+</context>
+<context>
+    <name>SearchStringsWidget</name>
+    <message>
+        <source>Null-terminated</source>
+        <translation>null終端文字</translation>
+    </message>
+    <message>
+        <source>Links</source>
+        <translation>リンク</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>保存</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>検索</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation>種類</translation>
+    </message>
+    <message>
+        <source>Mode</source>
+        <translation>モード</translation>
+    </message>
+    <message>
+        <source>Mask</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Regular expression</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Min length</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>結果</translation>
+    </message>
+    <message>
+        <source>Strings</source>
+        <translation>文字列</translation>
+    </message>
+    <message>
+        <source>Follow in</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>編集</translation>
+    </message>
+    <message>
+        <source>Hex</source>
+        <translation>16 進数</translation>
+    </message>
+    <message>
+        <source>Demangle</source>
+        <translation>デマングル</translation>
+    </message>
+    <message>
+        <source>String</source>
+        <translation>文字列</translation>
+    </message>
+    <message>
+        <source>Error</source>
+        <translation>エラー</translation>
+    </message>
+    <message>
+        <source>Cannot save file</source>
+        <translation>ファイルを保存できませんでした</translation>
+    </message>
+</context>
+<context>
+    <name>SearchValuesWidget</name>
+    <message>
+        <source>String</source>
+        <translation>文字列</translation>
+    </message>
+    <message>
+        <source>Signature</source>
+        <translation>署名</translation>
+    </message>
+    <message>
+        <source>Value</source>
+        <translation>値</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>保存</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>検索</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation>種類</translation>
+    </message>
+    <message>
+        <source>Mode</source>
+        <translation>モード</translation>
+    </message>
+    <message>
+        <source>Search string</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Search signature</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Search value</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>結果</translation>
+    </message>
+    <message>
+        <source>Values</source>
+        <translation>値</translation>
+    </message>
+</context>
+<context>
+    <name>SpecAbstract</name>
+    <message>
+        <source>Unknown</source>
+        <translation>不明</translation>
+    </message>
+    <message>
+        <source>Header</source>
+        <translation>ヘッダ</translation>
+    </message>
+    <message>
+        <source>Overlay</source>
+        <translation>オーバーレイ</translation>
+    </message>
+    <message>
+        <source>Debug data</source>
+        <translation>デバッグ データ</translation>
+    </message>
+    <message>
+        <source>Entry point</source>
+        <translation>エントリ ポイント</translation>
+    </message>
+    <message>
+        <source>Section name</source>
+        <translation>セクション名</translation>
+    </message>
+    <message>
+        <source>Import hash</source>
+        <translation>ハッシュをインポートする</translation>
+    </message>
+    <message>
+        <source>Code section</source>
+        <translation>コード セクション</translation>
+    </message>
+    <message>
+        <source>Entry point section</source>
+        <translation>エントリ ポイントセクション</translation>
+    </message>
+    <message>
+        <source>String</source>
+        <translation>文字列</translation>
+    </message>
+    <message>
+        <source>Archive</source>
+        <translation>アーカイブ</translation>
+    </message>
+    <message>
+        <source>Resources</source>
+        <translation>リソース</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation>種類</translation>
+    </message>
+</context>
+<context>
+    <name>StaticScan</name>
+    <message>
+        <source>File scan</source>
+        <translation>ファイル スキャン</translation>
+    </message>
+    <message>
+        <source>Device scan</source>
+        <translation>デバイスのスキャン</translation>
+    </message>
+    <message>
+        <source>Memory scan</source>
+        <translation>メモリスキャン</translation>
+    </message>
+    <message>
+        <source>Directory scan</source>
+        <translation>ディレクトリのスキャン</translation>
+    </message>
+</context>
+<context>
+    <name>StaticScanOptionsWidget</name>
+    <message>
+        <source>Scan after open</source>
+        <translation>開いたらすぐスキャン開始</translation>
+    </message>
+    <message>
+        <source>Recursive scan</source>
+        <translation>ファイル スキャン</translation>
+    </message>
+    <message>
+        <source>Deep scan</source>
+        <translation>ディープスキャン</translation>
+    </message>
+    <message>
+        <source>Heuristic scan</source>
+        <translation>ヒューリスティック スキャン</translation>
+    </message>
+    <message>
+        <source>Verbose</source>
+        <translation>冗長な</translation>
+    </message>
+    <message>
+        <source>All types</source>
+        <translation>すべての種類</translation>
+    </message>
+</context>
+<context>
+    <name>ToolsWidget</name>
+    <message>
+        <source>Strings</source>
+        <translation>文字列</translation>
+    </message>
+</context>
+<context>
+    <name>XAPK</name>
+    <message>
+        <source>Universal</source>
+        <translation>ユニバーサル</translation>
+    </message>
+    <message>
+        <source>Unknown</source>
+        <translation>不明</translation>
+    </message>
+    <message>
+        <source>Package</source>
+        <translation>パッケージ</translation>
+    </message>
+</context>
+<context>
+    <name>XAboutWidget</name>
+    <message>
+        <source>Info</source>
+        <translation>情報</translation>
+    </message>
+    <message>
+        <source>Follow me</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Thanks</source>
+        <translation>謝辞</translation>
+    </message>
+    <message>
+        <source>Check updates</source>
+        <translation>アップデートの確認</translation>
+    </message>
+    <message>
+        <source>Libraries</source>
+        <translation>ライブラリ</translation>
+    </message>
+    <message>
+        <source>Update information</source>
+        <translation>情報を更新する</translation>
+    </message>
+    <message>
+        <source>New version available</source>
+        <translation>新バージョンが利用可能です</translation>
+    </message>
+    <message>
+        <source>Go to download page?</source>
+        <translation>ダウンロードページに移動しますか？</translation>
+    </message>
+    <message>
+        <source>No update available</source>
+        <translation>アップデートはありません</translation>
+    </message>
+    <message>
+        <source>Network error</source>
+        <translation>ネットワークエラー</translation>
+    </message>
+    <message>
+        <source>Information</source>
+        <translation>インフォメーション</translation>
+    </message>
+    <message>
+        <source>The value copied to clipboard</source>
+        <translation>クリップボードに値をコピーしました</translation>
+    </message>
+</context>
+<context>
+    <name>XAbstractTableView</name>
+    <message>
+        <source>Invalid font</source>
+        <translation>無効なフォント</translation>
+    </message>
+</context>
+<context>
+    <name>XAmigaHunk</name>
+    <message>
+        <source>Unknown</source>
+        <translation>不明</translation>
+    </message>
+    <message>
+        <source>Object</source>
+        <translation>オブジェクト</translation>
+    </message>
+</context>
+<context>
+    <name>XArchive</name>
+    <message>
+        <source>Unknown</source>
+        <translation>不明</translation>
+    </message>
+    <message>
+        <source>Archive</source>
+        <translation>アーカイブ</translation>
+    </message>
+    <message>
+        <source>extender</source>
+        <translation>エクステンダ</translation>
+    </message>
+</context>
+<context>
+    <name>XBinary</name>
+    <message>
+        <source>Unknown</source>
+        <translation>不明</translation>
+    </message>
+    <message>
+        <source>8-bit</source>
+        <translation>8ビット</translation>
+    </message>
+    <message>
+        <source>16-bit</source>
+        <translation>16ビット</translation>
+    </message>
+    <message>
+        <source>32-bit</source>
+        <translation>32ビット</translation>
+    </message>
+    <message>
+        <source>64-bit</source>
+        <translation>64ビット</translation>
+    </message>
+    <message>
+        <source>128-bit</source>
+        <translation>128ビット</translation>
+    </message>
+    <message>
+        <source>256-bit</source>
+        <translation>256ビット</translation>
+    </message>
+    <message>
+        <source>Data</source>
+        <translation>データ</translation>
+    </message>
+    <message>
+        <source>Region</source>
+        <translation>領域</translation>
+    </message>
+    <message>
+        <source>Process</source>
+        <translation>プロセス</translation>
+    </message>
+    <message>
+        <source>Archive</source>
+        <translation>アーカイブ</translation>
+    </message>
+    <message>
+        <source>Audio</source>
+        <translation>オーディオ</translation>
+    </message>
+    <message>
+        <source>Document</source>
+        <translation>ドキュメント</translation>
+    </message>
+    <message>
+        <source>Image</source>
+        <translation>イメージ</translation>
+    </message>
+    <message>
+        <source>Plain Text</source>
+        <translation>プレーンテキスト</translation>
+    </message>
+    <message>
+        <source>Signature</source>
+        <translation>署名</translation>
+    </message>
+    <message>
+        <source>Text</source>
+        <translation>文字</translation>
+    </message>
+    <message>
+        <source>Video</source>
+        <translation>動画</translation>
+    </message>
+    <message>
+        <source>Signatures</source>
+        <translation>署名</translation>
+    </message>
+    <message>
+        <source>Read error</source>
+        <translation>読み取りエラー</translation>
+    </message>
+    <message>
+        <source>Maximum</source>
+        <translation>最大</translation>
+    </message>
+    <message>
+        <source>Regions</source>
+        <translation>領域</translation>
+    </message>
+    <message>
+        <source>Segments</source>
+        <translation>セグメント</translation>
+    </message>
+    <message>
+        <source>Sections</source>
+        <translation>セクション</translation>
+    </message>
+    <message>
+        <source>Objects</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Maps</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Invalid signature</source>
+        <translation>無効な署名</translation>
+    </message>
+    <message>
+        <source>Write error</source>
+        <translation>書き込みエラー</translation>
+    </message>
+    <message>
+        <source>true</source>
+        <translation>true</translation>
+    </message>
+    <message>
+        <source>false</source>
+        <translation>false</translation>
+    </message>
+    <message>
+        <source>Default</source>
+        <translation>標準</translation>
+    </message>
+    <message>
+        <source>Multiplatform</source>
+        <translation>マルチプラットフォーム</translation>
+    </message>
+    <message>
         <source>Bytes</source>
         <translation>バイト</translation>
     </message>
     <message>
-        <location filename="../../XDisasm/xdisasmmodel.cpp" line="55"/>
-        <source>Opcode</source>
+        <source>KiB</source>
+        <translation>KiB</translation>
+    </message>
+    <message>
+        <source>kB</source>
+        <translation>kB</translation>
+    </message>
+    <message>
+        <source>MiB</source>
+        <translation>MiB</translation>
+    </message>
+    <message>
+        <source>MB</source>
+        <translation>MB</translation>
+    </message>
+    <message>
+        <source>GiB</source>
+        <translation>GiB</translation>
+    </message>
+    <message>
+        <source>GB</source>
+        <translation>GB</translation>
+    </message>
+    <message>
+        <source>TiB</source>
+        <translation>TiB</translation>
+    </message>
+    <message>
+        <source>TB</source>
+        <translation>TB</translation>
+    </message>
+    <message>
+        <source>Header</source>
+        <translation>ヘッダ</translation>
+    </message>
+    <message>
+        <source>Overlay</source>
+        <translation>オーバーレイ</translation>
+    </message>
+    <message>
+        <source>Archive record</source>
+        <translation>アーカイブ レコード</translation>
+    </message>
+    <message>
+        <source>Resource</source>
+        <translation>リソース</translation>
+    </message>
+    <message>
+        <source>Debug data</source>
+        <translation>デバッグ データ</translation>
+    </message>
+</context>
+<context>
+    <name>XCOM</name>
+    <message>
+        <source>Unknown</source>
+        <translation>不明</translation>
+    </message>
+</context>
+<context>
+    <name>XCapstone</name>
+    <message>
+        <source>Invalid opcode</source>
+        <translation>無効な Opcode</translation>
+    </message>
+</context>
+<context>
+    <name>XComboBoxEx</name>
+    <message>
+        <source>Flags</source>
+        <translation>フラグ</translation>
+    </message>
+</context>
+<context>
+    <name>XDEX</name>
+    <message>
+        <source>Unknown</source>
+        <translation>不明</translation>
+    </message>
+    <message>
+        <source>Main module</source>
         <translation></translation>
+    </message>
+    <message>
+        <source>Header</source>
+        <translation>ヘッダ</translation>
+    </message>
+    <message>
+        <source>Overlay</source>
+        <translation>オーバーレイ</translation>
+    </message>
+</context>
+<context>
+    <name>XDOS16</name>
+    <message>
+        <source>Loader</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Payload</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Data</source>
+        <translation>データ</translation>
+    </message>
+</context>
+<context>
+    <name>XDataConvertor</name>
+    <message>
+        <source>Read error</source>
+        <translation>読み取りエラー</translation>
+    </message>
+    <message>
+        <source>Write error</source>
+        <translation>書き込みエラー</translation>
+    </message>
+    <message>
+        <source>Invalid size</source>
+        <translation>無効なサイズ</translation>
+    </message>
+    <message>
+        <source>Cannot resize</source>
+        <translation>リサイズができませんでした</translation>
+    </message>
+</context>
+<context>
+    <name>XDataConvertorWidget</name>
+    <message>
+        <source>Form</source>
+        <translation>フォーム</translation>
+    </message>
+    <message>
+        <source>Method</source>
+        <translation>方法</translation>
+    </message>
+    <message>
+        <source>Encode</source>
+        <translation>エンコード</translation>
+    </message>
+    <message>
+        <source>Decode</source>
+        <translation>デコード</translation>
+    </message>
+    <message>
+        <source>Input</source>
+        <translation>入力</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>サイズ</translation>
+    </message>
+    <message>
+        <source>Entropy</source>
+        <translation>エントロピー</translation>
+    </message>
+    <message>
+        <source>Dump</source>
+        <translation>ダンプ</translation>
+    </message>
+    <message>
+        <source>Output</source>
+        <translation>出力</translation>
+    </message>
+</context>
+<context>
+    <name>XDemangle</name>
+    <message>
+        <source>Unknown</source>
+        <translation>不明</translation>
+    </message>
+    <message>
+        <source>Automatic</source>
+        <translation>自動</translation>
+    </message>
+</context>
+<context>
+    <name>XDemangleWidget</name>
+    <message>
+        <source>Mode</source>
+        <translation>モード</translation>
+    </message>
+</context>
+<context>
+    <name>XDeviceTableEditView</name>
+    <message>
+        <source>Open file</source>
+        <translation>ファイルを開く</translation>
+    </message>
+    <message>
+        <source>Patch</source>
+        <translation>パッチ</translation>
+    </message>
+    <message>
+        <source>Cannot resize</source>
+        <translation>リサイズができませんでした</translation>
+    </message>
+</context>
+<context>
+    <name>XDeviceTableView</name>
+    <message>
+        <source>Save dump</source>
+        <translation>ダンプを保存</translation>
+    </message>
+    <message>
+        <source>Raw data</source>
+        <translation>Raw データ</translation>
+    </message>
+    <message>
+        <source>Dump</source>
+        <translation>ダンプ</translation>
+    </message>
+    <message>
+        <source>Nothing found</source>
+        <translation>見つかりません</translation>
+    </message>
+</context>
+<context>
+    <name>XDialogProcess</name>
+    <message>
+        <source>Process</source>
+        <translation>プロセス</translation>
+    </message>
+    <message>
+        <source>Advanced</source>
+        <translation>高度な</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>キャンセル</translation>
+    </message>
+    <message>
+        <source>Error</source>
+        <translation>エラー</translation>
+    </message>
+    <message>
+        <source>Info</source>
+        <translation>情報</translation>
+    </message>
+</context>
+<context>
+    <name>XDisasmModel</name>
+    <message>
+        <source>Address</source>
+        <translation>アドレス</translation>
+    </message>
+    <message>
+        <source>Offset</source>
+        <translation>オフセット</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>ラベル</translation>
+    </message>
+    <message>
+        <source>Bytes</source>
+        <translation>バイト</translation>
+    </message>
+    <message>
+        <source>Opcode</source>
+        <translation>Opcode</translation>
+    </message>
+</context>
+<context>
+    <name>XDisasmView</name>
+    <message>
+        <source>Address</source>
+        <translation>アドレス</translation>
+    </message>
+    <message>
+        <source>Bytes</source>
+        <translation>バイト</translation>
+    </message>
+    <message>
+        <source>Opcode</source>
+        <translation>Opcode</translation>
+    </message>
+    <message>
+        <source>Comment</source>
+        <translation>コメント</translation>
+    </message>
+    <message>
+        <source>Offset</source>
+        <translation>オフセット</translation>
+    </message>
+    <message>
+        <source>Analyze</source>
+        <translation>分析</translation>
+    </message>
+    <message>
+        <source>Bookmarks</source>
+        <translation>ブックマーク</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>すべて</translation>
+    </message>
+    <message>
+        <source>Disasm</source>
+        <translation>Disasm</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>削除</translation>
+    </message>
+    <message>
+        <source>Symbols</source>
+        <translation>シンボル</translation>
+    </message>
+    <message>
+        <source>Functions</source>
+        <translation>関数</translation>
+    </message>
+    <message>
+        <source>Clear</source>
+        <translation>消去</translation>
+    </message>
+    <message>
+        <source>New</source>
+        <translation>新規</translation>
+    </message>
+    <message>
+        <source>List</source>
+        <translation>リスト</translation>
+    </message>
+    <message>
+        <source>Relative address</source>
+        <translation>相対アドレス</translation>
+    </message>
+</context>
+<context>
+    <name>XDisasmViewOptionsWidget</name>
+    <message>
+        <source>Syntax</source>
+        <translation>構文</translation>
+    </message>
+    <message>
+        <source>Uppercase</source>
+        <translation>大文字</translation>
+    </message>
+    <message>
+        <source>Show colons in addresses</source>
+        <translation>アドレス内にコロンを表示</translation>
+    </message>
+    <message>
+        <source>Highlight</source>
+        <translation>ハイライト</translation>
+    </message>
+    <message>
+        <source>Colors</source>
+        <translation>色</translation>
+    </message>
+    <message>
+        <source>Arrows</source>
+        <translation>矢印</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>すべて</translation>
+    </message>
+    <message>
+        <source>Selected</source>
+        <translation>選択中</translation>
+    </message>
+    <message>
+        <source>Registers</source>
+        <translation>レジスタ</translation>
+    </message>
+    <message>
+        <source>Numbers</source>
+        <translation>数字</translation>
+    </message>
+    <message>
+        <source>Opcodes</source>
+        <translation>Opcodes</translation>
+    </message>
+    <message>
+        <source>References</source>
+        <translation>参照</translation>
+    </message>
+    <message>
+        <source>General registers</source>
+        <translation>汎用レジスタ</translation>
+    </message>
+    <message>
+        <source>Stack registers</source>
+        <translation>スタックレジスタ</translation>
+    </message>
+    <message>
+        <source>Segment registers</source>
+        <translation>セグメントレジスタ</translation>
+    </message>
+    <message>
+        <source>Debug registers</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Instruction pointer register</source>
+        <translation>Instruction pointer レジスタ</translation>
+    </message>
+    <message>
+        <source>Flags register</source>
+        <translation>フラグ レジスター</translation>
     </message>
 </context>
 <context>
     <name>XDisasmWidget</name>
     <message>
-        <location filename="../../XDisasm/xdisasmwidget.ui" line="40"/>
         <source>Type</source>
         <translation>種類</translation>
     </message>
     <message>
-        <location filename="../../XDisasm/xdisasmwidget.ui" line="64"/>
         <source>Analyze</source>
-        <translation></translation>
+        <translation>分析</translation>
     </message>
     <message>
-        <location filename="../../XDisasm/xdisasmwidget.ui" line="71"/>
         <source>Labels</source>
-        <translation></translation>
+        <translation>ラベル</translation>
     </message>
     <message>
-        <location filename="../../XDisasm/xdisasmwidget.ui" line="85"/>
         <source>Overlay</source>
         <translation>オーバーレイ</translation>
     </message>
     <message>
-        <location filename="../../XDisasm/xdisasmwidget.cpp" line="333"/>
         <source>Go to</source>
-        <translation></translation>
+        <translation>移動</translation>
     </message>
     <message>
-        <location filename="../../XDisasm/xdisasmwidget.cpp" line="335"/>
         <source>Entry point</source>
-        <translation></translation>
+        <translation>エントリ ポイント</translation>
     </message>
     <message>
-        <location filename="../../XDisasm/xdisasmwidget.cpp" line="339"/>
-        <location filename="../../XDisasm/xdisasmwidget.cpp" line="360"/>
         <source>Virtual address</source>
         <translation>仮想アドレス</translation>
     </message>
     <message>
-        <location filename="../../XDisasm/xdisasmwidget.cpp" line="343"/>
-        <location filename="../../XDisasm/xdisasmwidget.cpp" line="364"/>
         <source>Relative virtual address</source>
         <translation>相対仮想ADD</translation>
     </message>
     <message>
-        <location filename="../../XDisasm/xdisasmwidget.cpp" line="347"/>
-        <location filename="../../XDisasm/xdisasmwidget.cpp" line="368"/>
         <source>File offset</source>
         <translation>オフセット値</translation>
     </message>
     <message>
-        <location filename="../../XDisasm/xdisasmwidget.cpp" line="358"/>
         <source>Copy</source>
         <translation>コピー</translation>
     </message>
     <message>
-        <location filename="../../XDisasm/xdisasmwidget.cpp" line="382"/>
         <source>Signature</source>
         <translation>署名</translation>
     </message>
     <message>
-        <location filename="../../XDisasm/xdisasmwidget.cpp" line="386"/>
         <source>Dump to file</source>
-        <translation></translation>
+        <translation>ファイルにダンプ</translation>
     </message>
     <message>
-        <location filename="../../XDisasm/xdisasmwidget.cpp" line="390"/>
         <source>Disasm</source>
-        <translation></translation>
+        <translation>Disasm</translation>
     </message>
     <message>
-        <location filename="../../XDisasm/xdisasmwidget.cpp" line="394"/>
         <source>To data</source>
-        <translation></translation>
+        <translation>データへ</translation>
     </message>
     <message>
-        <location filename="../../XDisasm/xdisasmwidget.cpp" line="510"/>
         <source>Raw data</source>
-        <translation></translation>
+        <translation>Raw データ</translation>
     </message>
     <message>
-        <location filename="../../XDisasm/xdisasmwidget.cpp" line="512"/>
         <source>Save dump</source>
-        <translation></translation>
+        <translation>ダンプを保存</translation>
     </message>
     <message>
-        <location filename="../../XDisasm/xdisasmwidget.cpp" line="636"/>
         <source>Error</source>
         <translation>エラー</translation>
     </message>
 </context>
 <context>
+    <name>XDynStructsEngine</name>
+    <message>
+        <source>Value</source>
+        <translation>値</translation>
+    </message>
+    <message>
+        <source>Cannot load file</source>
+        <translation>ファイルを読み込めませんでした</translation>
+    </message>
+</context>
+<context>
+    <name>XDynStructsOptionsWidget</name>
+    <message>
+        <source>Structs</source>
+        <translation>構造体</translation>
+    </message>
+    <message>
+        <source>Open directory</source>
+        <translation>ディレクトリを開く</translation>
+    </message>
+</context>
+<context>
+    <name>XDynStructsWidget</name>
+    <message>
+        <source>Reload</source>
+        <translation>再読み込み</translation>
+    </message>
+    <message>
+        <source>Hex</source>
+        <translation>16 進数</translation>
+    </message>
+    <message>
+        <source>Disasm</source>
+        <translation>Disasm</translation>
+    </message>
+    <message>
+        <source>Prototype</source>
+        <translation>プロトタイプ</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>保存</translation>
+    </message>
+    <message>
+        <source>Array</source>
+        <translation>配列</translation>
+    </message>
+    <message>
+        <source>Variable</source>
+        <translation>変数</translation>
+    </message>
+    <message>
+        <source>Pointer</source>
+        <translation>ポインタ</translation>
+    </message>
+    <message>
+        <source>Error</source>
+        <translation>エラー</translation>
+    </message>
+    <message>
+        <source>Cannot read memory at address</source>
+        <translation>アドレスのメモリを読み取れませんでした</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>結果</translation>
+    </message>
+    <message>
+        <source>Files</source>
+        <translation>ファイル</translation>
+    </message>
+    <message>
+        <source>All files</source>
+        <translation>すべてのファイル</translation>
+    </message>
+</context>
+<context>
     <name>XELF</name>
     <message>
-        <location filename="../../Formats/xelf.cpp" line="3616"/>
-        <source>Segment</source>
+        <source>Section</source>
+        <translation>セクション</translation>
+    </message>
+    <message>
+        <source>Overlay</source>
+        <translation>オーバーレイ</translation>
+    </message>
+    <message>
+        <source>Unknown</source>
+        <translation>不明</translation>
+    </message>
+    <message>
+        <source>String table</source>
+        <translation>文字列テーブル</translation>
+    </message>
+    <message>
+        <source>Libraries</source>
+        <translation>ライブラリ</translation>
+    </message>
+    <message>
+        <source>Run path</source>
         <translation></translation>
+    </message>
+    <message>
+        <source>Symbol table</source>
+        <translation>シンボル テーブル</translation>
     </message>
 </context>
 <context>
     <name>XEntropyWidget</name>
     <message>
-        <location filename="../../XEntropyWidget/xentropywidget.ui" line="40"/>
-        <source>Type</source>
-        <translation>種類</translation>
-    </message>
-    <message>
-        <location filename="../../XEntropyWidget/xentropywidget.ui" line="70"/>
-        <source>Total</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="../../XEntropyWidget/xentropywidget.ui" line="126"/>
-        <location filename="../../XEntropyWidget/xentropywidget.cpp" line="238"/>
-        <source>Status</source>
-        <translation>ステータス</translation>
-    </message>
-    <message>
-        <location filename="../../XEntropyWidget/xentropywidget.ui" line="176"/>
-        <location filename="../../XEntropyWidget/xentropywidget.cpp" line="235"/>
-        <source>Offset</source>
-        <translation>オフセット</translation>
-    </message>
-    <message>
-        <location filename="../../XEntropyWidget/xentropywidget.ui" line="213"/>
-        <location filename="../../XEntropyWidget/xentropywidget.cpp" line="236"/>
-        <source>Size</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="../../XEntropyWidget/xentropywidget.ui" line="244"/>
         <source>Reload</source>
         <translation>再読み込み</translation>
     </message>
     <message>
-        <location filename="../../XEntropyWidget/xentropywidget.ui" line="257"/>
-        <location filename="../../XEntropyWidget/xentropywidget.cpp" line="237"/>
-        <source>Entropy</source>
-        <translation>エントロピー</translation>
-    </message>
-    <message>
-        <location filename="../../XEntropyWidget/xentropywidget.ui" line="287"/>
-        <source>Regions</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="../../XEntropyWidget/xentropywidget.ui" line="361"/>
         <source>Save</source>
         <translation>保存</translation>
     </message>
     <message>
-        <location filename="../../XEntropyWidget/xentropywidget.ui" line="371"/>
+        <source>Save diagram</source>
+        <translation>グラフを保存</translation>
+    </message>
+    <message>
+        <source>Entropy</source>
+        <translation>エントロピー</translation>
+    </message>
+    <message>
+        <source>Regions</source>
+        <translation>領域</translation>
+    </message>
+    <message>
+        <source>Diagram</source>
+        <translation>グラフ</translation>
+    </message>
+    <message>
+        <source>Grid</source>
+        <translation>グリッド</translation>
+    </message>
+    <message>
         <source>Bytes</source>
         <translation>バイト</translation>
     </message>
     <message>
-        <location filename="../../XEntropyWidget/xentropywidget.cpp" line="131"/>
-        <source>Byte</source>
-        <translation>バイト</translation>
+        <source>Type</source>
+        <translation>種類</translation>
     </message>
     <message>
-        <location filename="../../XEntropyWidget/xentropywidget.cpp" line="132"/>
+        <source>Mode</source>
+        <translation>モード</translation>
+    </message>
+    <message>
         <source>Count</source>
         <translation>個数</translation>
     </message>
     <message>
-        <location filename="../../XEntropyWidget/xentropywidget.cpp" line="234"/>
+        <source>Size</source>
+        <translation>サイズ</translation>
+    </message>
+    <message>
+        <source>Total</source>
+        <translation>合計</translation>
+    </message>
+    <message>
+        <source>Offset</source>
+        <translation>オフセット</translation>
+    </message>
+    <message>
+        <source>Byte</source>
+        <translation>バイト</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>状態</translation>
+    </message>
+    <message>
         <source>Name</source>
         <translation>名前</translation>
     </message>
     <message>
-        <location filename="../../XEntropyWidget/xentropywidget.cpp" line="281"/>
-        <source>packed</source>
-        <translation>パック済み</translation>
+        <source>Strings</source>
+        <translation>文字列</translation>
+    </message>
+</context>
+<context>
+    <name>XExtractorWidget</name>
+    <message>
+        <source>Extract</source>
+        <translation>抽出</translation>
     </message>
     <message>
-        <location filename="../../XEntropyWidget/xentropywidget.cpp" line="281"/>
-        <source>not packed</source>
-        <translation>未パック</translation>
+        <source>Dump all</source>
+        <translation>全てダンプ</translation>
     </message>
     <message>
-        <location filename="../../XEntropyWidget/xentropywidget.cpp" line="355"/>
-        <source>Images</source>
-        <translation></translation>
+        <source>Save</source>
+        <translation>保存</translation>
     </message>
     <message>
-        <location filename="../../XEntropyWidget/xentropywidget.cpp" line="373"/>
-        <location filename="../../XEntropyWidget/xentropywidget.cpp" line="374"/>
-        <source>Documents</source>
-        <translation></translation>
+        <source>Scan</source>
+        <translation>スキャン</translation>
     </message>
     <message>
-        <location filename="../../XEntropyWidget/xentropywidget.cpp" line="380"/>
-        <source>Save diagram</source>
-        <translation>グラフを保存</translation>
+        <source>Deep scan</source>
+        <translation>ディープスキャン</translation>
+    </message>
+    <message>
+        <source>Heuristic scan</source>
+        <translation>ヒューリスティック スキャン</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation>種類</translation>
+    </message>
+    <message>
+        <source>Mode</source>
+        <translation>モード</translation>
+    </message>
+    <message>
+        <source>Options</source>
+        <translation>設定</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>サイズ</translation>
+    </message>
+    <message>
+        <source>Offset</source>
+        <translation>オフセット</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>アドレス</translation>
+    </message>
+    <message>
+        <source>Save dump</source>
+        <translation>ダンプを保存</translation>
+    </message>
+</context>
+<context>
+    <name>XFileInfoWidget</name>
+    <message>
+        <source>Form</source>
+        <translation>フォーム</translation>
+    </message>
+    <message>
+        <source>Comment</source>
+        <translation>コメント</translation>
+    </message>
+    <message>
+        <source>Reload</source>
+        <translation>再読み込み</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>保存</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation>種類</translation>
+    </message>
+    <message>
+        <source>Method</source>
+        <translation>方法</translation>
+    </message>
+    <message>
+        <source>Output</source>
+        <translation>出力</translation>
+    </message>
+    <message>
+        <source>Text</source>
+        <translation>文字</translation>
+    </message>
+    <message>
+        <source>Info</source>
+        <translation>情報</translation>
+    </message>
+    <message>
+        <source>Save file</source>
+        <translation>保存</translation>
+    </message>
+    <message>
+        <source>Text files</source>
+        <translation>テキスト ファイル</translation>
+    </message>
+    <message>
+        <source>All files</source>
+        <translation>すべてのファイル</translation>
+    </message>
+</context>
+<context>
+    <name>XGzip</name>
+    <message>
+        <source>Header</source>
+        <translation>ヘッダ</translation>
+    </message>
+    <message>
+        <source>Footer</source>
+        <translation>フッター</translation>
     </message>
 </context>
 <context>
     <name>XHashWidget</name>
     <message>
-        <location filename="../../XHashWidget/xhashwidget.ui" line="40"/>
+        <source>Save</source>
+        <translation>保存</translation>
+    </message>
+    <message>
+        <source>Reload</source>
+        <translation>再読み込み</translation>
+    </message>
+    <message>
         <source>Type</source>
         <translation>種類</translation>
     </message>
     <message>
-        <location filename="../../XHashWidget/xhashwidget.ui" line="70"/>
         <source>Method</source>
         <translation>方法</translation>
     </message>
     <message>
-        <location filename="../../XHashWidget/xhashwidget.ui" line="100"/>
-        <location filename="../../XHashWidget/xhashwidget.cpp" line="134"/>
+        <source>Mode</source>
+        <translation>モード</translation>
+    </message>
+    <message>
         <source>Offset</source>
         <translation>オフセット</translation>
     </message>
     <message>
-        <location filename="../../XHashWidget/xhashwidget.ui" line="137"/>
-        <location filename="../../XHashWidget/xhashwidget.cpp" line="135"/>
         <source>Size</source>
-        <translation></translation>
+        <translation>サイズ</translation>
     </message>
     <message>
-        <location filename="../../XHashWidget/xhashwidget.ui" line="183"/>
-        <location filename="../../XHashWidget/xhashwidget.cpp" line="136"/>
         <source>Hash</source>
-        <translation></translation>
+        <translation>ハッシュ</translation>
     </message>
     <message>
-        <location filename="../../XHashWidget/xhashwidget.cpp" line="133"/>
+        <source>Regions</source>
+        <translation>領域</translation>
+    </message>
+    <message>
         <source>Name</source>
         <translation>名前</translation>
+    </message>
+</context>
+<context>
+    <name>XHeaderView</name>
+    <message>
+        <source>Filter</source>
+        <translation>絞り込み</translation>
+    </message>
+</context>
+<context>
+    <name>XHexEdit</name>
+    <message>
+        <source>Offset</source>
+        <translation>オフセット</translation>
+    </message>
+    <message>
+        <source>Hex</source>
+        <translation>16 進数</translation>
+    </message>
+</context>
+<context>
+    <name>XHexView</name>
+    <message>
+        <source>Address</source>
+        <translation>アドレス</translation>
+    </message>
+    <message>
+        <source>Hex</source>
+        <translation>16 進数</translation>
+    </message>
+    <message>
+        <source>Symbols</source>
+        <translation>シンボル</translation>
+    </message>
+    <message>
+        <source>Offset</source>
+        <translation>オフセット</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>配置</translation>
+    </message>
+    <message>
+        <source>Mode</source>
+        <translation>モード</translation>
+    </message>
+    <message>
+        <source>Width</source>
+        <translation>幅</translation>
+    </message>
+</context>
+<context>
+    <name>XHexViewOptionsWidget</name>
+    <message>
+        <source>Show colons in addresses</source>
+        <translation>アドレス内にコロンを表示</translation>
+    </message>
+</context>
+<context>
+    <name>XHexViewWidget</name>
+    <message>
+        <source>Form</source>
+        <translation>フォーム</translation>
+    </message>
+    <message>
+        <source>Data inspector</source>
+        <translation>データ インスペクター</translation>
+    </message>
+    <message>
+        <source>Strings</source>
+        <translation>文字列</translation>
+    </message>
+    <message>
+        <source>Readonly</source>
+        <translation>読み取り専用</translation>
+    </message>
+    <message>
+        <source>Hex</source>
+        <translation>16 進数</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation>種類</translation>
+    </message>
+    <message>
+        <source>Mode</source>
+        <translation>モード</translation>
+    </message>
+</context>
+<context>
+    <name>XIcon</name>
+    <message>
+        <source>Header</source>
+        <translation>ヘッダ</translation>
+    </message>
+</context>
+<context>
+    <name>XInfoDB</name>
+    <message>
+        <source>Unknown</source>
+        <translation>不明</translation>
+    </message>
+    <message>
+        <source>Function enter</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Function leave</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Step into</source>
+        <translation>ステップ イン</translation>
+    </message>
+    <message>
+        <source>Step over</source>
+        <translation>ステップ オーバー</translation>
+    </message>
+    <message>
+        <source>Trace into</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Trace over</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>アドレス</translation>
+    </message>
+    <message>
+        <source>Paused</source>
+        <translation>一時停止中</translation>
+    </message>
+    <message>
+        <source>Running</source>
+        <translation>実行中</translation>
+    </message>
+</context>
+<context>
+    <name>XInfoDBOptionsWidget</name>
+    <message>
+        <source>Info</source>
+        <translation>情報</translation>
+    </message>
+    <message>
+        <source>Open directory</source>
+        <translation>ディレクトリを開く</translation>
+    </message>
+</context>
+<context>
+    <name>XInfoMenu</name>
+    <message>
+        <source>Database</source>
+        <translation>データベース</translation>
+    </message>
+    <message>
+        <source>Import</source>
+        <translation>インポート</translation>
+    </message>
+    <message>
+        <source>Export</source>
+        <translation>エクスポート</translation>
+    </message>
+    <message>
+        <source>Clear</source>
+        <translation>消去</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>保存</translation>
+    </message>
+    <message>
+        <source>Load</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>All files</source>
+        <translation>すべてのファイル</translation>
+    </message>
+    <message>
+        <source>Open file</source>
+        <translation>ファイルを開く</translation>
+    </message>
+    <message>
+        <source>Are you sure?</source>
+        <translation>本当に大丈夫ですか？</translation>
+    </message>
+</context>
+<context>
+    <name>XJAR</name>
+    <message>
+        <source>Universal</source>
+        <translation>ユニバーサル</translation>
+    </message>
+    <message>
+        <source>Unknown</source>
+        <translation>不明</translation>
+    </message>
+    <message>
+        <source>Package</source>
+        <translation>パッケージ</translation>
+    </message>
+</context>
+<context>
+    <name>XJpeg</name>
+    <message>
+        <source>Data</source>
+        <translation>データ</translation>
+    </message>
+</context>
+<context>
+    <name>XLE</name>
+    <message>
+        <source>Header</source>
+        <translation>ヘッダ</translation>
+    </message>
+    <message>
+        <source>Map</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Object</source>
+        <translation>オブジェクト</translation>
+    </message>
+    <message>
+        <source>Overlay</source>
+        <translation>オーバーレイ</translation>
+    </message>
+    <message>
+        <source>Unknown</source>
+        <translation>不明</translation>
+    </message>
+</context>
+<context>
+    <name>XLHA</name>
+    <message>
+        <source>Header</source>
+        <translation>ヘッダ</translation>
+    </message>
+</context>
+<context>
+    <name>XLineEditHEX</name>
+    <message>
+        <source>Copy</source>
+        <translation>コピー</translation>
+    </message>
+    <message>
+        <source>Bits</source>
+        <translation>Bits</translation>
+    </message>
+    <message>
+        <source>Clear</source>
+        <translation>消去</translation>
+    </message>
+</context>
+<context>
+    <name>XLineEditValidator</name>
+    <message>
+        <source>Bytes</source>
+        <translation>バイト</translation>
+    </message>
+    <message>
+        <source>KiB</source>
+        <translation>KiB</translation>
+    </message>
+    <message>
+        <source>MiB</source>
+        <translation>MiB</translation>
+    </message>
+    <message>
+        <source>GiB</source>
+        <translation>GiB</translation>
+    </message>
+    <message>
+        <source>TiB</source>
+        <translation>TiB</translation>
     </message>
 </context>
 <context>
     <name>XMACH</name>
     <message>
-        <location filename="../../Formats/xmach.cpp" line="726"/>
         <source>Segment</source>
-        <translation></translation>
+        <translation>セグメント</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>セクション</translation>
+    </message>
+    <message>
+        <source>Unknown</source>
+        <translation>不明</translation>
+    </message>
+</context>
+<context>
+    <name>XMACHOFat</name>
+    <message>
+        <source>Unknown</source>
+        <translation>不明</translation>
+    </message>
+    <message>
+        <source>Header</source>
+        <translation>ヘッダ</translation>
+    </message>
+    <message>
+        <source>Universal</source>
+        <translation>ユニバーサル</translation>
+    </message>
+    <message>
+        <source>Bundle</source>
+        <translation>ハンドル</translation>
+    </message>
+</context>
+<context>
+    <name>XMIMEWidget</name>
+    <message>
+        <source>All</source>
+        <translation>すべて</translation>
+    </message>
+</context>
+<context>
+    <name>XMP3</name>
+    <message>
+        <source>Header</source>
+        <translation>ヘッダ</translation>
     </message>
 </context>
 <context>
     <name>XMSDOS</name>
     <message>
-        <location filename="../../Formats/xmsdos.cpp" line="346"/>
         <source>Header</source>
         <translation>ヘッダ</translation>
+    </message>
+    <message>
+        <source>Overlay</source>
+        <translation>オーバーレイ</translation>
+    </message>
+    <message>
+        <source>Unknown</source>
+        <translation>不明</translation>
     </message>
 </context>
 <context>
     <name>XMemoryMapWidget</name>
     <message>
-        <location filename="../../XMemoryMapWidget/xmemorymapwidget.ui" line="43"/>
-        <source>Type</source>
-        <translation>種類</translation>
+        <source>Save</source>
+        <translation>保存</translation>
     </message>
     <message>
-        <location filename="../../XMemoryMapWidget/xmemorymapwidget.ui" line="69"/>
+        <source>Dump all</source>
+        <translation>全てダンプ</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>すべて表示</translation>
+    </message>
+    <message>
         <source>File offset</source>
         <translation>オフセット値</translation>
     </message>
     <message>
-        <location filename="../../XMemoryMapWidget/xmemorymapwidget.ui" line="82"/>
         <source>Virtual address</source>
         <translation>仮想アドレス</translation>
     </message>
     <message>
-        <location filename="../../XMemoryMapWidget/xmemorymapwidget.ui" line="95"/>
         <source>Relative virtual address</source>
         <translation>相対仮想ADD</translation>
     </message>
     <message>
-        <location filename="../../XMemoryMapWidget/xmemorymapwidget.ui" line="118"/>
         <source>Mode</source>
         <translation>モード</translation>
     </message>
     <message>
-        <location filename="../../XMemoryMapWidget/xmemorymapwidget.ui" line="158"/>
         <source>Endianness</source>
         <translation>エンディアン</translation>
     </message>
     <message>
-        <location filename="../../XMemoryMapWidget/xmemorymapwidget.ui" line="192"/>
         <source>Architecture</source>
-        <translation></translation>
+        <translation>アーキテクチャ</translation>
     </message>
     <message>
-        <location filename="../../XMemoryMapWidget/xmemorymapwidget.ui" line="244"/>
+        <source>Find</source>
+        <translation>検索</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation>種類</translation>
+    </message>
+    <message>
         <source>Memory map</source>
-        <translation></translation>
+        <translation>メモリ マップ</translation>
     </message>
     <message>
-        <location filename="../../XMemoryMapWidget/xmemorymapwidget.cpp" line="153"/>
-        <source>Name</source>
-        <translation>名前</translation>
-    </message>
-    <message>
-        <location filename="../../XMemoryMapWidget/xmemorymapwidget.cpp" line="154"/>
         <source>Offset</source>
         <translation>オフセット</translation>
     </message>
     <message>
-        <location filename="../../XMemoryMapWidget/xmemorymapwidget.cpp" line="155"/>
         <source>Address</source>
         <translation>アドレス</translation>
     </message>
     <message>
-        <location filename="../../XMemoryMapWidget/xmemorymapwidget.cpp" line="156"/>
         <source>Size</source>
+        <translation>サイズ</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>名前</translation>
+    </message>
+    <message>
+        <source>Information</source>
+        <translation>インフォメーション</translation>
+    </message>
+    <message>
+        <source>Dump</source>
+        <translation>ダンプ</translation>
+    </message>
+    <message>
+        <source>Save dump</source>
+        <translation>ダンプを保存</translation>
+    </message>
+    <message>
+        <source>Raw data</source>
+        <translation>Raw データ</translation>
+    </message>
+</context>
+<context>
+    <name>XMultiDisasmWidget</name>
+    <message>
+        <source>Form</source>
+        <translation>フォーム</translation>
+    </message>
+    <message>
+        <source>Readonly</source>
+        <translation>読み取り専用</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation>種類</translation>
+    </message>
+    <message>
+        <source>Mode</source>
+        <translation>モード</translation>
+    </message>
+    <message>
+        <source>Next visited</source>
         <translation></translation>
+    </message>
+    <message>
+        <source>Previous visited</source>
+        <translation></translation>
+    </message>
+</context>
+<context>
+    <name>XNE</name>
+    <message>
+        <source>Unknown</source>
+        <translation>不明</translation>
+    </message>
+</context>
+<context>
+    <name>XNPM</name>
+    <message>
+        <source>Universal</source>
+        <translation>ユニバーサル</translation>
+    </message>
+    <message>
+        <source>Unknown</source>
+        <translation>不明</translation>
+    </message>
+    <message>
+        <source>Package</source>
+        <translation>パッケージ</translation>
+    </message>
+</context>
+<context>
+    <name>XOnlineToolsOptionsWidget</name>
+    <message>
+        <source>Form</source>
+        <translation>フォーム</translation>
+    </message>
+    <message>
+        <source>Get</source>
+        <translation>取得</translation>
+    </message>
+    <message>
+        <source>API key</source>
+        <translation>APIキー</translation>
+    </message>
+</context>
+<context>
+    <name>XOptions</name>
+    <message>
+        <source>Cannot find file</source>
+        <translation>ファイルを見つけられませんでした</translation>
+    </message>
+    <message>
+        <source>Automatic</source>
+        <translation>自動</translation>
+    </message>
+    <message>
+        <source>Recent files</source>
+        <translation>最近使ったファイル</translation>
+    </message>
+    <message>
+        <source>Code pages</source>
+        <translation>コードページ</translation>
+    </message>
+    <message>
+        <source>Clear</source>
+        <translation>消去</translation>
+    </message>
+    <message>
+        <source>Images</source>
+        <translation>イメージ</translation>
+    </message>
+    <message>
+        <source>Documents</source>
+        <translation>ドキュメント</translation>
+    </message>
+</context>
+<context>
+    <name>XOptionsWidget</name>
+    <message>
+        <source>Stay on top</source>
+        <translation>常に最前面表示</translation>
+    </message>
+    <message>
+        <source>Single application</source>
+        <translation>単一のアプリケーション</translation>
+    </message>
+    <message>
+        <source>Style</source>
+        <translation>スタイル</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>言語</translation>
+    </message>
+    <message>
+        <source>Show logo</source>
+        <translation>ロゴを表示</translation>
+    </message>
+    <message>
+        <source>Save last directory</source>
+        <translation>最後に使ったフォルダ保存</translation>
+    </message>
+    <message>
+        <source>Save backup</source>
+        <translation>バックアップを保存</translation>
+    </message>
+    <message>
+        <source>Save history</source>
+        <translation>履歴を保存</translation>
+    </message>
+    <message>
+        <source>Add to context menu</source>
+        <translation>コンテキストメニューに追加</translation>
+    </message>
+    <message>
+        <source>Controls</source>
+        <translation>コントロール</translation>
+    </message>
+    <message>
+        <source>Table views</source>
+        <translation>テーブルビュー</translation>
+    </message>
+    <message>
+        <source>Tree views</source>
+        <translation>ツリービュー</translation>
+    </message>
+    <message>
+        <source>Hex</source>
+        <translation>16 進数</translation>
+    </message>
+    <message>
+        <source>Disasm</source>
+        <translation>Disasm</translation>
+    </message>
+    <message>
+        <source>Text editors</source>
+        <translation>テキストエディター</translation>
+    </message>
+    <message>
+        <source>Default</source>
+        <translation>標準</translation>
+    </message>
+    <message>
+        <source>OK</source>
+        <translation>OK</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>キャンセル</translation>
+    </message>
+    <message>
+        <source>Appearance</source>
+        <translation>外観</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>ファイル</translation>
+    </message>
+    <message>
+        <source>Fonts</source>
+        <translation>フォント</translation>
+    </message>
+    <message>
+        <source>Error</source>
+        <translation>エラー</translation>
+    </message>
+    <message>
+        <source>Please run the program as an administrator</source>
+        <translation>管理者としてプログラムを実行してください</translation>
+    </message>
+    <message>
+        <source>Information</source>
+        <translation>インフォメーション</translation>
+    </message>
+    <message>
+        <source>Please restart the application</source>
+        <translation>プログラムを再起動してください</translation>
+    </message>
+</context>
+<context>
+    <name>XPDF</name>
+    <message>
+        <source>Header</source>
+        <translation>ヘッダ</translation>
+    </message>
+    <message>
+        <source>Object</source>
+        <translation>オブジェクト</translation>
+    </message>
+    <message>
+        <source>Footer</source>
+        <translation>フッター</translation>
     </message>
 </context>
 <context>
     <name>XPE</name>
     <message>
-        <location filename="../../Formats/xpe.cpp" line="1655"/>
+        <source>Unknown</source>
+        <translation>不明</translation>
+    </message>
+    <message>
+        <source>Application</source>
+        <translation>アプリケーション</translation>
+    </message>
+    <message>
+        <source>Console</source>
+        <translation>コンソール</translation>
+    </message>
+    <message>
+        <source>Driver</source>
+        <translation>運転者</translation>
+    </message>
+    <message>
+        <source>Boot application</source>
+        <translation>ブートアプリケーション</translation>
+    </message>
+    <message>
+        <source>Runtime driver</source>
+        <translation>ランタイムドライバー</translation>
+    </message>
+    <message>
+        <source>Boot service driver</source>
+        <translation>ブートサービスドライバー</translation>
+    </message>
+    <message>
+        <source>Invalid address of entry point</source>
+        <translation></translation>
+    </message>
+    <message>
         <source>Header</source>
         <translation>ヘッダ</translation>
     </message>
     <message>
-        <location filename="../../Formats/xpe.cpp" line="1740"/>
         <source>Section</source>
-        <translation></translation>
+        <translation>セクション</translation>
     </message>
     <message>
-        <location filename="../../Formats/xpe.cpp" line="1806"/>
         <source>Overlay</source>
         <translation>オーバーレイ</translation>
     </message>
     <message>
-        <location filename="../../Formats/xpe.cpp" line="4101"/>
         <source>Cannot open file</source>
+        <translation>ファイルを開けませんでした</translation>
+    </message>
+    <message>
+        <source>The file is signed and the signature was verified</source>
+        <translation>ファイルが署名され、署名が検証されました</translation>
+    </message>
+    <message>
+        <source>The file is not signed</source>
+        <translation>ファイルは署名されていません</translation>
+    </message>
+    <message>
+        <source>The signature is present, but specifically disallowed</source>
+        <translation>署名は存在しますが、特に許可されていません</translation>
+    </message>
+    <message>
+        <source>The signature is present, but not trusted</source>
+        <translation>署名は存在しますが、信頼されていません</translation>
+    </message>
+    <message>
+        <source>The signature error</source>
+        <translation>署名エラー</translation>
+    </message>
+    <message>
+        <source>Error</source>
+        <translation>エラー</translation>
+    </message>
+    <message>
+        <source>Entry point</source>
+        <translation>エントリ ポイント</translation>
+    </message>
+    <message>
+        <source>Export</source>
+        <translation>エクスポート</translation>
+    </message>
+    <message>
+        <source>Import</source>
+        <translation>インポート</translation>
+    </message>
+    <message>
+        <source>Relocs</source>
+        <translation>再配置</translation>
+    </message>
+    <message>
+        <source>Resources</source>
+        <translation>リソース</translation>
+    </message>
+    <message>
+        <source>Certificate</source>
+        <translation>証明書</translation>
+    </message>
+    <message>
+        <source>Invalid</source>
+        <translation>無効</translation>
+    </message>
+</context>
+<context>
+    <name>XPNG</name>
+    <message>
+        <source>Header</source>
+        <translation>ヘッダ</translation>
+    </message>
+</context>
+<context>
+    <name>XRar</name>
+    <message>
+        <source>Header</source>
+        <translation>ヘッダ</translation>
+    </message>
+    <message>
+        <source>Data</source>
+        <translation>データ</translation>
+    </message>
+</context>
+<context>
+    <name>XScanEngine</name>
+    <message>
+        <source>Offset</source>
+        <translation>オフセット</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>サイズ</translation>
+    </message>
+    <message>
+        <source>obfuscator</source>
+        <translation>難読化</translation>
+    </message>
+    <message>
+        <source>Tool</source>
+        <translation>ツール</translation>
+    </message>
+    <message>
+        <source>Archive</source>
+        <translation>アーカイブ</translation>
+    </message>
+    <message>
+        <source>Certificate</source>
+        <translation>証明書</translation>
+    </message>
+    <message>
+        <source>Compiler</source>
+        <translation>コンパイラ</translation>
+    </message>
+    <message>
+        <source>Converter</source>
+        <translation>コンバータ</translation>
+    </message>
+    <message>
+        <source>Crypter</source>
         <translation></translation>
+    </message>
+    <message>
+        <source>Cryptor</source>
+        <translation>暗号化</translation>
+    </message>
+    <message>
+        <source>Data</source>
+        <translation>データ</translation>
+    </message>
+    <message>
+        <source>Database</source>
+        <translation>データベース</translation>
+    </message>
+    <message>
+        <source>Debug data</source>
+        <translation>デバッグ データ</translation>
+    </message>
+    <message>
+        <source>protection</source>
+        <translation>保護</translation>
+    </message>
+    <message>
+        <source>extender</source>
+        <translation>エクステンダ</translation>
+    </message>
+    <message>
+        <source>Format</source>
+        <translation>書式</translation>
+    </message>
+    <message>
+        <source>Generic</source>
+        <translation>汎用</translation>
+    </message>
+    <message>
+        <source>Image</source>
+        <translation>イメージ</translation>
+    </message>
+    <message>
+        <source>Installer</source>
+        <translation>インストーラ</translation>
+    </message>
+    <message>
+        <source>Installer data</source>
+        <translation>インストーラ データ</translation>
+    </message>
+    <message>
+        <source>Joiner</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>言語</translation>
+    </message>
+    <message>
+        <source>Library</source>
+        <translation>ライブラリ</translation>
+    </message>
+    <message>
+        <source>Linker</source>
+        <translation>リンカ</translation>
+    </message>
+    <message>
+        <source>compressor</source>
+        <translation>コンプレッサ</translation>
+    </message>
+    <message>
+        <source>Operation system</source>
+        <translation>オペレーション システム</translation>
+    </message>
+    <message>
+        <source>Overlay</source>
+        <translation>オーバーレイ</translation>
+    </message>
+    <message>
+        <source>Packer</source>
+        <translation>パッカー</translation>
+    </message>
+    <message>
+        <source>Platform</source>
+        <translation>プラットフォーム</translation>
+    </message>
+    <message>
+        <source>Player</source>
+        <translation>プレイヤー</translation>
+    </message>
+    <message>
+        <source>Protection</source>
+        <translation>保護</translation>
+    </message>
+    <message>
+        <source>Protector</source>
+        <translation>プロテクタ</translation>
+    </message>
+    <message>
+        <source>Protector data</source>
+        <translation>プロテクタ データ</translation>
+    </message>
+    <message>
+        <source>data</source>
+        <translation>データ</translation>
+    </message>
+    <message>
+        <source>Sign tool</source>
+        <translation>署名ツール</translation>
+    </message>
+    <message>
+        <source>Source code</source>
+        <translation>ソース コード</translation>
+    </message>
+    <message>
+        <source>Stub</source>
+        <translation>Stub</translation>
+    </message>
+    <message>
+        <source>Virtual machine</source>
+        <translation>仮想マシン</translation>
+    </message>
+    <message>
+        <source>Virus</source>
+        <translation>ウイルス</translation>
+    </message>
+    <message>
+        <source>Trojan</source>
+        <translation>トロイの木馬</translation>
+    </message>
+    <message>
+        <source>Malware</source>
+        <translation>マルウェア</translation>
+    </message>
+    <message>
+        <source>Package</source>
+        <translation>パッケージ</translation>
+    </message>
+    <message>
+        <source>Licensing</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Recursive scan</source>
+        <translation>ファイル スキャン</translation>
+    </message>
+    <message>
+        <source>Deep scan</source>
+        <translation>ディープスキャン</translation>
+    </message>
+    <message>
+        <source>Heuristic scan</source>
+        <translation>ヒューリスティック スキャン</translation>
+    </message>
+    <message>
+        <source>Aggressive scan</source>
+        <translation>ファイル スキャン</translation>
+    </message>
+    <message>
+        <source>Verbose</source>
+        <translation>冗長な</translation>
+    </message>
+    <message>
+        <source>All types</source>
+        <translation>すべての種類</translation>
+    </message>
+    <message>
+        <source>Main</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Extra</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Custom</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>File scan</source>
+        <translation>ファイル スキャン</translation>
+    </message>
+    <message>
+        <source>Device scan</source>
+        <translation>デバイスのスキャン</translation>
+    </message>
+    <message>
+        <source>Memory scan</source>
+        <translation>メモリスキャン</translation>
+    </message>
+    <message>
+        <source>Directory scan</source>
+        <translation>ディレクトリのスキャン</translation>
+    </message>
+</context>
+<context>
+    <name>XSevenZip</name>
+    <message>
+        <source>Header</source>
+        <translation>ヘッダ</translation>
+    </message>
+    <message>
+        <source>Unknown</source>
+        <translation>不明</translation>
+    </message>
+</context>
+<context>
+    <name>XShortcuts</name>
+    <message>
+        <source>Action</source>
+        <translation>操作</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>ファイル</translation>
+    </message>
+    <message>
+        <source>View</source>
+        <translation>表示</translation>
+    </message>
+    <message>
+        <source>String</source>
+        <translation>文字列</translation>
+    </message>
+    <message>
+        <source>Strings</source>
+        <translation>文字列</translation>
+    </message>
+    <message>
+        <source>Signature</source>
+        <translation>署名</translation>
+    </message>
+    <message>
+        <source>Signatures</source>
+        <translation>署名</translation>
+    </message>
+    <message>
+        <source>Struct</source>
+        <translation>構造体</translation>
+    </message>
+    <message>
+        <source>Hex</source>
+        <translation>16 進数</translation>
+    </message>
+    <message>
+        <source>Disasm</source>
+        <translation>Disasm</translation>
+    </message>
+    <message>
+        <source>Debug</source>
+        <translation>デバッグ</translation>
+    </message>
+    <message>
+        <source>Trace</source>
+        <translation>追跡</translation>
+    </message>
+    <message>
+        <source>Animate</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Debugger</source>
+        <translation>デバッガ</translation>
+    </message>
+    <message>
+        <source>Registers</source>
+        <translation>レジスタ</translation>
+    </message>
+    <message>
+        <source>Register</source>
+        <translation>レジスタ</translation>
+    </message>
+    <message>
+        <source>Stack</source>
+        <translation>スタック</translation>
+    </message>
+    <message>
+        <source>Archive</source>
+        <translation>アーカイブ</translation>
+    </message>
+    <message>
+        <source>Table</source>
+        <translation>テーブル</translation>
+    </message>
+    <message>
+        <source>Process</source>
+        <translation>プロセス</translation>
+    </message>
+    <message>
+        <source>Memory</source>
+        <translation>メモリー</translation>
+    </message>
+    <message>
+        <source>Copy</source>
+        <translation>コピー</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>編集</translation>
+    </message>
+    <message>
+        <source>Find</source>
+        <translation>検索</translation>
+    </message>
+    <message>
+        <source>Go to</source>
+        <translation>移動</translation>
+    </message>
+    <message>
+        <source>Tools</source>
+        <translation>ツール</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>ヘルプ</translation>
+    </message>
+    <message>
+        <source>Select</source>
+        <translation>選択</translation>
+    </message>
+    <message>
+        <source>Selection</source>
+        <translation>選択</translation>
+    </message>
+    <message>
+        <source>Follow in</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Show in</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Breakpoint</source>
+        <translation>ブレークポイント</translation>
+    </message>
+    <message>
+        <source>Modules</source>
+        <translation>モジュール</translation>
+    </message>
+    <message>
+        <source>Memory map</source>
+        <translation>メモリ マップ</translation>
+    </message>
+    <message>
+        <source>Value</source>
+        <translation>値</translation>
+    </message>
+    <message>
+        <source>Scan</source>
+        <translation>スキャン</translation>
+    </message>
+    <message>
+        <source>Editor</source>
+        <translation>エディター</translation>
+    </message>
+    <message>
+        <source>Bookmarks</source>
+        <translation>ブックマーク</translation>
+    </message>
+    <message>
+        <source>Analyze</source>
+        <translation>分析</translation>
+    </message>
+    <message>
+        <source>Hardware</source>
+        <translation>ハードウェア</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>表示</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>開く</translation>
+    </message>
+    <message>
+        <source>New</source>
+        <translation>新規</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>保存</translation>
+    </message>
+    <message>
+        <source>Save as</source>
+        <translation>名前を付けて保存</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>閉じる</translation>
+    </message>
+    <message>
+        <source>Print</source>
+        <translation>印刷</translation>
+    </message>
+    <message>
+        <source>Exit</source>
+        <translation>終了</translation>
+    </message>
+    <message>
+        <source>Dump to file</source>
+        <translation>ファイルにダンプ</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>アドレス</translation>
+    </message>
+    <message>
+        <source>End</source>
+        <translation>終わり</translation>
+    </message>
+    <message>
+        <source>Start</source>
+        <translation>開始</translation>
+    </message>
+    <message>
+        <source>Entry point</source>
+        <translation>エントリ ポイント</translation>
+    </message>
+    <message>
+        <source>Offset</source>
+        <translation>オフセット</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>サイズ</translation>
+    </message>
+    <message>
+        <source>Scripts</source>
+        <translation>スクリプト</translation>
+    </message>
+    <message>
+        <source>Patch</source>
+        <translation>パッチ</translation>
+    </message>
+    <message>
+        <source>Opcode</source>
+        <translation>Opcode</translation>
+    </message>
+    <message>
+        <source>Demangle</source>
+        <translation>デマングル</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>名前</translation>
+    </message>
+    <message>
+        <source>Next</source>
+        <translation>次</translation>
+    </message>
+    <message>
+        <source>Data</source>
+        <translation>データ</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>すべて</translation>
+    </message>
+    <message>
+        <source>Attach</source>
+        <translation>添付</translation>
+    </message>
+    <message>
+        <source>Detach</source>
+        <translation>デタッチ</translation>
+    </message>
+    <message>
+        <source>CPU</source>
+        <translation>CPU</translation>
+    </message>
+    <message>
+        <source>Log</source>
+        <translation>ログ</translation>
+    </message>
+    <message>
+        <source>Breakpoints</source>
+        <translation>ブレークポイント</translation>
+    </message>
+    <message>
+        <source>Callstack</source>
+        <translation>コールスタック</translation>
+    </message>
+    <message>
+        <source>Threads</source>
+        <translation>スレッド</translation>
+    </message>
+    <message>
+        <source>Handles</source>
+        <translation>ハンドル</translation>
+    </message>
+    <message>
+        <source>Symbols</source>
+        <translation>シンボル</translation>
+    </message>
+    <message>
+        <source>Functions</source>
+        <translation>関数</translation>
+    </message>
+    <message>
+        <source>Clear</source>
+        <translation>消去</translation>
+    </message>
+    <message>
+        <source>Shortcuts</source>
+        <translation>ショートカット</translation>
+    </message>
+    <message>
+        <source>Options</source>
+        <translation>設定</translation>
+    </message>
+    <message>
+        <source>About</source>
+        <translation>情報</translation>
+    </message>
+    <message>
+        <source>File name</source>
+        <translation>ファイル名</translation>
+    </message>
+    <message>
+        <source>Structs</source>
+        <translation>構造体</translation>
+    </message>
+    <message>
+        <source>Viewer</source>
+        <translation>ビューア</translation>
+    </message>
+    <message>
+        <source>Folder</source>
+        <translation>フォルダー</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>実行</translation>
+    </message>
+    <message>
+        <source>Pause</source>
+        <translation>一時停止</translation>
+    </message>
+    <message>
+        <source>Step into</source>
+        <translation>ステップ イン</translation>
+    </message>
+    <message>
+        <source>Step over</source>
+        <translation>ステップ オーバー</translation>
+    </message>
+    <message>
+        <source>Stop</source>
+        <translation>停止</translation>
+    </message>
+    <message>
+        <source>Restart</source>
+        <translation>再起動</translation>
+    </message>
+    <message>
+        <source>Toggle</source>
+        <translation>トグル</translation>
+    </message>
+    <message>
+        <source>Entropy</source>
+        <translation>エントロピー</translation>
+    </message>
+    <message>
+        <source>Hash</source>
+        <translation>ハッシュ</translation>
+    </message>
+    <message>
+        <source>Full screen</source>
+        <translation>フルスクリーン</translation>
+    </message>
+    <message>
+        <source>References</source>
+        <translation>参照</translation>
+    </message>
+    <message>
+        <source>Bookmark</source>
+        <translation>ブックマーク</translation>
+    </message>
+    <message>
+        <source>List</source>
+        <translation>リスト</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>削除</translation>
+    </message>
+    <message>
+        <source>Resize</source>
+        <translation>リサイズ</translation>
+    </message>
+    <message>
+        <source>Conditional</source>
+        <translation>条件付きの</translation>
+    </message>
+    <message>
+        <source>Data inspector</source>
+        <translation>データ インスペクター</translation>
+    </message>
+    <message>
+        <source>Data convertor</source>
+        <translation>データ コンバーター</translation>
+    </message>
+    <message>
+        <source>Multisearch</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Visualization</source>
+        <translation></translation>
+    </message>
+</context>
+<context>
+    <name>XShortcutsWidget</name>
+    <message>
+        <source>Save</source>
+        <translation>保存</translation>
+    </message>
+    <message>
+        <source>Text files</source>
+        <translation>テキスト ファイル</translation>
+    </message>
+    <message>
+        <source>All files</source>
+        <translation>すべてのファイル</translation>
+    </message>
+    <message>
+        <source>Error</source>
+        <translation>エラー</translation>
+    </message>
+    <message>
+        <source>Cannot save file</source>
+        <translation>ファイルを保存できませんでした</translation>
+    </message>
+    <message>
+        <source>Open file</source>
+        <translation>ファイルを開く</translation>
+    </message>
+</context>
+<context>
+    <name>XSymbolsWidget</name>
+    <message>
+        <source>Form</source>
+        <translation>フォーム</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>保存</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>アドレス</translation>
+    </message>
+    <message>
+        <source>Symbol</source>
+        <translation>シンボル</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>サイズ</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>名前</translation>
+    </message>
+    <message>
+        <source>Code</source>
+        <translation>コード</translation>
+    </message>
+    <message>
+        <source>Symbols</source>
+        <translation>シンボル</translation>
+    </message>
+</context>
+<context>
+    <name>XTiff</name>
+    <message>
+        <source>Header</source>
+        <translation>ヘッダ</translation>
+    </message>
+    <message>
+        <source>Table</source>
+        <translation>テーブル</translation>
+    </message>
+</context>
+<context>
+    <name>XVirusTotalWidget</name>
+    <message>
+        <source>Form</source>
+        <translation>フォーム</translation>
+    </message>
+    <message>
+        <source>Website</source>
+        <translation>Webサイト</translation>
+    </message>
+    <message>
+        <source>Rescan</source>
+        <translation>再スキャン</translation>
+    </message>
+    <message>
+        <source>Show detects</source>
+        <translation>検出済みを表示</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>保存</translation>
+    </message>
+    <message>
+        <source>Reload</source>
+        <translation>再読み込み</translation>
+    </message>
+    <message>
+        <source>First</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Last</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Information</source>
+        <translation>インフォメーション</translation>
+    </message>
+    <message>
+        <source>Upload the file for analyze?</source>
+        <translation>分析のためにファイルをアップロードしますか?</translation>
+    </message>
+    <message>
+        <source>Scan</source>
+        <translation>スキャン</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>バージョン</translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>日付</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>結果</translation>
+    </message>
+    <message>
+        <source>Please use valid API key</source>
+        <translation>有効なAPIキーを使用してください</translation>
+    </message>
+    <message>
+        <source>Options</source>
+        <translation>設定</translation>
+    </message>
+    <message>
+        <source>Online tools</source>
+        <translation>オンラインツール</translation>
+    </message>
+    <message>
+        <source>Error</source>
+        <translation>エラー</translation>
+    </message>
+</context>
+<context>
+    <name>XVisualization</name>
+    <message>
+        <source>None</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Entropy</source>
+        <translation>エントロピー</translation>
+    </message>
+    <message>
+        <source>Gradient</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Zeros</source>
+        <translation>ゼロ</translation>
+    </message>
+    <message>
+        <source>Text</source>
+        <translation>文字</translation>
+    </message>
+    <message>
+        <source>Unknown</source>
+        <translation>不明</translation>
+    </message>
+</context>
+<context>
+    <name>XVisualizationWidget</name>
+    <message>
+        <source>Form</source>
+        <translation>フォーム</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>保存</translation>
+    </message>
+    <message>
+        <source>Reload</source>
+        <translation>再読み込み</translation>
+    </message>
+    <message>
+        <source>Image</source>
+        <translation>イメージ</translation>
+    </message>
+    <message>
+        <source>Schema</source>
+        <translation>スキーマ</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation>種類</translation>
+    </message>
+    <message>
+        <source>Mode</source>
+        <translation>モード</translation>
+    </message>
+    <message>
+        <source>Methods</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Method</source>
+        <translation>方法</translation>
+    </message>
+    <message>
+        <source>Block size</source>
+        <translation>ブロックサイズ</translation>
+    </message>
+    <message>
+        <source>Width</source>
+        <translation>幅</translation>
+    </message>
+    <message>
+        <source>Height</source>
+        <translation>高さ</translation>
+    </message>
+    <message>
+        <source>Zoom</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Regions</source>
+        <translation>領域</translation>
+    </message>
+    <message>
+        <source>Highlights</source>
+        <translation>ハイライト</translation>
+    </message>
+    <message>
+        <source>Visualization</source>
+        <translation></translation>
+    </message>
+</context>
+<context>
+    <name>XYara</name>
+    <message>
+        <source>Start</source>
+        <translation>開始</translation>
+    </message>
+</context>
+<context>
+    <name>XZlib</name>
+    <message>
+        <source>Header</source>
+        <translation>ヘッダ</translation>
+    </message>
+    <message>
+        <source>Data</source>
+        <translation>データ</translation>
+    </message>
+    <message>
+        <source>Footer</source>
+        <translation>フッター</translation>
+    </message>
+</context>
+<context>
+    <name>YARAWidgetAdvanced</name>
+    <message>
+        <source>Rules</source>
+        <translation>ルール</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>保存</translation>
+    </message>
+    <message>
+        <source>Scan</source>
+        <translation>スキャン</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>結果</translation>
+    </message>
+    <message>
+        <source>Matches</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Rule name</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Offset</source>
+        <translation>オフセット</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>サイズ</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>名前</translation>
+    </message>
+    <message>
+        <source>Text files</source>
+        <translation>テキスト ファイル</translation>
+    </message>
+    <message>
+        <source>All files</source>
+        <translation>すべてのファイル</translation>
+    </message>
+    <message>
+        <source>Error</source>
+        <translation>エラー</translation>
+    </message>
+    <message>
+        <source>Cannot save file</source>
+        <translation>ファイルを保存できませんでした</translation>
+    </message>
+</context>
+<context>
+    <name>YARA_Widget</name>
+    <message>
+        <source>Info</source>
+        <translation>情報</translation>
+    </message>
+    <message>
+        <source>Rules</source>
+        <translation>ルール</translation>
+    </message>
+    <message>
+        <source>Scan</source>
+        <translation>スキャン</translation>
+    </message>
+    <message>
+        <source>msec</source>
+        <translation>ミリ秒</translation>
+    </message>
+    <message>
+        <source>Stop</source>
+        <translation>停止</translation>
     </message>
 </context>
 </TS>

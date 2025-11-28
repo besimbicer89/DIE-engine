@@ -1,85 +1,788 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="de_DE">
+<TS version="2.1" language="de">
+<context>
+    <name>Archive_widget</name>
+    <message>
+        <source>Form</source>
+        <translation>Formular</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation>Typ</translation>
+    </message>
+    <message>
+        <source>Filter</source>
+        <translation>Filter</translation>
+    </message>
+    <message>
+        <source>Tree</source>
+        <translation>Verzeichnis</translation>
+    </message>
+    <message>
+        <source>Table</source>
+        <translation>Tabelle</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>Öffnen</translation>
+    </message>
+    <message>
+        <source>Scan</source>
+        <translation>Scan</translation>
+    </message>
+    <message>
+        <source>Hex</source>
+        <translation>Hex</translation>
+    </message>
+    <message>
+        <source>Strings</source>
+        <translation>Strings</translation>
+    </message>
+    <message>
+        <source>Entropy</source>
+        <translation>Entropie</translation>
+    </message>
+    <message>
+        <source>Hash</source>
+        <translation>Hash</translation>
+    </message>
+    <message>
+        <source>Copy</source>
+        <translation>Kopieren</translation>
+    </message>
+    <message>
+        <source>File name</source>
+        <translation>Dateiname</translation>
+    </message>
+    <message>
+        <source>Dump to file</source>
+        <translation>In Datei speichern</translation>
+    </message>
+    <message>
+        <source>Save file</source>
+        <translation>Datei speichern</translation>
+    </message>
+    <message>
+        <source>Error</source>
+        <translation>Fehler</translation>
+    </message>
+    <message>
+        <source>Cannot save file</source>
+        <translation>Kann die Datei nicht speichern</translation>
+    </message>
+</context>
 <context>
     <name>BinaryWidget</name>
     <message>
-        <location filename="../../FormatWidgets/Binary/binarywidget.ui" line="37"/>
         <source>Reload</source>
         <translation>Neu laden</translation>
     </message>
     <message>
-        <location filename="../../FormatWidgets/Binary/binarywidget.ui" line="57"/>
         <source>Readonly</source>
+        <translation>Nur lesen</translation>
+    </message>
+    <message>
+        <source>Next visited</source>
         <translation></translation>
+    </message>
+    <message>
+        <source>Previous visited</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Info</source>
+        <translation>Info</translation>
+    </message>
+    <message>
+        <source>Visualization</source>
+        <translation>Visualisierung</translation>
+    </message>
+    <message>
+        <source>Hex</source>
+        <translation>Hex</translation>
+    </message>
+    <message>
+        <source>Disasm</source>
+        <translation>Disassembler</translation>
+    </message>
+    <message>
+        <source>Hash</source>
+        <translation>Hash</translation>
+    </message>
+    <message>
+        <source>Strings</source>
+        <translation>Strings</translation>
+    </message>
+    <message>
+        <source>Signatures</source>
+        <translation>Signaturen</translation>
+    </message>
+    <message>
+        <source>Memory map</source>
+        <translation>Speicherbelegung</translation>
+    </message>
+    <message>
+        <source>Entropy</source>
+        <translation>Entropie</translation>
+    </message>
+    <message>
+        <source>Extractor</source>
+        <translation>Extraktor</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>Suche</translation>
+    </message>
+</context>
+<context>
+    <name>Binary_Script</name>
+    <message>
+        <source>Invalid handle</source>
+        <translation></translation>
+    </message>
+</context>
+<context>
+    <name>CreateViewModelProcess</name>
+    <message>
+        <source>File</source>
+        <translation>Datei</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>Größe</translation>
+    </message>
+</context>
+<context>
+    <name>DEXSectionHeaderWidget</name>
+    <message>
+        <source>Readonly</source>
+        <translation>Nur lesen</translation>
+    </message>
+</context>
+<context>
+    <name>DEXWidget</name>
+    <message>
+        <source>Reload</source>
+        <translation>Neu laden</translation>
+    </message>
+    <message>
+        <source>Readonly</source>
+        <translation>Nur lesen</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Speichern</translation>
+    </message>
+    <message>
+        <source>Next visited</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Previous visited</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Info</source>
+        <translation>Info</translation>
+    </message>
+    <message>
+        <source>Visualization</source>
+        <translation>Visualisierung</translation>
+    </message>
+    <message>
+        <source>Hex</source>
+        <translation>Hex</translation>
+    </message>
+    <message>
+        <source>Hash</source>
+        <translation>Hash</translation>
+    </message>
+    <message>
+        <source>Strings</source>
+        <translation>Strings</translation>
+    </message>
+    <message>
+        <source>Signatures</source>
+        <translation>Signaturen</translation>
+    </message>
+    <message>
+        <source>Memory map</source>
+        <translation>Speicherbelegung</translation>
+    </message>
+    <message>
+        <source>Entropy</source>
+        <translation>Entropie</translation>
+    </message>
+    <message>
+        <source>Extractor</source>
+        <translation>Extraktor</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>Suche</translation>
+    </message>
+</context>
+<context>
+    <name>DIEOptionsWidget</name>
+    <message>
+        <source>Scan after open</source>
+        <translation>Scannen nach dem Öffnen starten</translation>
+    </message>
+    <message>
+        <source>Flags</source>
+        <translation>Markierungen</translation>
+    </message>
+    <message>
+        <source>Recursive scan</source>
+        <translation>Rekursiver Scan</translation>
+    </message>
+    <message>
+        <source>Deep scan</source>
+        <translation>Tiefen-Scan</translation>
+    </message>
+    <message>
+        <source>Heuristic scan</source>
+        <translation>Heuristischer Scan</translation>
+    </message>
+    <message>
+        <source>Aggressive scan</source>
+        <translation>Rekursiver Scan</translation>
+    </message>
+    <message>
+        <source>Verbose</source>
+        <translation>Ausführlich</translation>
+    </message>
+    <message>
+        <source>All types</source>
+        <translation>Alle Arten</translation>
+    </message>
+    <message>
+        <source>Profiling</source>
+        <translation>Profiling</translation>
+    </message>
+    <message>
+        <source>Sort</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Highlight</source>
+        <translation>Hervorheben</translation>
+    </message>
+    <message>
+        <source>Hide unknown</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Buffer size</source>
+        <translation>Buffergröße</translation>
+    </message>
+    <message>
+        <source>Scan</source>
+        <translation>Scan</translation>
+    </message>
+    <message>
+        <source>Database</source>
+        <translation>Datenbank</translation>
+    </message>
+    <message>
+        <source>Extra database</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Custom database</source>
+        <translation>Benutzerdefinierte Datenbank</translation>
+    </message>
+    <message>
+        <source>Open directory</source>
+        <translation>Ordner öffnen</translation>
+    </message>
+</context>
+<context>
+    <name>DIEWidgetAdvanced</name>
+    <message>
+        <source>Form</source>
+        <translation>Formular</translation>
+    </message>
+    <message>
+        <source>Signatures</source>
+        <translation>Signaturen</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Speichern</translation>
+    </message>
+    <message>
+        <source>Scan</source>
+        <translation>Scan</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation>Typ</translation>
+    </message>
+    <message>
+        <source>Flags</source>
+        <translation>Markierungen</translation>
+    </message>
+    <message>
+        <source>Database</source>
+        <translation>Datenbank</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Ergebnis</translation>
+    </message>
+    <message>
+        <source>Signature</source>
+        <translation>Signatur</translation>
+    </message>
+    <message>
+        <source>Signature name</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Text files</source>
+        <translation>Textdateien</translation>
+    </message>
+    <message>
+        <source>All files</source>
+        <translation>Alle Dateien</translation>
+    </message>
+    <message>
+        <source>Error</source>
+        <translation>Fehler</translation>
+    </message>
+    <message>
+        <source>Cannot save file</source>
+        <translation>Kann die Datei nicht speichern</translation>
     </message>
 </context>
 <context>
     <name>DIE_Widget</name>
     <message>
-        <location filename="../../die_widget/die_widget.ui" line="66"/>
         <source>Signatures</source>
-        <translation>Signature</translation>
+        <translation>Signaturen</translation>
     </message>
     <message>
-        <location filename="../../die_widget/die_widget.ui" line="86"/>
-        <source>Deep scan</source>
-        <translation>Tiefen-Scan</translation>
+        <source>Directory</source>
+        <translation>Verzeichnis</translation>
     </message>
     <message>
-        <location filename="../../die_widget/die_widget.ui" line="126"/>
-        <location filename="../../die_widget/die_widget.cpp" line="152"/>
-        <location filename="../../die_widget/die_widget.cpp" line="156"/>
         <source>Log</source>
         <translation>Log</translation>
     </message>
     <message>
-        <location filename="../../die_widget/die_widget.ui" line="171"/>
-        <location filename="../../die_widget/die_widget.cpp" line="121"/>
-        <location filename="../../die_widget/die_widget.cpp" line="210"/>
         <source>Scan</source>
         <translation>Scan</translation>
     </message>
     <message>
-        <location filename="../../die_widget/die_widget.cpp" line="104"/>
         <source>Stop</source>
         <translation>Stop</translation>
     </message>
     <message>
-        <location filename="../../die_widget/die_widget.cpp" line="162"/>
+        <source>Flags</source>
+        <translation>Markierungen</translation>
+    </message>
+    <message>
+        <source>Database</source>
+        <translation>Datenbank</translation>
+    </message>
+    <message>
         <source>msec</source>
-        <translation></translation>
+        <translation>Millisekunden</translation>
+    </message>
+    <message>
+        <source>Copy as</source>
+        <translation>Kopieren als</translation>
+    </message>
+</context>
+<context>
+    <name>DiE_Script</name>
+    <message>
+        <source>Unknown</source>
+        <translation>Unbekannt</translation>
+    </message>
+    <message>
+        <source>Cannot load database</source>
+        <translation>Datenbank kann nicht geladen werden</translation>
+    </message>
+</context>
+<context>
+    <name>DiE_ScriptEngine</name>
+    <message>
+        <source>Cannot find</source>
+        <translation>Kann nicht gefunden</translation>
     </message>
 </context>
 <context>
     <name>DialogAbout</name>
     <message>
-        <location filename="../dialogabout.ui" line="17"/>
         <source>About</source>
         <translation>Über</translation>
     </message>
     <message>
-        <location filename="../dialogabout.ui" line="105"/>
+        <source>OK</source>
+        <translation>OK</translation>
+    </message>
+    <message>
+        <source>Bugreports</source>
+        <translation>Fehlerberichte</translation>
+    </message>
+    <message>
+        <source>Website</source>
+        <translation>Webseite</translation>
+    </message>
+    <message>
         <source>Donate</source>
+        <translation>Spenden</translation>
+    </message>
+    <message>
+        <source>Source code</source>
+        <translation>Quellcode</translation>
+    </message>
+</context>
+<context>
+    <name>DialogArchive</name>
+    <message>
+        <source>Archive</source>
+        <translation>Archiv</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>Öffnen</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>Schließen</translation>
+    </message>
+</context>
+<context>
+    <name>DialogAsmSignature</name>
+    <message>
+        <source>Signature</source>
+        <translation>Signatur</translation>
+    </message>
+    <message>
+        <source>Spaces</source>
+        <translation>Leerzeichen</translation>
+    </message>
+    <message>
+        <source>Upper</source>
+        <translation>Gross</translation>
+    </message>
+    <message>
+        <source>Wildcard</source>
+        <translation>Platzhalter</translation>
+    </message>
+    <message>
+        <source>Copy</source>
+        <translation>Kopieren</translation>
+    </message>
+    <message>
+        <source>OK</source>
+        <translation>OK</translation>
+    </message>
+    <message>
+        <source>Relative virtual address</source>
+        <translation>Relative virtuelle Adresse</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Adresse</translation>
+    </message>
+    <message>
+        <source>Bytes</source>
+        <translation>Bytes</translation>
+    </message>
+    <message>
+        <source>Opcode</source>
+        <translation>Opcode</translation>
+    </message>
+</context>
+<context>
+    <name>DialogBits8</name>
+    <message>
+        <source>Bits</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../dialogabout.ui" line="217"/>
-        <source>Thanks</source>
-        <translation>Dank</translation>
+        <source>Hex</source>
+        <translation>Hex</translation>
     </message>
     <message>
-        <location filename="../dialogabout.ui" line="273"/>
-        <source>Libraries</source>
-        <translation>Bibliotheken</translation>
+        <source>Signed</source>
+        <translation>Signiert</translation>
     </message>
     <message>
-        <location filename="../dialogabout.ui" line="331"/>
-        <source>Check updates</source>
+        <source>Unsigned</source>
+        <translation>Unsigniert</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Abbrechen</translation>
+    </message>
+    <message>
+        <source>OK</source>
+        <translation>OK</translation>
+    </message>
+</context>
+<context>
+    <name>DialogBookmarks</name>
+    <message>
+        <source>Bookmarks</source>
+        <translation>Lesezeichen</translation>
+    </message>
+    <message>
+        <source>OK</source>
+        <translation>OK</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>Position</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>Größe</translation>
+    </message>
+    <message>
+        <source>Color</source>
+        <translation>Farbe</translation>
+    </message>
+    <message>
+        <source>Comment</source>
+        <translation>Kommentar</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Adresse</translation>
+    </message>
+    <message>
+        <source>Offset</source>
+        <translation>Offset</translation>
+    </message>
+    <message>
+        <source>Background</source>
+        <translation>Hintergrund</translation>
+    </message>
+</context>
+<context>
+    <name>DialogDIEScanDirectory</name>
+    <message>
+        <source>Directory scan</source>
+        <translation>Verzeichnis scannen</translation>
+    </message>
+    <message>
+        <source>Directory</source>
+        <translation>Verzeichnis</translation>
+    </message>
+    <message>
+        <source>Subdirectories</source>
+        <translation>Unterverzeichnisse</translation>
+    </message>
+    <message>
+        <source>Scan</source>
+        <translation>Scan</translation>
+    </message>
+    <message>
+        <source>Clear</source>
+        <translation>Leeren</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Speichern</translation>
+    </message>
+    <message>
+        <source>OK</source>
+        <translation>OK</translation>
+    </message>
+    <message>
+        <source>Flags</source>
+        <translation>Markierungen</translation>
+    </message>
+    <message>
+        <source>Open directory</source>
+        <translation>Ordner öffnen</translation>
+    </message>
+    <message>
+        <source>msec</source>
+        <translation>Millisekunden</translation>
+    </message>
+    <message>
+        <source>Text documents</source>
+        <translation>Textdokumente</translation>
+    </message>
+    <message>
+        <source>Save result</source>
+        <translation>Ergebnis Speichern</translation>
+    </message>
+</context>
+<context>
+    <name>DialogDIESignatures</name>
+    <message>
+        <source>Signatures</source>
+        <translation>Signaturen</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Speichern</translation>
+    </message>
+    <message>
+        <source>Readonly</source>
+        <translation>Nur lesen</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Ausführen</translation>
+    </message>
+    <message>
+        <source>Debug</source>
+        <translation>Debug</translation>
+    </message>
+    <message>
+        <source>Recursive scan</source>
+        <translation>Rekursiver Scan</translation>
+    </message>
+    <message>
+        <source>Deep scan</source>
+        <translation>Tiefen-Scan</translation>
+    </message>
+    <message>
+        <source>Verbose</source>
+        <translation>Ausführlich</translation>
+    </message>
+    <message>
+        <source>Heuristic scan</source>
+        <translation>Heuristischer Scan</translation>
+    </message>
+    <message>
+        <source>Profiling</source>
+        <translation>Profiling</translation>
+    </message>
+    <message>
+        <source>Find</source>
+        <translation>Suchen</translation>
+    </message>
+    <message>
+        <source>Next</source>
+        <translation>Weiter</translation>
+    </message>
+    <message>
+        <source>Detect</source>
+        <translation>Erkennen</translation>
+    </message>
+    <message>
+        <source>Show type</source>
+        <translation>Typen anzeigen</translation>
+    </message>
+    <message>
+        <source>Show version</source>
+        <translation>Version anzeigen</translation>
+    </message>
+    <message>
+        <source>Show info</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../dialogabout.ui" line="338"/>
+        <source>Clear result</source>
+        <translation>Ergebnis leeren</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>Schließen</translation>
+    </message>
+    <message>
+        <source>Database</source>
+        <translation>Datenbank</translation>
+    </message>
+    <message>
+        <source>Debugger</source>
+        <translation>Debugger</translation>
+    </message>
+    <message>
+        <source>msec</source>
+        <translation>Millisekunden</translation>
+    </message>
+</context>
+<context>
+    <name>DialogDIESignaturesElapsed</name>
+    <message>
+        <source>Elapsed</source>
+        <translation>Abgelaufen</translation>
+    </message>
+    <message>
+        <source>OK</source>
+        <translation>OK</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Zeit</translation>
+    </message>
+    <message>
+        <source>Script</source>
+        <translation>Skript</translation>
+    </message>
+</context>
+<context>
+    <name>DialogDataInspector</name>
+    <message>
+        <source>Data inspector</source>
+        <translation>Dateninspektor</translation>
+    </message>
+    <message>
+        <source>Readonly</source>
+        <translation>Nur lesen</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>Schließen</translation>
+    </message>
+    <message>
+        <source>Endianness</source>
+        <translation>Byte-Reihenfolge</translation>
+    </message>
+    <message>
+        <source>Offset</source>
+        <translation>Offset</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>Größe</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Name</translation>
+    </message>
+    <message>
+        <source>Value</source>
+        <translation>Wert</translation>
+    </message>
+    <message>
+        <source>Unicode</source>
+        <translation>Unicode</translation>
+    </message>
+    <message>
+        <source>Binary</source>
+        <translation>Binär</translation>
+    </message>
+</context>
+<context>
+    <name>DialogDemangle</name>
+    <message>
+        <source>Demangle</source>
+        <translation>Entmangeln</translation>
+    </message>
+    <message>
+        <source>OK</source>
+        <translation>OK</translation>
+    </message>
+</context>
+<context>
+    <name>DialogDieHexViewer</name>
+    <message>
+        <source>Scripts</source>
+        <translation>Skripte</translation>
+    </message>
+    <message>
         <source>OK</source>
         <translation>OK</translation>
     </message>
@@ -87,40 +790,33 @@
 <context>
     <name>DialogDisasm</name>
     <message>
-        <location filename="../../XDisasm/dialogdisasm.ui" line="17"/>
         <source>Disasm</source>
-        <translation></translation>
+        <translation>Disassembler</translation>
     </message>
     <message>
-        <location filename="../../XDisasm/dialogdisasm.ui" line="51"/>
         <source>Close</source>
-        <translation></translation>
+        <translation>Schließen</translation>
     </message>
 </context>
 <context>
     <name>DialogDisasmLabels</name>
     <message>
-        <location filename="../../XDisasm/dialogdisasmlabels.ui" line="17"/>
         <source>Labels</source>
-        <translation></translation>
+        <translation>Labels</translation>
     </message>
     <message>
-        <location filename="../../XDisasm/dialogdisasmlabels.ui" line="63"/>
         <source>Go to</source>
-        <translation></translation>
+        <translation>Gehe zu</translation>
     </message>
     <message>
-        <location filename="../../XDisasm/dialogdisasmlabels.ui" line="70"/>
         <source>Close</source>
-        <translation></translation>
+        <translation>Schließen</translation>
     </message>
     <message>
-        <location filename="../../XDisasm/dialogdisasmlabels.cpp" line="37"/>
         <source>Name</source>
         <translation>Name</translation>
     </message>
     <message>
-        <location filename="../../XDisasm/dialogdisasmlabels.cpp" line="38"/>
         <source>Address</source>
         <translation>Adresse</translation>
     </message>
@@ -128,50 +824,30 @@
 <context>
     <name>DialogDisasmProcess</name>
     <message>
-        <location filename="../../XDisasm/dialogdisasmprocess.ui" line="14"/>
         <source>Disasm</source>
-        <translation></translation>
+        <translation>Disassembler</translation>
     </message>
     <message>
-        <location filename="../../XDisasm/dialogdisasmprocess.ui" line="22"/>
         <source>Opcodes</source>
-        <translation></translation>
+        <translation>Opcodes</translation>
     </message>
     <message>
-        <location filename="../../XDisasm/dialogdisasmprocess.ui" line="59"/>
         <source>Calls</source>
-        <translation></translation>
+        <translation>Aufrufe</translation>
     </message>
     <message>
-        <location filename="../../XDisasm/dialogdisasmprocess.ui" line="96"/>
         <source>Jumps</source>
-        <translation></translation>
+        <translation>Sprünge</translation>
     </message>
     <message>
-        <location filename="../../XDisasm/dialogdisasmprocess.ui" line="133"/>
         <source>Ref to</source>
-        <translation></translation>
+        <translation>Referenz bis</translation>
     </message>
     <message>
-        <location filename="../../XDisasm/dialogdisasmprocess.ui" line="170"/>
         <source>Ref from</source>
-        <translation></translation>
+        <translation>Referenz von</translation>
     </message>
     <message>
-        <location filename="../../XDisasm/dialogdisasmprocess.ui" line="426"/>
-        <source>Cancel</source>
-        <translation>Abbrechen</translation>
-    </message>
-</context>
-<context>
-    <name>DialogDump</name>
-    <message>
-        <location filename="../../FormatDialogs/dialogdump.ui" line="17"/>
-        <source>Dump</source>
-        <translation>Dump</translation>
-    </message>
-    <message>
-        <location filename="../../FormatDialogs/dialogdump.ui" line="51"/>
         <source>Cancel</source>
         <translation>Abbrechen</translation>
     </message>
@@ -179,98 +855,106 @@
 <context>
     <name>DialogDumpProcess</name>
     <message>
-        <location filename="../../FormatDialogs/dialogdumpprocess.ui" line="17"/>
         <source>Dump</source>
-        <translation>Dump</translation>
+        <translation>Abbild</translation>
+    </message>
+</context>
+<context>
+    <name>DialogEditString</name>
+    <message>
+        <source>String</source>
+        <translation>String</translation>
     </message>
     <message>
-        <location filename="../../FormatDialogs/dialogdumpprocess.ui" line="51"/>
+        <source>Keep size</source>
+        <translation>Größe beibehalten</translation>
+    </message>
+    <message>
+        <source>Null-terminated</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>OK</source>
+        <translation>OK</translation>
+    </message>
+    <message>
         <source>Cancel</source>
         <translation>Abbrechen</translation>
     </message>
     <message>
-        <location filename="../../FormatDialogs/dialogdumpprocess.cpp" line="66"/>
-        <source>Error</source>
-        <translation>Fehler</translation>
+        <source>Bytes available</source>
+        <translation>Verfügbare Bytes</translation>
     </message>
 </context>
 <context>
     <name>DialogEntropy</name>
     <message>
-        <location filename="../../XEntropyWidget/dialogentropy.ui" line="17"/>
         <source>Entropy</source>
         <translation>Entropie</translation>
     </message>
     <message>
-        <location filename="../../XEntropyWidget/dialogentropy.ui" line="51"/>
         <source>Close</source>
-        <translation></translation>
+        <translation>Schließen</translation>
     </message>
 </context>
 <context>
-    <name>DialogEntropyProcess</name>
+    <name>DialogFindText</name>
     <message>
-        <location filename="../../XEntropyWidget/dialogentropyprocess.ui" line="14"/>
-        <source>Process</source>
-        <translation></translation>
+        <source>Find</source>
+        <translation>Suchen</translation>
     </message>
     <message>
-        <location filename="../../XEntropyWidget/dialogentropyprocess.ui" line="58"/>
+        <source>Match case</source>
+        <translation>Übereinstimmung</translation>
+    </message>
+    <message>
+        <source>OK</source>
+        <translation>OK</translation>
+    </message>
+    <message>
         <source>Cancel</source>
         <translation>Abbrechen</translation>
-    </message>
-    <message>
-        <location filename="../../XEntropyWidget/dialogentropyprocess.cpp" line="66"/>
-        <source>Error</source>
-        <translation>Fehler</translation>
     </message>
 </context>
 <context>
     <name>DialogGoToAddress</name>
     <message>
-        <location filename="../../FormatDialogs/dialoggotoaddress.ui" line="17"/>
         <source>Go to address</source>
-        <translation>Zur Adresse</translation>
+        <translation>Zur Adresse gehen</translation>
     </message>
     <message>
-        <location filename="../../FormatDialogs/dialoggotoaddress.ui" line="26"/>
         <source>Address</source>
         <translation>Adresse</translation>
     </message>
     <message>
-        <location filename="../../FormatDialogs/dialoggotoaddress.ui" line="88"/>
+        <source>Hex</source>
+        <translation>Hex</translation>
+    </message>
+    <message>
         <source>OK</source>
         <translation>OK</translation>
     </message>
     <message>
-        <location filename="../../FormatDialogs/dialoggotoaddress.ui" line="95"/>
         <source>Cancel</source>
         <translation>Abbrechen</translation>
     </message>
     <message>
-        <location filename="../../FormatDialogs/dialoggotoaddress.cpp" line="38"/>
         <source>Virtual address</source>
         <translation>Virtuelle Adresse</translation>
     </message>
     <message>
-        <location filename="../../FormatDialogs/dialoggotoaddress.cpp" line="39"/>
-        <location filename="../../FormatDialogs/dialoggotoaddress.cpp" line="44"/>
-        <location filename="../../FormatDialogs/dialoggotoaddress.cpp" line="49"/>
         <source>Value</source>
-        <translation>Werte</translation>
+        <translation>Wert</translation>
     </message>
     <message>
-        <location filename="../../FormatDialogs/dialoggotoaddress.cpp" line="43"/>
-        <source>File offset</source>
-        <translation>Datei-Offset</translation>
+        <source>Offset</source>
+        <translation>Offset</translation>
     </message>
     <message>
-        <location filename="../../FormatDialogs/dialoggotoaddress.cpp" line="48"/>
         <source>Relative virtual address</source>
         <translation>Relative virtuelle Adresse</translation>
     </message>
     <message>
-        <location filename="../../FormatDialogs/dialoggotoaddress.cpp" line="97"/>
         <source>Invalid</source>
         <translation>Ungültig</translation>
     </message>
@@ -278,537 +962,991 @@
 <context>
     <name>DialogHash</name>
     <message>
-        <location filename="../../XHashWidget/dialoghash.ui" line="17"/>
         <source>Hash</source>
-        <translation></translation>
+        <translation>Hash</translation>
     </message>
     <message>
-        <location filename="../../XHashWidget/dialoghash.ui" line="51"/>
         <source>Close</source>
-        <translation></translation>
+        <translation>Schließen</translation>
     </message>
 </context>
 <context>
-    <name>DialogHex</name>
+    <name>DialogHexEdit</name>
     <message>
-        <location filename="../../QHexView/dialoghex.ui" line="51"/>
+        <source>Edit</source>
+        <translation>Bearbeiten</translation>
+    </message>
+    <message>
         <source>Close</source>
-        <translation></translation>
+        <translation>Schließen</translation>
     </message>
 </context>
 <context>
     <name>DialogHexSignature</name>
     <message>
-        <location filename="../../FormatDialogs/dialoghexsignature.ui" line="17"/>
         <source>Signature</source>
         <translation>Signatur</translation>
     </message>
     <message>
-        <location filename="../../FormatDialogs/dialoghexsignature.ui" line="128"/>
         <source>Spaces</source>
-        <translation>Spaces</translation>
+        <translation>Leerzeichen</translation>
     </message>
     <message>
-        <location filename="../../FormatDialogs/dialoghexsignature.ui" line="135"/>
         <source>Upper</source>
-        <translation>Upper</translation>
+        <translation>Gross</translation>
     </message>
     <message>
-        <location filename="../../FormatDialogs/dialoghexsignature.ui" line="145"/>
         <source>Wildcard</source>
-        <translation></translation>
+        <translation>Platzhalter</translation>
     </message>
     <message>
-        <location filename="../../FormatDialogs/dialoghexsignature.ui" line="184"/>
+        <source>Scan</source>
+        <translation>Scan</translation>
+    </message>
+    <message>
         <source>Copy</source>
         <translation>Kopieren</translation>
     </message>
     <message>
-        <location filename="../../FormatDialogs/dialoghexsignature.ui" line="191"/>
         <source>OK</source>
         <translation>OK</translation>
     </message>
 </context>
 <context>
-    <name>DialogInfo</name>
+    <name>DialogHexView</name>
     <message>
-        <location filename="../../FormatDialogs/dialoginfo.ui" line="17"/>
-        <location filename="../../die_widget/dialoginfo.ui" line="17"/>
-        <source>Info</source>
-        <translation>Info</translation>
-    </message>
-    <message>
-        <location filename="../../FormatDialogs/dialoginfo.ui" line="48"/>
-        <location filename="../../die_widget/dialoginfo.ui" line="48"/>
         <source>Close</source>
-        <translation></translation>
+        <translation>Schließen</translation>
     </message>
 </context>
 <context>
-    <name>DialogLog</name>
+    <name>DialogMIME</name>
     <message>
-        <location filename="../../die_widget/dialoglog.ui" line="17"/>
-        <source>Log</source>
-        <translation>Log</translation>
-    </message>
-    <message>
-        <location filename="../../die_widget/dialoglog.ui" line="48"/>
         <source>Close</source>
-        <translation></translation>
+        <translation>Schließen</translation>
     </message>
 </context>
 <context>
     <name>DialogMemoryMap</name>
     <message>
-        <location filename="../../XMemoryMapWidget/dialogmemorymap.ui" line="17"/>
         <source>Memory map</source>
-        <translation></translation>
+        <translation>Speicherbelegung</translation>
     </message>
     <message>
-        <location filename="../../XMemoryMapWidget/dialogmemorymap.ui" line="51"/>
         <source>Close</source>
-        <translation></translation>
+        <translation>Schließen</translation>
+    </message>
+</context>
+<context>
+    <name>DialogModelInfo</name>
+    <message>
+        <source>Save</source>
+        <translation>Speichern</translation>
+    </message>
+    <message>
+        <source>OK</source>
+        <translation>OK</translation>
+    </message>
+    <message>
+        <source>Save file</source>
+        <translation>Datei speichern</translation>
+    </message>
+    <message>
+        <source>Text files</source>
+        <translation>Textdateien</translation>
+    </message>
+    <message>
+        <source>All files</source>
+        <translation>Alle Dateien</translation>
+    </message>
+</context>
+<context>
+    <name>DialogMultiDisasm</name>
+    <message>
+        <source>Disasm</source>
+        <translation>Disassembler</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>Schließen</translation>
+    </message>
+</context>
+<context>
+    <name>DialogMultiDisasmSignature</name>
+    <message>
+        <source>Signature</source>
+        <translation>Signatur</translation>
+    </message>
+    <message>
+        <source>Spaces</source>
+        <translation>Leerzeichen</translation>
+    </message>
+    <message>
+        <source>Upper</source>
+        <translation>Gross</translation>
+    </message>
+    <message>
+        <source>Wildcard</source>
+        <translation>Platzhalter</translation>
+    </message>
+    <message>
+        <source>Scan</source>
+        <translation>Scan</translation>
+    </message>
+    <message>
+        <source>Copy</source>
+        <translation>Kopieren</translation>
+    </message>
+    <message>
+        <source>OK</source>
+        <translation>OK</translation>
+    </message>
+    <message>
+        <source>Relative virtual address</source>
+        <translation>Relative virtuelle Adresse</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Adresse</translation>
+    </message>
+    <message>
+        <source>Bytes</source>
+        <translation>Bytes</translation>
+    </message>
+    <message>
+        <source>Opcode</source>
+        <translation>Opcode</translation>
+    </message>
+</context>
+<context>
+    <name>DialogMultiSearchProcess</name>
+    <message>
+        <source>Search strings</source>
+        <translation>Suche Strings</translation>
+    </message>
+    <message>
+        <source>Search signatures</source>
+        <translation>Suche Signaturen</translation>
+    </message>
+    <message>
+        <source>Search values</source>
+        <translation>Suche Werte</translation>
+    </message>
+    <message>
+        <source>Create view model</source>
+        <translation>Ansicht erstellen</translation>
+    </message>
+</context>
+<context>
+    <name>DialogNFDScan</name>
+    <message>
+        <source>Scan</source>
+        <translation>Scan</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>Schließen</translation>
+    </message>
+</context>
+<context>
+    <name>DialogNFDScanDirectory</name>
+    <message>
+        <source>Directory scan</source>
+        <translation>Verzeichnis scannen</translation>
+    </message>
+    <message>
+        <source>Directory</source>
+        <translation>Verzeichnis</translation>
+    </message>
+    <message>
+        <source>Subdirectories</source>
+        <translation>Unterverzeichnisse</translation>
+    </message>
+    <message>
+        <source>Scan</source>
+        <translation>Scan</translation>
+    </message>
+    <message>
+        <source>Clear</source>
+        <translation>Leeren</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Speichern</translation>
+    </message>
+    <message>
+        <source>OK</source>
+        <translation>OK</translation>
+    </message>
+    <message>
+        <source>Flags</source>
+        <translation>Markierungen</translation>
+    </message>
+    <message>
+        <source>Open directory</source>
+        <translation>Ordner öffnen</translation>
+    </message>
+    <message>
+        <source>msec</source>
+        <translation>Millisekunden</translation>
+    </message>
+    <message>
+        <source>Text documents</source>
+        <translation>Textdokumente</translation>
+    </message>
+    <message>
+        <source>Save result</source>
+        <translation>Ergebnis Speichern</translation>
+    </message>
+</context>
+<context>
+    <name>DialogNFDScanProcess</name>
+    <message>
+        <source>Text documents</source>
+        <translation>Textdokumente</translation>
+    </message>
+    <message>
+        <source>Save result</source>
+        <translation>Ergebnis Speichern</translation>
+    </message>
+</context>
+<context>
+    <name>DialogNFDWidgetAdvanced</name>
+    <message>
+        <source>Close</source>
+        <translation>Schließen</translation>
     </message>
 </context>
 <context>
     <name>DialogOptions</name>
     <message>
-        <location filename="../dialogoptions.ui" line="17"/>
         <source>Options</source>
-        <translation>Einstellungen</translation>
+        <translation>Optionen</translation>
     </message>
     <message>
-        <location filename="../dialogoptions.ui" line="57"/>
-        <source>Save last directory</source>
-        <translation>Letzte Ordner speichern</translation>
-    </message>
-    <message>
-        <location filename="../dialogoptions.ui" line="64"/>
-        <source>Stay on top</source>
-        <translation>Top bleiben</translation>
-    </message>
-    <message>
-        <location filename="../dialogoptions.ui" line="71"/>
-        <source>Save backup</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="../dialogoptions.ui" line="107"/>
-        <source>Scan after open</source>
-        <translation>Scannen nach dem Öffnen</translation>
-    </message>
-    <message>
-        <location filename="../dialogoptions.ui" line="114"/>
-        <location filename="../dialogoptions.cpp" line="33"/>
         <source>Scan</source>
         <translation>Scan</translation>
     </message>
     <message>
-        <location filename="../dialogoptions.ui" line="148"/>
-        <source>Database</source>
-        <translation></translation>
+        <source>Signatures</source>
+        <translation>Signaturen</translation>
     </message>
     <message>
-        <location filename="../dialogoptions.ui" line="179"/>
+        <source>Hex</source>
+        <translation>Hex</translation>
+    </message>
+    <message>
+        <source>Disasm</source>
+        <translation>Disassembler</translation>
+    </message>
+    <message>
+        <source>Online tools</source>
+        <translation>Online-Tools</translation>
+    </message>
+    <message>
         <source>Info</source>
         <translation>Info</translation>
     </message>
+</context>
+<context>
+    <name>DialogRemove</name>
     <message>
-        <location filename="../dialogoptions.ui" line="239"/>
-        <source>Style</source>
-        <translation></translation>
+        <source>Remove</source>
+        <translation>Entfernen</translation>
     </message>
     <message>
-        <location filename="../dialogoptions.ui" line="287"/>
-        <source>Language</source>
-        <translation>Sprache</translation>
+        <source>Offset</source>
+        <translation>Offset</translation>
     </message>
     <message>
-        <location filename="../dialogoptions.ui" line="342"/>
-        <source>Register</source>
-        <translation>Registrieren</translation>
+        <source>Size</source>
+        <translation>Größe</translation>
     </message>
     <message>
-        <location filename="../dialogoptions.ui" line="349"/>
-        <source>Clear</source>
-        <translation>Leeren</translation>
+        <source>Hex</source>
+        <translation>Hex</translation>
     </message>
     <message>
-        <location filename="../dialogoptions.ui" line="405"/>
         <source>OK</source>
         <translation>OK</translation>
     </message>
     <message>
-        <location filename="../dialogoptions.ui" line="412"/>
         <source>Cancel</source>
         <translation>Abbrechen</translation>
     </message>
     <message>
-        <location filename="../dialogoptions.cpp" line="32"/>
-        <source>General</source>
-        <translation>General</translation>
-    </message>
-    <message>
-        <location filename="../dialogoptions.cpp" line="34"/>
-        <source>Appearance</source>
-        <translation>Aussehen</translation>
-    </message>
-    <message>
-        <location filename="../dialogoptions.cpp" line="36"/>
-        <source>Context</source>
-        <translation>Kontext</translation>
-    </message>
-    <message>
-        <location filename="../dialogoptions.cpp" line="93"/>
-        <source>Information</source>
-        <translation>Information</translation>
-    </message>
-    <message>
-        <location filename="../dialogoptions.cpp" line="93"/>
-        <source>Please restart the application</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="../dialogoptions.cpp" line="109"/>
-        <location filename="../dialogoptions.cpp" line="139"/>
-        <source>Open directory</source>
-        <translation>Ordner öffnen</translation>
+        <source>Invalid</source>
+        <translation>Ungültig</translation>
     </message>
 </context>
 <context>
-    <name>DialogProcessData</name>
+    <name>DialogResize</name>
     <message>
-        <location filename="../../FormatWidgets/dialogprocessdata.ui" line="17"/>
-        <source>Process</source>
-        <translation></translation>
+        <source>Resize</source>
+        <translation>Größe ändern</translation>
     </message>
     <message>
-        <location filename="../../FormatWidgets/dialogprocessdata.ui" line="51"/>
+        <source>Size</source>
+        <translation>Größe</translation>
+    </message>
+    <message>
+        <source>Hex</source>
+        <translation>Hex</translation>
+    </message>
+    <message>
+        <source>OK</source>
+        <translation>OK</translation>
+    </message>
+    <message>
         <source>Cancel</source>
         <translation>Abbrechen</translation>
-    </message>
-    <message>
-        <location filename="../../FormatWidgets/dialogprocessdata.cpp" line="65"/>
-        <source>Error</source>
-        <translation>Fehler</translation>
     </message>
 </context>
 <context>
     <name>DialogSearch</name>
     <message>
-        <location filename="../../FormatDialogs/dialogsearch.ui" line="17"/>
         <source>Search</source>
         <translation>Suche</translation>
     </message>
     <message>
-        <location filename="../../FormatDialogs/dialogsearch.ui" line="41"/>
-        <source>Search from</source>
-        <translation>Suche von</translation>
-    </message>
-    <message>
-        <location filename="../../FormatDialogs/dialogsearch.ui" line="71"/>
         <source>String</source>
-        <translation></translation>
+        <translation>String</translation>
     </message>
     <message>
-        <location filename="../../FormatDialogs/dialogsearch.ui" line="94"/>
         <source>Match case</source>
-        <translation>Match case</translation>
+        <translation>Übereinstimmung</translation>
     </message>
     <message>
-        <location filename="../../FormatDialogs/dialogsearch.ui" line="127"/>
         <source>Signature</source>
         <translation>Signatur</translation>
     </message>
     <message>
-        <location filename="../../FormatDialogs/dialogsearch.ui" line="149"/>
-        <location filename="../../FormatDialogs/dialogsearch.ui" line="157"/>
         <source>Value</source>
-        <translation>Werte</translation>
+        <translation>Wert</translation>
     </message>
     <message>
-        <location filename="../../FormatDialogs/dialogsearch.ui" line="222"/>
-        <source>Endianness</source>
-        <translation>Endianness</translation>
-    </message>
-    <message>
-        <location filename="../../FormatDialogs/dialogsearch.ui" line="354"/>
         <source>OK</source>
         <translation>OK</translation>
     </message>
     <message>
-        <location filename="../../FormatDialogs/dialogsearch.ui" line="361"/>
         <source>Cancel</source>
         <translation>Abbrechen</translation>
     </message>
     <message>
-        <location filename="../../FormatDialogs/dialogsearch.cpp" line="47"/>
+        <source>Search from</source>
+        <translation>Suche von</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation>Typ</translation>
+    </message>
+    <message>
+        <source>Endianness</source>
+        <translation>Byte-Reihenfolge</translation>
+    </message>
+    <message>
+        <source>Hex</source>
+        <translation>Hex</translation>
+    </message>
+    <message>
         <source>Begin</source>
         <translation>Start</translation>
     </message>
     <message>
-        <location filename="../../FormatDialogs/dialogsearch.cpp" line="48"/>
         <source>Cursor</source>
-        <translation>Cursor</translation>
+        <translation>Position</translation>
     </message>
 </context>
 <context>
     <name>DialogSearchProcess</name>
     <message>
-        <location filename="../../FormatDialogs/dialogsearchprocess.ui" line="14"/>
         <source>Search</source>
         <translation>Suche</translation>
     </message>
     <message>
-        <location filename="../../FormatDialogs/dialogsearchprocess.ui" line="58"/>
         <source>Cancel</source>
         <translation>Abbrechen</translation>
     </message>
+</context>
+<context>
+    <name>DialogSearchSignatures</name>
     <message>
-        <location filename="../../FormatDialogs/dialogsearchprocess.cpp" line="69"/>
-        <source>Error</source>
-        <translation>Fehler</translation>
+        <source>Signatures</source>
+        <translation>Signaturen</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>Schließen</translation>
     </message>
 </context>
 <context>
     <name>DialogSearchStrings</name>
     <message>
-        <location filename="../../FormatWidgets/SearchStrings/dialogsearchstrings.ui" line="17"/>
         <source>Strings</source>
-        <translation></translation>
+        <translation>Strings</translation>
     </message>
     <message>
-        <location filename="../../FormatWidgets/SearchStrings/dialogsearchstrings.ui" line="51"/>
         <source>Close</source>
-        <translation></translation>
+        <translation>Schließen</translation>
     </message>
 </context>
 <context>
-    <name>DialogSearchStringsProcess</name>
+    <name>DialogSearchValues</name>
     <message>
-        <location filename="../../FormatWidgets/SearchStrings/dialogsearchstringsprocess.ui" line="14"/>
-        <location filename="../../FormatWidgets/SearchStrings/dialogsearchstringsprocess.cpp" line="73"/>
-        <source>Search strings</source>
-        <translation></translation>
+        <source>Search</source>
+        <translation>Suche</translation>
     </message>
     <message>
-        <location filename="../../FormatWidgets/SearchStrings/dialogsearchstringsprocess.ui" line="45"/>
-        <source>Cancel</source>
-        <translation>Abbrechen</translation>
-    </message>
-    <message>
-        <location filename="../../FormatWidgets/SearchStrings/dialogsearchstringsprocess.cpp" line="81"/>
-        <source>Create view model</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="../../FormatWidgets/SearchStrings/dialogsearchstringsprocess.cpp" line="95"/>
-        <source>Error</source>
-        <translation>Fehler</translation>
+        <source>Close</source>
+        <translation>Schließen</translation>
     </message>
 </context>
 <context>
     <name>DialogSectionHeader</name>
     <message>
-        <location filename="../../FormatWidgets/dialogsectionheader.ui" line="17"/>
         <source>Section</source>
-        <translation></translation>
+        <translation>Bereich</translation>
     </message>
 </context>
 <context>
-    <name>DialogSignatures</name>
+    <name>DialogSelectStyle</name>
     <message>
-        <location filename="../../die_widget/dialogsignatures.ui" line="17"/>
-        <source>Signatures</source>
-        <translation>Signature</translation>
+        <source>Style</source>
+        <translation>Stil</translation>
+    </message>
+</context>
+<context>
+    <name>DialogShortcuts</name>
+    <message>
+        <source>Shortcuts</source>
+        <translation>Verknüpfungen</translation>
     </message>
     <message>
-        <location filename="../../die_widget/dialogsignatures.ui" line="60"/>
-        <source>Save</source>
-        <translation>Speichern</translation>
+        <source>Filter</source>
+        <translation>Filter</translation>
     </message>
     <message>
-        <location filename="../../die_widget/dialogsignatures.ui" line="80"/>
-        <source>Run</source>
-        <translation type="unfinished"></translation>
+        <source>Clear</source>
+        <translation>Leeren</translation>
     </message>
     <message>
-        <location filename="../../die_widget/dialogsignatures.ui" line="87"/>
-        <source>Debug</source>
-        <translation type="unfinished"></translation>
+        <source>Default</source>
+        <translation>Standard</translation>
     </message>
     <message>
-        <location filename="../../die_widget/dialogsignatures.ui" line="98"/>
-        <source>Read only</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../die_widget/dialogsignatures.ui" line="118"/>
-        <source>Show type</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../die_widget/dialogsignatures.ui" line="125"/>
-        <source>Show version</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../die_widget/dialogsignatures.ui" line="132"/>
-        <source>Show options</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../die_widget/dialogsignatures.ui" line="139"/>
-        <source>Deep scan</source>
-        <translation>Tiefen-Scan</translation>
-    </message>
-    <message>
-        <location filename="../../die_widget/dialogsignatures.ui" line="189"/>
-        <source>Clear result</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../die_widget/dialogsignatures.ui" line="196"/>
         <source>Close</source>
-        <translation></translation>
+        <translation>Schließen</translation>
     </message>
     <message>
-        <location filename="../../die_widget/dialogsignatures.cpp" line="42"/>
-        <source>Database</source>
-        <translation></translation>
+        <source>Name</source>
+        <translation>Name</translation>
     </message>
     <message>
-        <location filename="../../die_widget/dialogsignatures.cpp" line="157"/>
-        <source>Debugger</source>
-        <translation></translation>
+        <source>Shortcut</source>
+        <translation>Verknüpfung</translation>
     </message>
     <message>
-        <location filename="../../die_widget/dialogsignatures.cpp" line="170"/>
-        <source>msec</source>
-        <translation></translation>
+        <source>Cannot set shortcut</source>
+        <translation>Kann die Verknüpfung nicht setzen</translation>
+    </message>
+</context>
+<context>
+    <name>DialogShowData</name>
+    <message>
+        <source>Data</source>
+        <translation>Daten</translation>
+    </message>
+    <message>
+        <source>Group</source>
+        <translation>Gruppe</translation>
+    </message>
+    <message>
+        <source>Copy</source>
+        <translation>Kopieren</translation>
+    </message>
+    <message>
+        <source>OK</source>
+        <translation>OK</translation>
+    </message>
+    <message>
+        <source>Hex</source>
+        <translation>Hex</translation>
+    </message>
+    <message>
+        <source>Plain Text</source>
+        <translation>Klartext</translation>
+    </message>
+</context>
+<context>
+    <name>DialogShowImage</name>
+    <message>
+        <source>Image</source>
+        <translation>Speicherabbild</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>Schließen</translation>
     </message>
 </context>
 <context>
     <name>DialogStaticScan</name>
     <message>
-        <location filename="../../StaticScan/dialogstaticscan.ui" line="17"/>
         <source>Scan</source>
         <translation>Scan</translation>
     </message>
     <message>
-        <location filename="../../StaticScan/dialogstaticscan.ui" line="165"/>
+        <source>Recursive scan</source>
+        <translation>Rekursiver Scan</translation>
+    </message>
+    <message>
+        <source>Deep scan</source>
+        <translation>Tiefen-Scan</translation>
+    </message>
+    <message>
+        <source>Heuristic scan</source>
+        <translation>Heuristischer Scan</translation>
+    </message>
+    <message>
+        <source>Verbose</source>
+        <translation>Ausführlich</translation>
+    </message>
+    <message>
+        <source>All types</source>
+        <translation>Alle Arten</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>Schließen</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Ergebnis</translation>
+    </message>
+</context>
+<context>
+    <name>DialogStaticScanDirectory</name>
+    <message>
+        <source>Directory scan</source>
+        <translation>Verzeichnis scannen</translation>
+    </message>
+    <message>
+        <source>Directory</source>
+        <translation>Verzeichnis</translation>
+    </message>
+    <message>
+        <source>Subdirectories</source>
+        <translation>Unterverzeichnisse</translation>
+    </message>
+    <message>
+        <source>Recursive scan</source>
+        <translation>Rekursiver Scan</translation>
+    </message>
+    <message>
+        <source>Deep scan</source>
+        <translation>Tiefen-Scan</translation>
+    </message>
+    <message>
+        <source>Heuristic scan</source>
+        <translation>Heuristischer Scan</translation>
+    </message>
+    <message>
+        <source>Verbose</source>
+        <translation>Ausführlich</translation>
+    </message>
+    <message>
+        <source>All types</source>
+        <translation>Alle Arten</translation>
+    </message>
+    <message>
+        <source>Scan</source>
+        <translation>Scan</translation>
+    </message>
+    <message>
+        <source>Clear</source>
+        <translation>Leeren</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Speichern</translation>
+    </message>
+    <message>
+        <source>OK</source>
+        <translation>OK</translation>
+    </message>
+    <message>
+        <source>Open directory</source>
+        <translation>Ordner öffnen</translation>
+    </message>
+    <message>
+        <source>msec</source>
+        <translation>Millisekunden</translation>
+    </message>
+    <message>
+        <source>Text documents</source>
+        <translation>Textdokumente</translation>
+    </message>
+    <message>
+        <source>Save result</source>
+        <translation>Ergebnis Speichern</translation>
+    </message>
+</context>
+<context>
+    <name>DialogStaticScanProcess</name>
+    <message>
+        <source>Text documents</source>
+        <translation>Textdokumente</translation>
+    </message>
+    <message>
+        <source>Save result</source>
+        <translation>Ergebnis Speichern</translation>
+    </message>
+</context>
+<context>
+    <name>DialogTextInfo</name>
+    <message>
+        <source>Info</source>
+        <translation>Info</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Speichern</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>Schließen</translation>
+    </message>
+    <message>
+        <source>Text documents</source>
+        <translation>Textdokumente</translation>
+    </message>
+    <message>
+        <source>Save result</source>
+        <translation>Ergebnis Speichern</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Ergebnis</translation>
+    </message>
+</context>
+<context>
+    <name>DialogViewColors</name>
+    <message>
+        <source>Colors</source>
+        <translation>Farben</translation>
+    </message>
+    <message>
+        <source>OK</source>
+        <translation>OK</translation>
+    </message>
+    <message>
         <source>Cancel</source>
         <translation>Abbrechen</translation>
     </message>
     <message>
-        <location filename="../../StaticScan/dialogstaticscan.cpp" line="98"/>
-        <source>Text documents</source>
+        <source>Color</source>
+        <translation>Farbe</translation>
+    </message>
+    <message>
+        <source>Background</source>
+        <translation>Hintergrund</translation>
+    </message>
+</context>
+<context>
+    <name>DialogVisualization</name>
+    <message>
+        <source>Visualization</source>
+        <translation>Visualisierung</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>Schließen</translation>
+    </message>
+</context>
+<context>
+    <name>DialogXDataConvertor</name>
+    <message>
+        <source>Data convertor</source>
+        <translation>Datenkonverter</translation>
+    </message>
+    <message>
+        <source>OK</source>
+        <translation>OK</translation>
+    </message>
+</context>
+<context>
+    <name>DialogXDynStructs</name>
+    <message>
+        <source>Close</source>
+        <translation>Schließen</translation>
+    </message>
+</context>
+<context>
+    <name>DialogXExtractor</name>
+    <message>
+        <source>Extractor</source>
+        <translation>Extraktor</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>Schließen</translation>
+    </message>
+</context>
+<context>
+    <name>DialogXFileInfo</name>
+    <message>
+        <source>Info</source>
+        <translation>Info</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>Schließen</translation>
+    </message>
+</context>
+<context>
+    <name>DialogXInfoDBTransferProcess</name>
+    <message>
+        <source>Analyze</source>
+        <translation>Analysieren</translation>
+    </message>
+    <message>
+        <source>Disasm</source>
+        <translation>Disassembler</translation>
+    </message>
+    <message>
+        <source>Symbols</source>
+        <translation>Symbole</translation>
+    </message>
+    <message>
+        <source>Clear</source>
+        <translation>Leeren</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>Entfernen</translation>
+    </message>
+    <message>
+        <source>Export</source>
+        <translation>Export</translation>
+    </message>
+    <message>
+        <source>Import</source>
+        <translation>Import</translation>
+    </message>
+    <message>
+        <source>Scan for IAT</source>
+        <translation>Suche nach IAT</translation>
+    </message>
+    <message>
+        <source>Get IAT</source>
+        <translation>IAT abrufen</translation>
+    </message>
+</context>
+<context>
+    <name>DialogXSymbols</name>
+    <message>
+        <source>Symbols</source>
+        <translation>Symbole</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>Schließen</translation>
+    </message>
+    <message>
+        <source>Functions</source>
+        <translation>Funktionen</translation>
+    </message>
+    <message>
+        <source>References</source>
+        <translation>Referenzen</translation>
+    </message>
+</context>
+<context>
+    <name>DialogXVirusTotal</name>
+    <message>
+        <source>Close</source>
+        <translation>Schließen</translation>
+    </message>
+</context>
+<context>
+    <name>DialogYARAWidgetAdvanced</name>
+    <message>
+        <source>Close</source>
+        <translation>Schließen</translation>
+    </message>
+</context>
+<context>
+    <name>DumpProcess</name>
+    <message>
+        <source>Invalid offset</source>
+        <translation>Ungültiger Offset</translation>
+    </message>
+    <message>
+        <source>Invalid size</source>
+        <translation>Ungültige Größe</translation>
+    </message>
+    <message>
+        <source>Cannot read file</source>
+        <translation>Kann nicht die Datei lesen</translation>
+    </message>
+    <message>
+        <source>Cannot fix dump file</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../../StaticScan/dialogstaticscan.cpp" line="99"/>
-        <source>Save result</source>
-        <translation>Speichern</translation>
+        <source>Cannot open dump file</source>
+        <translation>Kann nicht die Datei speichern</translation>
+    </message>
+    <message>
+        <source>Cannot write data to file</source>
+        <translation>Kann nicht in die Datei schreiben</translation>
+    </message>
+</context>
+<context>
+    <name>ELFProcessData</name>
+    <message>
+        <source>Name</source>
+        <translation>Name</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation>Typ</translation>
+    </message>
+    <message>
+        <source>Bind</source>
+        <translation>Binden</translation>
     </message>
 </context>
 <context>
     <name>ELFSectionHeaderWidget</name>
     <message>
-        <location filename="../../FormatWidgets/ELF/elfsectionheaderwidget.ui" line="50"/>
         <source>Readonly</source>
-        <translation></translation>
+        <translation>Nur lesen</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Speichern</translation>
+    </message>
+    <message>
+        <source>Header</source>
+        <translation>Header</translation>
     </message>
 </context>
 <context>
     <name>ELFWidget</name>
     <message>
-        <location filename="../../FormatWidgets/ELF/elfwidget.ui" line="37"/>
         <source>Reload</source>
         <translation>Neu laden</translation>
     </message>
     <message>
-        <location filename="../../FormatWidgets/ELF/elfwidget.ui" line="57"/>
         <source>Readonly</source>
+        <translation>Nur lesen</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Speichern</translation>
+    </message>
+    <message>
+        <source>Next visited</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../../FormatWidgets/ELF/elfwidget.cpp" line="86"/>
+        <source>Previous visited</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Info</source>
+        <translation>Info</translation>
+    </message>
+    <message>
+        <source>Visualization</source>
+        <translation>Visualisierung</translation>
+    </message>
+    <message>
+        <source>Hex</source>
+        <translation>Hex</translation>
+    </message>
+    <message>
+        <source>Disasm</source>
+        <translation>Disassembler</translation>
+    </message>
+    <message>
+        <source>Hash</source>
+        <translation>Hash</translation>
+    </message>
+    <message>
         <source>Strings</source>
-        <translation></translation>
+        <translation>Strings</translation>
     </message>
     <message>
-        <location filename="../../FormatWidgets/ELF/elfwidget.cpp" line="87"/>
+        <source>Signatures</source>
+        <translation>Signaturen</translation>
+    </message>
+    <message>
         <source>Memory map</source>
-        <translation></translation>
+        <translation>Speicherbelegung</translation>
     </message>
     <message>
-        <location filename="../../FormatWidgets/ELF/elfwidget.cpp" line="88"/>
-        <location filename="../../FormatWidgets/ELF/elfwidget.cpp" line="896"/>
-        <location filename="../../FormatWidgets/ELF/elfwidget.cpp" line="978"/>
         <source>Entropy</source>
         <translation>Entropie</translation>
     </message>
     <message>
-        <location filename="../../FormatWidgets/ELF/elfwidget.cpp" line="89"/>
-        <source>Heuristic scan</source>
-        <translation></translation>
+        <source>Extractor</source>
+        <translation>Extraktor</translation>
     </message>
     <message>
-        <location filename="../../FormatWidgets/ELF/elfwidget.cpp" line="808"/>
-        <location filename="../../FormatWidgets/ELF/elfwidget.cpp" line="887"/>
-        <location filename="../../FormatWidgets/ELF/elfwidget.cpp" line="969"/>
-        <location filename="../../FormatWidgets/ELF/elfwidget.cpp" line="1002"/>
-        <location filename="../../FormatWidgets/ELF/elfwidget.cpp" line="1031"/>
-        <location filename="../../FormatWidgets/ELF/elfwidget.cpp" line="1064"/>
-        <source>Edit</source>
-        <translation>Bearbeiten</translation>
+        <source>Search</source>
+        <translation>Suche</translation>
+    </message>
+    <message>
+        <source>Sections</source>
+        <translation>Abschnitte</translation>
+    </message>
+    <message>
+        <source>Unknown</source>
+        <translation>Unbekannt</translation>
+    </message>
+    <message>
+        <source>Header</source>
+        <translation>Header</translation>
     </message>
 </context>
 <context>
     <name>EntropyProcess</name>
     <message>
-        <location filename="../../XEntropyWidget/entropyprocess.cpp" line="57"/>
         <source>packed</source>
-        <translation>packed</translation>
+        <translation>Gepackt</translation>
     </message>
     <message>
-        <location filename="../../XEntropyWidget/entropyprocess.cpp" line="61"/>
         <source>not packed</source>
-        <translation>not packed</translation>
+        <translation>Nicht gepackt</translation>
     </message>
 </context>
 <context>
     <name>FormResult</name>
     <message>
-        <location filename="../../StaticScan/formresult.ui" line="44"/>
         <source>Clear</source>
         <translation>Leeren</translation>
     </message>
     <message>
-        <location filename="../../StaticScan/formresult.ui" line="51"/>
         <source>Save</source>
         <translation>Speichern</translation>
     </message>
     <message>
-        <location filename="../../StaticScan/formresult.cpp" line="52"/>
         <source>msec</source>
-        <translation></translation>
+        <translation>Millisekunden</translation>
     </message>
 </context>
 <context>
     <name>FormStaticScan</name>
     <message>
-        <location filename="../../StaticScan/formstaticscan.ui" line="34"/>
         <source>Recursive</source>
-        <translation></translation>
+        <translation>Rekursiv</translation>
     </message>
     <message>
-        <location filename="../../StaticScan/formstaticscan.ui" line="44"/>
         <source>Deep scan</source>
         <translation>Tiefen-Scan</translation>
     </message>
     <message>
-        <location filename="../../StaticScan/formstaticscan.ui" line="73"/>
         <source>Scan</source>
         <translation>Scan</translation>
     </message>
@@ -816,1394 +1954,4546 @@
 <context>
     <name>FormatWidget</name>
     <message>
-        <location filename="../../FormatWidgets/formatwidget.cpp" line="116"/>
         <source>Error</source>
         <translation>Fehler</translation>
     </message>
     <message>
-        <location filename="../../FormatWidgets/formatwidget.cpp" line="116"/>
         <source>Cannot save file</source>
-        <translation></translation>
+        <translation>Kann die Datei nicht speichern</translation>
     </message>
     <message>
-        <location filename="../../FormatWidgets/formatwidget.cpp" line="470"/>
-        <location filename="../../FormatWidgets/formatwidget.cpp" line="539"/>
+        <source>Dump all</source>
+        <translation>Alles ausgeben</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Speichern</translation>
+    </message>
+    <message>
+        <source>Text files</source>
+        <translation>Textdateien</translation>
+    </message>
+    <message>
+        <source>All files</source>
+        <translation>Alle Dateien</translation>
+    </message>
+    <message>
+        <source>Dump</source>
+        <translation>Abbild</translation>
+    </message>
+    <message>
+        <source>Save dump</source>
+        <translation>Abbild speichern</translation>
+    </message>
+    <message>
+        <source>Raw data</source>
+        <translation>Rohdaten</translation>
+    </message>
+    <message>
         <source>Name</source>
         <translation>Name</translation>
     </message>
     <message>
-        <location filename="../../FormatWidgets/formatwidget.cpp" line="471"/>
         <source>Offset</source>
         <translation>Offset</translation>
     </message>
     <message>
-        <location filename="../../FormatWidgets/formatwidget.cpp" line="472"/>
         <source>Type</source>
         <translation>Typ</translation>
     </message>
     <message>
-        <location filename="../../FormatWidgets/formatwidget.cpp" line="473"/>
-        <location filename="../../FormatWidgets/formatwidget.cpp" line="540"/>
         <source>Value</source>
-        <translation>Werte</translation>
+        <translation>Wert</translation>
+    </message>
+    <message>
+        <source>Flags</source>
+        <translation>Markierungen</translation>
     </message>
 </context>
 <context>
     <name>FormatsWidget</name>
     <message>
-        <location filename="../../FormatWidgets/formatswidget.ui" line="40"/>
         <source>File type</source>
         <translation>Dateityp</translation>
     </message>
     <message>
-        <location filename="../../FormatWidgets/formatswidget.ui" line="80"/>
-        <source>Entry point</source>
-        <translation></translation>
+        <source>File size</source>
+        <translation>Dateigröße</translation>
     </message>
     <message>
-        <location filename="../../FormatWidgets/formatswidget.ui" line="136"/>
-        <source>Disasm</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="../../FormatWidgets/formatswidget.ui" line="146"/>
         <source>Base address</source>
         <translation>Basisadresse</translation>
     </message>
     <message>
-        <location filename="../../FormatWidgets/formatswidget.ui" line="189"/>
-        <source>Memory map</source>
-        <translation></translation>
+        <source>Entry point</source>
+        <translation>Einstiegspunkt</translation>
     </message>
     <message>
-        <location filename="../../FormatWidgets/formatswidget.ui" line="359"/>
-        <location filename="../../FormatWidgets/formatswidget.ui" line="454"/>
+        <source>Memory map</source>
+        <translation>Speicherbelegung</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>Suche</translation>
+    </message>
+    <message>
+        <source>File info</source>
+        <translation>Dateiinfo</translation>
+    </message>
+    <message>
+        <source>Strings</source>
+        <translation>Strings</translation>
+    </message>
+    <message>
+        <source>Hash</source>
+        <translation>Hash</translation>
+    </message>
+    <message>
+        <source>Disasm</source>
+        <translation>Disassembler</translation>
+    </message>
+    <message>
+        <source>Entropy</source>
+        <translation>Entropie</translation>
+    </message>
+    <message>
+        <source>Extractor</source>
+        <translation>Extraktor</translation>
+    </message>
+    <message>
+        <source>Signatures</source>
+        <translation>Signaturen</translation>
+    </message>
+    <message>
+        <source>Hex</source>
+        <translation>Hex</translation>
+    </message>
+    <message>
+        <source>Visualization</source>
+        <translation>Visualisierung</translation>
+    </message>
+    <message>
+        <source>Files</source>
+        <translation>Dateien</translation>
+    </message>
+    <message>
+        <source>Unpack</source>
+        <translation>Entpackt</translation>
+    </message>
+    <message>
         <source>Overlay</source>
         <translation>Overlay</translation>
     </message>
     <message>
-        <location filename="../../FormatWidgets/formatswidget.ui" line="419"/>
         <source>Export</source>
         <translation>Export</translation>
     </message>
     <message>
-        <location filename="../../FormatWidgets/formatswidget.ui" line="426"/>
         <source>Import</source>
         <translation>Import</translation>
     </message>
     <message>
-        <location filename="../../FormatWidgets/formatswidget.ui" line="433"/>
         <source>Resources</source>
-        <translation></translation>
+        <translation>Ressourcen</translation>
     </message>
     <message>
-        <location filename="../../FormatWidgets/formatswidget.ui" line="465"/>
-        <location filename="../../FormatWidgets/formatswidget.ui" line="761"/>
-        <location filename="../../FormatWidgets/formatswidget.ui" line="1043"/>
         <source>Sections</source>
-        <translation>Sektionen</translation>
+        <translation>Abschnitte</translation>
     </message>
     <message>
-        <location filename="../../FormatWidgets/formatswidget.ui" line="638"/>
+        <source>Time date stamp</source>
+        <translation>Zeit-Datum-Stempel</translation>
+    </message>
+    <message>
+        <source>Size of image</source>
+        <translation>Bildgröße</translation>
+    </message>
+    <message>
         <source>Manifest</source>
         <translation>Manifest</translation>
     </message>
     <message>
-        <location filename="../../FormatWidgets/formatswidget.ui" line="645"/>
         <source>Version</source>
         <translation>Version</translation>
     </message>
     <message>
-        <location filename="../../FormatWidgets/formatswidget.ui" line="919"/>
-        <source>Commands</source>
-        <translation></translation>
+        <source>Programs</source>
+        <translation>Programme</translation>
     </message>
     <message>
-        <location filename="../../FormatWidgets/formatswidget.ui" line="981"/>
+        <source>Commands</source>
+        <translation>Befehle</translation>
+    </message>
+    <message>
         <source>Segments</source>
         <translation>Segmente</translation>
     </message>
     <message>
-        <location filename="../../FormatWidgets/formatswidget.ui" line="1144"/>
         <source>Libraries</source>
         <translation>Bibliotheken</translation>
     </message>
     <message>
-        <location filename="../../FormatWidgets/formatswidget.ui" line="1214"/>
         <source>Scan</source>
         <translation>Scan</translation>
     </message>
     <message>
-        <location filename="../../FormatWidgets/formatswidget.ui" line="1254"/>
         <source>Endianness</source>
-        <translation>Endianness</translation>
+        <translation>Byte-Reihenfolge</translation>
     </message>
     <message>
-        <location filename="../../FormatWidgets/formatswidget.ui" line="1294"/>
         <source>Mode</source>
         <translation>Modus</translation>
     </message>
     <message>
-        <location filename="../../FormatWidgets/formatswidget.ui" line="1328"/>
         <source>Architecture</source>
+        <translation>Architektur</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation>Typ</translation>
+    </message>
+    <message>
+        <source>Scan engine</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../../FormatWidgets/formatswidget.ui" line="1362"/>
-        <source>Type</source>
-        <translation>Typ</translation>
+        <source>Archive</source>
+        <translation>Archiv</translation>
+    </message>
+    <message>
+        <source>Binary</source>
+        <translation>Binär</translation>
+    </message>
+    <message>
+        <source>Open directory</source>
+        <translation>Ordner öffnen</translation>
     </message>
 </context>
 <context>
     <name>GuiMainWindow</name>
     <message>
-        <location filename="../guimainwindow.ui" line="21"/>
         <source>File name</source>
-        <translation>Dateinamen</translation>
+        <translation>Dateiname</translation>
     </message>
     <message>
-        <location filename="../guimainwindow.ui" line="69"/>
-        <source>Hash</source>
-        <translation></translation>
+        <source>Advanced</source>
+        <translation>Fortgeschritten</translation>
     </message>
     <message>
-        <location filename="../guimainwindow.ui" line="76"/>
-        <source>Strings</source>
-        <translation></translation>
+        <source>Demangle</source>
+        <translation>Entmangeln</translation>
     </message>
     <message>
-        <location filename="../guimainwindow.ui" line="83"/>
-        <source>Entropy</source>
-        <translation>Entropie</translation>
+        <source>Shortcuts</source>
+        <translation>Verknüpfungen</translation>
     </message>
     <message>
-        <location filename="../guimainwindow.ui" line="110"/>
         <source>Options</source>
-        <translation>Einstellungen</translation>
+        <translation>Optionen</translation>
     </message>
     <message>
-        <location filename="../guimainwindow.ui" line="117"/>
         <source>About</source>
         <translation>Über</translation>
     </message>
     <message>
-        <location filename="../guimainwindow.ui" line="124"/>
         <source>Exit</source>
         <translation>Beenden</translation>
     </message>
     <message>
-        <location filename="../guimainwindow.cpp" line="250"/>
         <source>Open file</source>
-        <translation></translation>
+        <translation>Datei öffnen</translation>
     </message>
     <message>
-        <location filename="../guimainwindow.cpp" line="250"/>
+        <source>Recent files</source>
+        <translation>Zuletzt verwendete Dateien</translation>
+    </message>
+    <message>
+        <source>Error</source>
+        <translation>Fehler</translation>
+    </message>
+    <message>
         <source>All files</source>
-        <translation></translation>
+        <translation>Alle Dateien</translation>
+    </message>
+</context>
+<context>
+    <name>HashProcess</name>
+    <message>
+        <source>Import</source>
+        <translation>Import</translation>
     </message>
 </context>
 <context>
     <name>HeurWidget</name>
     <message>
-        <location filename="../../StaticScan/heurwidget.ui" line="32"/>
-        <location filename="../../StaticScan/heurwidget.ui" line="95"/>
-        <source>Scan</source>
-        <translation>Scan</translation>
-    </message>
-    <message>
-        <location filename="../../StaticScan/heurwidget.ui" line="52"/>
-        <source>Recursive scan</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="../../StaticScan/heurwidget.ui" line="62"/>
-        <source>Deep scan</source>
-        <translation>Tiefen-Scan</translation>
-    </message>
-    <message>
-        <location filename="../../StaticScan/heurwidget.ui" line="72"/>
-        <source>Heuristic scan</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="../../StaticScan/heurwidget.ui" line="110"/>
-        <source>Heuristic</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="../../StaticScan/heurwidget.cpp" line="85"/>
         <source>Type</source>
         <translation>Typ</translation>
     </message>
     <message>
-        <location filename="../../StaticScan/heurwidget.cpp" line="86"/>
+        <source>Recursive scan</source>
+        <translation>Rekursiver Scan</translation>
+    </message>
+    <message>
+        <source>Deep scan</source>
+        <translation>Tiefen-Scan</translation>
+    </message>
+    <message>
+        <source>Heuristic scan</source>
+        <translation>Heuristischer Scan</translation>
+    </message>
+    <message>
+        <source>Verbose</source>
+        <translation>Ausführlich</translation>
+    </message>
+    <message>
+        <source>All types</source>
+        <translation>Alle Arten</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Speichern</translation>
+    </message>
+    <message>
+        <source>Scan</source>
+        <translation>Scan</translation>
+    </message>
+    <message>
+        <source>Heuristic</source>
+        <translation>Heuristik</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Ergebnis</translation>
+    </message>
+    <message>
         <source>Name</source>
         <translation>Name</translation>
     </message>
     <message>
-        <location filename="../../StaticScan/heurwidget.cpp" line="87"/>
         <source>Value</source>
-        <translation>Werte</translation>
+        <translation>Wert</translation>
+    </message>
+</context>
+<context>
+    <name>InvWidget</name>
+    <message>
+        <source>Hex</source>
+        <translation>Hex</translation>
+    </message>
+    <message>
+        <source>Disasm</source>
+        <translation>Disassembler</translation>
     </message>
 </context>
 <context>
     <name>LESectionHeaderWidget</name>
     <message>
-        <location filename="../../FormatWidgets/LE/lesectionheaderwidget.ui" line="50"/>
         <source>Readonly</source>
-        <translation></translation>
+        <translation>Nur lesen</translation>
     </message>
 </context>
 <context>
     <name>LEWidget</name>
     <message>
-        <location filename="../../FormatWidgets/LE/lewidget.ui" line="37"/>
         <source>Reload</source>
         <translation>Neu laden</translation>
     </message>
     <message>
-        <location filename="../../FormatWidgets/LE/lewidget.ui" line="57"/>
         <source>Readonly</source>
+        <translation>Nur lesen</translation>
+    </message>
+    <message>
+        <source>Next visited</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../../FormatWidgets/LE/lewidget.cpp" line="87"/>
+        <source>Previous visited</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Info</source>
+        <translation>Info</translation>
+    </message>
+    <message>
+        <source>Visualization</source>
+        <translation>Visualisierung</translation>
+    </message>
+    <message>
+        <source>Hex</source>
+        <translation>Hex</translation>
+    </message>
+    <message>
+        <source>Disasm</source>
+        <translation>Disassembler</translation>
+    </message>
+    <message>
+        <source>Hash</source>
+        <translation>Hash</translation>
+    </message>
+    <message>
         <source>Strings</source>
-        <translation></translation>
+        <translation>Strings</translation>
     </message>
     <message>
-        <location filename="../../FormatWidgets/LE/lewidget.cpp" line="88"/>
+        <source>Signatures</source>
+        <translation>Signaturen</translation>
+    </message>
+    <message>
         <source>Memory map</source>
-        <translation></translation>
+        <translation>Speicherbelegung</translation>
     </message>
     <message>
-        <location filename="../../FormatWidgets/LE/lewidget.cpp" line="89"/>
-        <location filename="../../FormatWidgets/LE/lewidget.cpp" line="592"/>
         <source>Entropy</source>
         <translation>Entropie</translation>
     </message>
     <message>
-        <location filename="../../FormatWidgets/LE/lewidget.cpp" line="90"/>
-        <source>Heuristic scan</source>
-        <translation></translation>
+        <source>Extractor</source>
+        <translation>Extraktor</translation>
     </message>
     <message>
-        <location filename="../../FormatWidgets/LE/lewidget.cpp" line="97"/>
+        <source>Search</source>
+        <translation>Suche</translation>
+    </message>
+    <message>
         <source>Overlay</source>
         <translation>Overlay</translation>
     </message>
     <message>
-        <location filename="../../FormatWidgets/LE/lewidget.cpp" line="583"/>
         <source>Edit</source>
         <translation>Bearbeiten</translation>
+    </message>
+</context>
+<context>
+    <name>MACHOFATWidget</name>
+    <message>
+        <source>Form</source>
+        <translation>Formular</translation>
+    </message>
+</context>
+<context>
+    <name>MACHProcessData</name>
+    <message>
+        <source>Name</source>
+        <translation>Name</translation>
+    </message>
+    <message>
+        <source>Offset</source>
+        <translation>Offset</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Adresse</translation>
+    </message>
+    <message>
+        <source>Opcode</source>
+        <translation>Opcode</translation>
+    </message>
+    <message>
+        <source>Value</source>
+        <translation>Wert</translation>
     </message>
 </context>
 <context>
     <name>MACHSectionHeaderWidget</name>
     <message>
-        <location filename="../../FormatWidgets/MACH/machsectionheaderwidget.ui" line="50"/>
         <source>Readonly</source>
-        <translation></translation>
+        <translation>Nur lesen</translation>
     </message>
 </context>
 <context>
     <name>MACHWidget</name>
     <message>
-        <location filename="../../FormatWidgets/MACH/machwidget.ui" line="37"/>
         <source>Reload</source>
         <translation>Neu laden</translation>
     </message>
     <message>
-        <location filename="../../FormatWidgets/MACH/machwidget.ui" line="57"/>
         <source>Readonly</source>
+        <translation>Nur lesen</translation>
+    </message>
+    <message>
+        <source>Next visited</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../../FormatWidgets/MACH/machwidget.cpp" line="80"/>
+        <source>Previous visited</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Info</source>
+        <translation>Info</translation>
+    </message>
+    <message>
+        <source>Visualization</source>
+        <translation>Visualisierung</translation>
+    </message>
+    <message>
+        <source>Hex</source>
+        <translation>Hex</translation>
+    </message>
+    <message>
+        <source>Disasm</source>
+        <translation>Disassembler</translation>
+    </message>
+    <message>
+        <source>Hash</source>
+        <translation>Hash</translation>
+    </message>
+    <message>
         <source>Strings</source>
-        <translation></translation>
+        <translation>Strings</translation>
     </message>
     <message>
-        <location filename="../../FormatWidgets/MACH/machwidget.cpp" line="81"/>
+        <source>Signatures</source>
+        <translation>Signaturen</translation>
+    </message>
+    <message>
         <source>Memory map</source>
-        <translation></translation>
+        <translation>Speicherbelegung</translation>
     </message>
     <message>
-        <location filename="../../FormatWidgets/MACH/machwidget.cpp" line="82"/>
         <source>Entropy</source>
         <translation>Entropie</translation>
     </message>
     <message>
-        <location filename="../../FormatWidgets/MACH/machwidget.cpp" line="83"/>
-        <source>Heuristic scan</source>
-        <translation></translation>
+        <source>Extractor</source>
+        <translation>Extraktor</translation>
     </message>
     <message>
-        <location filename="../../FormatWidgets/MACH/machwidget.cpp" line="90"/>
+        <source>Search</source>
+        <translation>Suche</translation>
+    </message>
+    <message>
         <source>Commands</source>
-        <translation></translation>
+        <translation>Befehle</translation>
     </message>
     <message>
-        <location filename="../../FormatWidgets/MACH/machwidget.cpp" line="99"/>
         <source>Segments</source>
         <translation>Segmente</translation>
     </message>
     <message>
-        <location filename="../../FormatWidgets/MACH/machwidget.cpp" line="108"/>
         <source>Sections</source>
-        <translation>Sektionen</translation>
+        <translation>Abschnitte</translation>
     </message>
     <message>
-        <location filename="../../FormatWidgets/MACH/machwidget.cpp" line="117"/>
-        <source>Libraries</source>
-        <translation>Bibliotheken</translation>
+        <source>Rebase</source>
+        <translation>Rebase</translation>
     </message>
     <message>
-        <location filename="../../FormatWidgets/MACH/machwidget.cpp" line="650"/>
-        <source>Type</source>
-        <translation>Typ</translation>
+        <source>Binding</source>
+        <translation>Bindung</translation>
     </message>
     <message>
-        <location filename="../../FormatWidgets/MACH/machwidget.cpp" line="654"/>
-        <source>Library</source>
-        <translation></translation>
+        <source>Weak binding</source>
+        <translation>Schwache Bindung</translation>
+    </message>
+    <message>
+        <source>Lazy binding</source>
+        <translation>Lazy Binding</translation>
+    </message>
+    <message>
+        <source>Export</source>
+        <translation>Export</translation>
+    </message>
+    <message>
+        <source>String table</source>
+        <translation>Zeichentabelle</translation>
+    </message>
+    <message>
+        <source>Symbol table</source>
+        <translation>Symbol Tabelle</translation>
+    </message>
+    <message>
+        <source>Table of contents</source>
+        <translation>Inhaltsverzeichnis</translation>
+    </message>
+    <message>
+        <source>Modules</source>
+        <translation>Module</translation>
+    </message>
+    <message>
+        <source>External references</source>
+        <translation>Externe Referenzen</translation>
+    </message>
+    <message>
+        <source>Indirect symbols</source>
+        <translation>Indirekte Symbole</translation>
+    </message>
+    <message>
+        <source>Local relocation</source>
+        <translation>Lokale Relokation</translation>
+    </message>
+    <message>
+        <source>Functions</source>
+        <translation>Funktionen</translation>
+    </message>
+    <message>
+        <source>Data in code</source>
+        <translation>Daten im Code</translation>
+    </message>
+    <message>
+        <source>Unknown</source>
+        <translation>Unbekannt</translation>
+    </message>
+    <message>
+        <source>Header</source>
+        <translation>Header</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>Bearbeiten</translation>
+    </message>
+    <message>
+        <source>Demangle</source>
+        <translation>Entmangeln</translation>
     </message>
 </context>
 <context>
     <name>MSDOSWidget</name>
     <message>
-        <location filename="../../FormatWidgets/MSDOS/msdoswidget.ui" line="37"/>
         <source>Reload</source>
         <translation>Neu laden</translation>
     </message>
     <message>
-        <location filename="../../FormatWidgets/MSDOS/msdoswidget.ui" line="57"/>
         <source>Readonly</source>
+        <translation>Nur lesen</translation>
+    </message>
+    <message>
+        <source>Dump</source>
+        <translation>Abbild</translation>
+    </message>
+    <message>
+        <source>Next visited</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../../FormatWidgets/MSDOS/msdoswidget.cpp" line="85"/>
+        <source>Previous visited</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Info</source>
+        <translation>Info</translation>
+    </message>
+    <message>
+        <source>Visualization</source>
+        <translation>Visualisierung</translation>
+    </message>
+    <message>
+        <source>Hex</source>
+        <translation>Hex</translation>
+    </message>
+    <message>
+        <source>Disasm</source>
+        <translation>Disassembler</translation>
+    </message>
+    <message>
+        <source>Hash</source>
+        <translation>Hash</translation>
+    </message>
+    <message>
         <source>Strings</source>
-        <translation></translation>
+        <translation>Strings</translation>
     </message>
     <message>
-        <location filename="../../FormatWidgets/MSDOS/msdoswidget.cpp" line="86"/>
+        <source>Signatures</source>
+        <translation>Signaturen</translation>
+    </message>
+    <message>
         <source>Memory map</source>
-        <translation></translation>
+        <translation>Speicherbelegung</translation>
     </message>
     <message>
-        <location filename="../../FormatWidgets/MSDOS/msdoswidget.cpp" line="87"/>
         <source>Entropy</source>
         <translation>Entropie</translation>
     </message>
     <message>
-        <location filename="../../FormatWidgets/MSDOS/msdoswidget.cpp" line="88"/>
-        <source>Heuristic scan</source>
-        <translation></translation>
+        <source>Extractor</source>
+        <translation>Extraktor</translation>
     </message>
     <message>
-        <location filename="../../FormatWidgets/MSDOS/msdoswidget.cpp" line="93"/>
+        <source>Search</source>
+        <translation>Suche</translation>
+    </message>
+    <message>
         <source>Overlay</source>
         <translation>Overlay</translation>
+    </message>
+</context>
+<context>
+    <name>MultiSearch</name>
+    <message>
+        <source>Number</source>
+        <translation>Nummer</translation>
+    </message>
+    <message>
+        <source>Offset</source>
+        <translation>Offset</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Adresse</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>Größe</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation>Typ</translation>
+    </message>
+    <message>
+        <source>String</source>
+        <translation>String</translation>
+    </message>
+    <message>
+        <source>Value</source>
+        <translation>Wert</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Name</translation>
     </message>
 </context>
 <context>
     <name>NESectionHeaderWidget</name>
     <message>
-        <location filename="../../FormatWidgets/NE/nesectionheaderwidget.ui" line="50"/>
         <source>Readonly</source>
-        <translation></translation>
+        <translation>Nur lesen</translation>
     </message>
 </context>
 <context>
     <name>NEWidget</name>
     <message>
-        <location filename="../../FormatWidgets/NE/newidget.ui" line="37"/>
         <source>Reload</source>
         <translation>Neu laden</translation>
     </message>
     <message>
-        <location filename="../../FormatWidgets/NE/newidget.ui" line="57"/>
         <source>Readonly</source>
+        <translation>Nur lesen</translation>
+    </message>
+    <message>
+        <source>Next visited</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../../FormatWidgets/NE/newidget.cpp" line="87"/>
+        <source>Previous visited</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Info</source>
+        <translation>Info</translation>
+    </message>
+    <message>
+        <source>Visualization</source>
+        <translation>Visualisierung</translation>
+    </message>
+    <message>
+        <source>Hex</source>
+        <translation>Hex</translation>
+    </message>
+    <message>
+        <source>Disasm</source>
+        <translation>Disassembler</translation>
+    </message>
+    <message>
+        <source>Hash</source>
+        <translation>Hash</translation>
+    </message>
+    <message>
         <source>Strings</source>
-        <translation></translation>
+        <translation>Strings</translation>
     </message>
     <message>
-        <location filename="../../FormatWidgets/NE/newidget.cpp" line="88"/>
+        <source>Signatures</source>
+        <translation>Signaturen</translation>
+    </message>
+    <message>
         <source>Memory map</source>
-        <translation></translation>
+        <translation>Speicherbelegung</translation>
     </message>
     <message>
-        <location filename="../../FormatWidgets/NE/newidget.cpp" line="89"/>
         <source>Entropy</source>
         <translation>Entropie</translation>
     </message>
     <message>
-        <location filename="../../FormatWidgets/NE/newidget.cpp" line="90"/>
-        <source>Detect</source>
-        <translation></translation>
+        <source>Extractor</source>
+        <translation>Extraktor</translation>
     </message>
     <message>
-        <location filename="../../FormatWidgets/NE/newidget.cpp" line="98"/>
+        <source>Search</source>
+        <translation>Suche</translation>
+    </message>
+    <message>
         <source>Segments</source>
         <translation>Segmente</translation>
     </message>
     <message>
-        <location filename="../../FormatWidgets/NE/newidget.cpp" line="103"/>
         <source>Overlay</source>
         <translation>Overlay</translation>
+    </message>
+</context>
+<context>
+    <name>NFDOptionsWidget</name>
+    <message>
+        <source>Scan after open</source>
+        <translation>Scannen nach dem Öffnen starten</translation>
+    </message>
+    <message>
+        <source>Recursive scan</source>
+        <translation>Rekursiver Scan</translation>
+    </message>
+    <message>
+        <source>Deep scan</source>
+        <translation>Tiefen-Scan</translation>
+    </message>
+    <message>
+        <source>Heuristic scan</source>
+        <translation>Heuristischer Scan</translation>
+    </message>
+    <message>
+        <source>Verbose</source>
+        <translation>Ausführlich</translation>
+    </message>
+    <message>
+        <source>All types</source>
+        <translation>Alle Arten</translation>
+    </message>
+    <message>
+        <source>Highlight</source>
+        <translation>Hervorheben</translation>
+    </message>
+    <message>
+        <source>Buffer size</source>
+        <translation>Buffergröße</translation>
+    </message>
+</context>
+<context>
+    <name>NFDWidgetAdvanced</name>
+    <message>
+        <source>Save</source>
+        <translation>Speichern</translation>
+    </message>
+    <message>
+        <source>Scan</source>
+        <translation>Scan</translation>
+    </message>
+    <message>
+        <source>Heuristic</source>
+        <translation>Heuristik</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation>Typ</translation>
+    </message>
+    <message>
+        <source>Flags</source>
+        <translation>Markierungen</translation>
+    </message>
+    <message>
+        <source>Heuristics</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Ergebnis</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Name</translation>
+    </message>
+    <message>
+        <source>Value</source>
+        <translation>Wert</translation>
     </message>
 </context>
 <context>
     <name>NFD_Widget</name>
     <message>
-        <location filename="../../nfd_widget/nfd_widget.ui" line="67"/>
-        <source>Recursive scan</source>
-        <translation></translation>
+        <source>Info</source>
+        <translation>Info</translation>
     </message>
     <message>
-        <location filename="../../nfd_widget/nfd_widget.ui" line="74"/>
-        <source>Deep scan</source>
-        <translation>Tiefen-Scan</translation>
+        <source>Directory</source>
+        <translation>Verzeichnis</translation>
     </message>
     <message>
-        <location filename="../../nfd_widget/nfd_widget.ui" line="81"/>
-        <source>Heuristic scan</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="../../nfd_widget/nfd_widget.ui" line="162"/>
-        <location filename="../../nfd_widget/nfd_widget.cpp" line="107"/>
-        <location filename="../../nfd_widget/nfd_widget.cpp" line="145"/>
         <source>Scan</source>
         <translation>Scan</translation>
     </message>
     <message>
-        <location filename="../../nfd_widget/nfd_widget.cpp" line="91"/>
         <source>Stop</source>
         <translation>Stop</translation>
     </message>
     <message>
-        <location filename="../../nfd_widget/nfd_widget.cpp" line="141"/>
+        <source>Flags</source>
+        <translation>Markierungen</translation>
+    </message>
+    <message>
         <source>msec</source>
-        <translation></translation>
+        <translation>Millisekunden</translation>
+    </message>
+</context>
+<context>
+    <name>PDFWidget</name>
+    <message>
+        <source>Reload</source>
+        <translation>Neu laden</translation>
+    </message>
+    <message>
+        <source>Hex</source>
+        <translation>Hex</translation>
+    </message>
+    <message>
+        <source>Strings</source>
+        <translation>Strings</translation>
+    </message>
+    <message>
+        <source>Memory map</source>
+        <translation>Speicherbelegung</translation>
+    </message>
+    <message>
+        <source>Entropy</source>
+        <translation>Entropie</translation>
+    </message>
+    <message>
+        <source>Heuristic scan</source>
+        <translation>Heuristischer Scan</translation>
+    </message>
+    <message>
+        <source>Readonly</source>
+        <translation>Nur lesen</translation>
+    </message>
+    <message>
+        <source>Info</source>
+        <translation>Info</translation>
+    </message>
+    <message>
+        <source>Visualization</source>
+        <translation>Visualisierung</translation>
+    </message>
+    <message>
+        <source>Hash</source>
+        <translation>Hash</translation>
+    </message>
+    <message>
+        <source>Signatures</source>
+        <translation>Signaturen</translation>
+    </message>
+    <message>
+        <source>Extractor</source>
+        <translation>Extraktor</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>Suche</translation>
     </message>
 </context>
 <context>
     <name>PEProcessData</name>
     <message>
-        <location filename="../../FormatWidgets/PE/peprocessdata.cpp" line="509"/>
+        <source>Section</source>
+        <translation>Bereich</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Name</translation>
+    </message>
+    <message>
+        <source>Relative address</source>
+        <translation>Relative Adresse</translation>
+    </message>
+    <message>
+        <source>Virtual size</source>
+        <translation>Virtuelle Größe</translation>
+    </message>
+    <message>
+        <source>File offset</source>
+        <translation>Datei-Offset</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>Größe</translation>
+    </message>
+    <message>
+        <source>Flags</source>
+        <translation>Markierungen</translation>
+    </message>
+    <message>
+        <source>Info</source>
+        <translation>Info</translation>
+    </message>
+    <message>
+        <source>Header</source>
+        <translation>Header</translation>
+    </message>
+    <message>
+        <source>Overlay</source>
+        <translation>Overlay</translation>
+    </message>
+    <message>
+        <source>Entry point</source>
+        <translation>Einstiegspunkt</translation>
+    </message>
+    <message>
+        <source>Export</source>
+        <translation>Export</translation>
+    </message>
+    <message>
+        <source>Import</source>
+        <translation>Import</translation>
+    </message>
+    <message>
         <source>Resources</source>
-        <translation></translation>
+        <translation>Ressourcen</translation>
+    </message>
+    <message>
+        <source>Exceptions</source>
+        <translation>Ausnahmen</translation>
+    </message>
+    <message>
+        <source>Relocs</source>
+        <translation>Relocs</translation>
+    </message>
+    <message>
+        <source>Debug</source>
+        <translation>Debug</translation>
+    </message>
+    <message>
+        <source>Load config</source>
+        <translation>Konfiguration laden</translation>
+    </message>
+    <message>
+        <source>Bound import</source>
+        <translation>Gebundener Import</translation>
+    </message>
+    <message>
+        <source>Delay import</source>
+        <translation>Import verzögern</translation>
+    </message>
+    <message>
+        <source>Tags</source>
+        <translation>Tags</translation>
+    </message>
+    <message>
+        <source>Description</source>
+        <translation>Beschreibung</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation>Typ</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Adresse</translation>
+    </message>
+    <message>
+        <source>Hash</source>
+        <translation>Hash</translation>
+    </message>
+    <message>
+        <source>Offset</source>
+        <translation>Offset</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>Sprache</translation>
+    </message>
+    <message>
+        <source>String</source>
+        <translation>String</translation>
+    </message>
+    <message>
+        <source>Certificate</source>
+        <translation>Zertifikat</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>Status</translation>
+    </message>
+    <message>
+        <source>Program name</source>
+        <translation>Programmname</translation>
+    </message>
+    <message>
+        <source>Publisher</source>
+        <translation>Herausgeber</translation>
+    </message>
+    <message>
+        <source>More info</source>
+        <translation>Mehr Info</translation>
+    </message>
+    <message>
+        <source>Serial number</source>
+        <translation>Seriennummer</translation>
+    </message>
+    <message>
+        <source>Issuer</source>
+        <translation>Aussteller</translation>
+    </message>
+    <message>
+        <source>Subject</source>
+        <translation>Gegenstand</translation>
+    </message>
+    <message>
+        <source>Algorithm</source>
+        <translation>Algorithmus</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>Version</translation>
+    </message>
+    <message>
+        <source>Count</source>
+        <translation>Zählen</translation>
+    </message>
+    <message>
+        <source>Sorted</source>
+        <translation>Sortiert</translation>
     </message>
 </context>
 <context>
     <name>PESectionHeaderWidget</name>
     <message>
-        <location filename="../../FormatWidgets/PE/pesectionheaderwidget.ui" line="53"/>
         <source>Readonly</source>
-        <translation></translation>
+        <translation>Nur lesen</translation>
+    </message>
+</context>
+<context>
+    <name>PEToolsWidget</name>
+    <message>
+        <source>Tools</source>
+        <translation>Werkzeuge</translation>
+    </message>
+    <message>
+        <source>Add</source>
+        <translation>Hinzufügen</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>Entfernen</translation>
+    </message>
+    <message>
+        <source>Dump</source>
+        <translation>Abbild</translation>
+    </message>
+    <message>
+        <source>Overlay</source>
+        <translation>Overlay</translation>
+    </message>
+    <message>
+        <source>Save dump</source>
+        <translation>Abbild speichern</translation>
+    </message>
+    <message>
+        <source>Raw data</source>
+        <translation>Rohdaten</translation>
     </message>
 </context>
 <context>
     <name>PEWidget</name>
     <message>
-        <location filename="../../FormatWidgets/PE/pewidget.ui" line="40"/>
         <source>Reload</source>
         <translation>Neu laden</translation>
     </message>
     <message>
-        <location filename="../../FormatWidgets/PE/pewidget.ui" line="67"/>
-        <location filename="../../FormatWidgets/PE/pewidget.cpp" line="107"/>
+        <source>Readonly</source>
+        <translation>Nur lesen</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Speichern</translation>
+    </message>
+    <message>
+        <source>Dump</source>
+        <translation>Abbild</translation>
+    </message>
+    <message>
+        <source>String table</source>
+        <translation>Zeichentabelle</translation>
+    </message>
+    <message>
+        <source>Dump all</source>
+        <translation>Alles ausgeben</translation>
+    </message>
+    <message>
+        <source>Show valid</source>
+        <translation>Gültige anzeigen</translation>
+    </message>
+    <message>
+        <source>Table</source>
+        <translation>Tabelle</translation>
+    </message>
+    <message>
+        <source>Extract all icons</source>
+        <translation>Alle Symbole extrahieren</translation>
+    </message>
+    <message>
+        <source>Extract all cursors</source>
+        <translation>Alle Cursor extrahieren</translation>
+    </message>
+    <message>
+        <source>Tree</source>
+        <translation>Verzeichnis</translation>
+    </message>
+    <message>
+        <source>Format</source>
+        <translation>Format</translation>
+    </message>
+    <message>
+        <source>Check</source>
+        <translation>Prüfen</translation>
+    </message>
+    <message>
+        <source>Next visited</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Previous visited</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Hash</source>
+        <translation>Hash</translation>
+    </message>
+    <message>
+        <source>Info</source>
+        <translation>Info</translation>
+    </message>
+    <message>
+        <source>Visualization</source>
+        <translation>Visualisierung</translation>
+    </message>
+    <message>
+        <source>Hex</source>
+        <translation>Hex</translation>
+    </message>
+    <message>
         <source>Disasm</source>
-        <translation></translation>
+        <translation>Disassembler</translation>
     </message>
     <message>
-        <location filename="../../FormatWidgets/PE/pewidget.ui" line="74"/>
-        <location filename="../../FormatWidgets/PE/pewidget.cpp" line="109"/>
         <source>Strings</source>
-        <translation></translation>
+        <translation>Strings</translation>
     </message>
     <message>
-        <location filename="../../FormatWidgets/PE/pewidget.ui" line="81"/>
-        <location filename="../../FormatWidgets/PE/pewidget.cpp" line="110"/>
+        <source>Signatures</source>
+        <translation>Signaturen</translation>
+    </message>
+    <message>
         <source>Memory map</source>
-        <translation></translation>
+        <translation>Speicherbelegung</translation>
     </message>
     <message>
-        <location filename="../../FormatWidgets/PE/pewidget.ui" line="88"/>
-        <location filename="../../FormatWidgets/PE/pewidget.cpp" line="111"/>
-        <location filename="../../FormatWidgets/PE/pewidget.cpp" line="1635"/>
         <source>Entropy</source>
         <translation>Entropie</translation>
     </message>
     <message>
-        <location filename="../../FormatWidgets/PE/pewidget.ui" line="95"/>
-        <location filename="../../FormatWidgets/PE/pewidget.cpp" line="112"/>
-        <source>Heuristic scan</source>
-        <translation></translation>
+        <source>Extractor</source>
+        <translation>Extraktor</translation>
     </message>
     <message>
-        <location filename="../../FormatWidgets/PE/pewidget.ui" line="102"/>
-        <source>Readonly</source>
-        <translation></translation>
+        <source>Search</source>
+        <translation>Suche</translation>
     </message>
     <message>
-        <location filename="../../FormatWidgets/PE/pewidget.cpp" line="121"/>
-        <source>Sections</source>
-        <translation>Sektionen</translation>
+        <source>Tools</source>
+        <translation>Werkzeuge</translation>
     </message>
     <message>
-        <location filename="../../FormatWidgets/PE/pewidget.cpp" line="213"/>
-        <source>Overlay</source>
-        <translation>Overlay</translation>
-    </message>
-    <message>
-        <location filename="../../FormatWidgets/PE/pewidget.cpp" line="953"/>
-        <source>Calculate</source>
-        <translation>Kalkulieren</translation>
-    </message>
-    <message>
-        <location filename="../../FormatWidgets/PE/pewidget.cpp" line="1626"/>
-        <location filename="../../FormatWidgets/PE/pewidget.cpp" line="2015"/>
-        <location filename="../../FormatWidgets/PE/pewidget.cpp" line="2058"/>
-        <location filename="../../FormatWidgets/PE/pewidget.cpp" line="2093"/>
-        <location filename="../../FormatWidgets/PE/pewidget.cpp" line="2128"/>
-        <location filename="../../FormatWidgets/PE/pewidget.cpp" line="2163"/>
-        <location filename="../../FormatWidgets/PE/pewidget.cpp" line="2198"/>
-        <source>Edit</source>
-        <translation>Bearbeiten</translation>
-    </message>
-    <message>
-        <location filename="../../FormatWidgets/PE/pewidget.cpp" line="1794"/>
-        <location filename="../../FormatWidgets/PE/pewidget.cpp" line="1795"/>
-        <location filename="../../FormatWidgets/PE/pewidget.cpp" line="1796"/>
-        <location filename="../../FormatWidgets/PE/pewidget.cpp" line="1797"/>
-        <location filename="../../FormatWidgets/PE/pewidget.cpp" line="1798"/>
-        <location filename="../../FormatWidgets/PE/pewidget.cpp" line="1799"/>
-        <location filename="../../FormatWidgets/PE/pewidget.cpp" line="1800"/>
-        <source>Header</source>
-        <translation>Header</translation>
-    </message>
-</context>
-<context>
-    <name>QHexView</name>
-    <message>
-        <location filename="../../QHexView/qhexview.cpp" line="1118"/>
-        <source>Cannot save file</source>
-        <translation></translation>
-    </message>
-</context>
-<context>
-    <name>QHexViewWidget</name>
-    <message>
-        <location filename="../../QHexView/qhexviewwidget.ui" line="50"/>
-        <location filename="../../QHexView/qhexviewwidget.cpp" line="285"/>
-        <source>Go to address</source>
-        <translation>Zur Adresse</translation>
-    </message>
-    <message>
-        <location filename="../../QHexView/qhexviewwidget.ui" line="57"/>
-        <source>Cursor</source>
-        <translation>Cursor</translation>
-    </message>
-    <message>
-        <location filename="../../QHexView/qhexviewwidget.ui" line="77"/>
-        <source>Selection</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="../../QHexView/qhexviewwidget.ui" line="97"/>
-        <source>Size</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="../../QHexView/qhexviewwidget.ui" line="136"/>
-        <source>Readonly</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="../../QHexView/qhexviewwidget.cpp" line="203"/>
-        <source>Raw data</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="../../QHexView/qhexviewwidget.cpp" line="205"/>
-        <source>Save dump</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="../../QHexView/qhexviewwidget.cpp" line="290"/>
-        <source>Dump to file</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="../../QHexView/qhexviewwidget.cpp" line="295"/>
         <source>Signature</source>
         <translation>Signatur</translation>
     </message>
     <message>
-        <location filename="../../QHexView/qhexviewwidget.cpp" line="306"/>
-        <source>Find</source>
-        <translation></translation>
+        <source>Sections</source>
+        <translation>Abschnitte</translation>
     </message>
     <message>
-        <location filename="../../QHexView/qhexviewwidget.cpp" line="311"/>
-        <source>Find next</source>
-        <translation></translation>
+        <source>Export</source>
+        <translation>Export</translation>
     </message>
     <message>
-        <location filename="../../QHexView/qhexviewwidget.cpp" line="316"/>
-        <source>Select</source>
-        <translation>Auswählen</translation>
+        <source>Import</source>
+        <translation>Import</translation>
     </message>
     <message>
-        <location filename="../../QHexView/qhexviewwidget.cpp" line="318"/>
-        <source>Select all</source>
-        <translation>Alle wählen</translation>
+        <source>Resources</source>
+        <translation>Ressourcen</translation>
     </message>
     <message>
-        <location filename="../../QHexView/qhexviewwidget.cpp" line="325"/>
-        <source>Copy</source>
-        <translation>Kopieren</translation>
+        <source>Version</source>
+        <translation>Version</translation>
     </message>
     <message>
-        <location filename="../../QHexView/qhexviewwidget.cpp" line="327"/>
-        <source>Copy as hex</source>
-        <translation></translation>
+        <source>Manifest</source>
+        <translation>Manifest</translation>
     </message>
     <message>
-        <location filename="../../QHexView/qhexviewwidget.cpp" line="341"/>
-        <source>Error</source>
-        <translation>Fehler</translation>
+        <source>Exceptions</source>
+        <translation>Ausnahmen</translation>
+    </message>
+    <message>
+        <source>Certificate</source>
+        <translation>Zertifikat</translation>
+    </message>
+    <message>
+        <source>Relocs</source>
+        <translation>Relocs</translation>
+    </message>
+    <message>
+        <source>Debug</source>
+        <translation>Debug</translation>
+    </message>
+    <message>
+        <source>Callbacks</source>
+        <translation>Rückruffunktionen</translation>
+    </message>
+    <message>
+        <source>Load config</source>
+        <translation>Konfiguration laden</translation>
+    </message>
+    <message>
+        <source>Bound import</source>
+        <translation>Gebundener Import</translation>
+    </message>
+    <message>
+        <source>Delay import</source>
+        <translation>Import verzögern</translation>
+    </message>
+    <message>
+        <source>Metadata</source>
+        <translation>Metadaten</translation>
+    </message>
+    <message>
+        <source>Metadata table</source>
+        <translation>Metadatentabelle</translation>
+    </message>
+    <message>
+        <source>Overlay</source>
+        <translation>Overlay</translation>
+    </message>
+    <message>
+        <source>Calculate</source>
+        <translation>Berechnen</translation>
+    </message>
+    <message>
+        <source>Unknown</source>
+        <translation>Unbekannt</translation>
+    </message>
+    <message>
+        <source>Header</source>
+        <translation>Header</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>Bearbeiten</translation>
+    </message>
+    <message>
+        <source>Dump to file</source>
+        <translation>In Datei speichern</translation>
+    </message>
+    <message>
+        <source>Demangle</source>
+        <translation>Entmangeln</translation>
     </message>
 </context>
 <context>
     <name>QObject</name>
     <message>
-        <location filename="../../FormatWidgets/PE/pe_defs.cpp" line="258"/>
-        <source>Address</source>
-        <translation>Adresse</translation>
-    </message>
-    <message>
-        <location filename="../../FormatWidgets/PE/pe_defs.cpp" line="259"/>
-        <source>Offset</source>
-        <translation>Offset</translation>
-    </message>
-    <message>
-        <location filename="../../FormatWidgets/PE/pe_defs.cpp" line="260"/>
-        <source>Size</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="../../Formats/xbinary.cpp" line="2668"/>
-        <source>Read error</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="../../Formats/xbinary.cpp" line="2675"/>
-        <source>Write error</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="../../Formats/xbinary.cpp" line="2700"/>
-        <source>Cannot open file</source>
-        <translation></translation>
-    </message>
-</context>
-<context>
-    <name>SearchStrings</name>
-    <message>
-        <location filename="../../FormatWidgets/SearchStrings/searchstrings.cpp" line="285"/>
-        <source>Maximum</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="../../FormatWidgets/SearchStrings/searchstrings.cpp" line="293"/>
-        <source>Read error</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="../../FormatWidgets/SearchStrings/searchstrings.cpp" line="322"/>
-        <source>Address</source>
-        <translation>Adresse</translation>
-    </message>
-    <message>
-        <location filename="../../FormatWidgets/SearchStrings/searchstrings.cpp" line="322"/>
-        <source>Offset</source>
-        <translation>Offset</translation>
-    </message>
-    <message>
-        <location filename="../../FormatWidgets/SearchStrings/searchstrings.cpp" line="323"/>
-        <source>Size</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="../../FormatWidgets/SearchStrings/searchstrings.cpp" line="324"/>
         <source>Type</source>
         <translation>Typ</translation>
     </message>
     <message>
-        <location filename="../../FormatWidgets/SearchStrings/searchstrings.cpp" line="325"/>
+        <source>Count</source>
+        <translation>Zählen</translation>
+    </message>
+    <message>
+        <source>Offset</source>
+        <translation>Offset</translation>
+    </message>
+    <message>
         <source>String</source>
-        <translation></translation>
+        <translation>String</translation>
+    </message>
+    <message>
+        <source>Library name</source>
+        <translation>Bibliotheksname</translation>
+    </message>
+    <message>
+        <source>Interpreter</source>
+        <translation>Interpreter</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Name</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>Version</translation>
+    </message>
+    <message>
+        <source>Length</source>
+        <translation>Länge</translation>
+    </message>
+    <message>
+        <source>Value</source>
+        <translation>Wert</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Adresse</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>Größe</translation>
+    </message>
+    <message>
+        <source>Cannot open file</source>
+        <translation>Kann die Datei nicht öffnen</translation>
+    </message>
+</context>
+<context>
+    <name>QwtPlotRenderer</name>
+    <message>
+        <source>Documents</source>
+        <translation>Dokumente</translation>
+    </message>
+    <message>
+        <source>Images</source>
+        <translation>Speicherabbilder</translation>
+    </message>
+    <message>
+        <source>Export File Name</source>
+        <translation>Dateiname exportieren</translation>
+    </message>
+</context>
+<context>
+    <name>QwtPolarRenderer</name>
+    <message>
+        <source>Documents</source>
+        <translation>Dokumente</translation>
+    </message>
+    <message>
+        <source>Images</source>
+        <translation>Speicherabbilder</translation>
+    </message>
+    <message>
+        <source>Export File Name</source>
+        <translation>Dateiname exportieren</translation>
+    </message>
+</context>
+<context>
+    <name>ScanItemModel</name>
+    <message>
+        <source>Result</source>
+        <translation>Ergebnis</translation>
+    </message>
+</context>
+<context>
+    <name>SearchSignaturesOptionsWidget</name>
+    <message>
+        <source>Form</source>
+        <translation>Formular</translation>
+    </message>
+    <message>
+        <source>Search signatures</source>
+        <translation>Suche Signaturen</translation>
+    </message>
+    <message>
+        <source>Open directory</source>
+        <translation>Ordner öffnen</translation>
+    </message>
+</context>
+<context>
+    <name>SearchSignaturesWidget</name>
+    <message>
+        <source>Save</source>
+        <translation>Speichern</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>Suche</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>Datei</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation>Typ</translation>
+    </message>
+    <message>
+        <source>Endianness</source>
+        <translation>Byte-Reihenfolge</translation>
+    </message>
+    <message>
+        <source>Info</source>
+        <translation>Info</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Ergebnis</translation>
+    </message>
+    <message>
+        <source>Signatures</source>
+        <translation>Signaturen</translation>
+    </message>
+    <message>
+        <source>Copy</source>
+        <translation>Kopieren</translation>
+    </message>
+    <message>
+        <source>Follow in</source>
+        <translation>Verfolgen in</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Name</translation>
+    </message>
+    <message>
+        <source>Signature</source>
+        <translation>Signatur</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Adresse</translation>
+    </message>
+    <message>
+        <source>Offset</source>
+        <translation>Offset</translation>
+    </message>
+    <message>
+        <source>Hex</source>
+        <translation>Hex</translation>
     </message>
 </context>
 <context>
     <name>SearchStringsWidget</name>
     <message>
-        <location filename="../../FormatWidgets/SearchStrings/searchstringswidget.ui" line="61"/>
-        <source>Search</source>
-        <translation>Suche</translation>
-    </message>
-    <message>
-        <location filename="../../FormatWidgets/SearchStrings/searchstringswidget.ui" line="103"/>
-        <source>Filter</source>
+        <source>Null-terminated</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../../FormatWidgets/SearchStrings/searchstringswidget.ui" line="140"/>
+        <source>Links</source>
+        <translation>Links</translation>
+    </message>
+    <message>
         <source>Save</source>
         <translation>Speichern</translation>
     </message>
     <message>
-        <location filename="../../FormatWidgets/SearchStrings/searchstringswidget.cpp" line="105"/>
-        <source>Save file</source>
+        <source>Search</source>
+        <translation>Suche</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation>Typ</translation>
+    </message>
+    <message>
+        <source>Mode</source>
+        <translation>Modus</translation>
+    </message>
+    <message>
+        <source>Mask</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../../FormatWidgets/SearchStrings/searchstringswidget.cpp" line="105"/>
+        <source>Regular expression</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Min length</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Ergebnis</translation>
+    </message>
+    <message>
         <source>Strings</source>
+        <translation>Strings</translation>
+    </message>
+    <message>
+        <source>Follow in</source>
+        <translation>Verfolgen in</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>Bearbeiten</translation>
+    </message>
+    <message>
+        <source>Hex</source>
+        <translation>Hex</translation>
+    </message>
+    <message>
+        <source>Demangle</source>
+        <translation>Entmangeln</translation>
+    </message>
+    <message>
+        <source>String</source>
+        <translation>String</translation>
+    </message>
+    <message>
+        <source>Error</source>
+        <translation>Fehler</translation>
+    </message>
+    <message>
+        <source>Cannot save file</source>
+        <translation>Kann die Datei nicht speichern</translation>
+    </message>
+</context>
+<context>
+    <name>SearchValuesWidget</name>
+    <message>
+        <source>String</source>
+        <translation>String</translation>
+    </message>
+    <message>
+        <source>Signature</source>
+        <translation>Signatur</translation>
+    </message>
+    <message>
+        <source>Value</source>
+        <translation>Wert</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Speichern</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>Suche</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation>Typ</translation>
+    </message>
+    <message>
+        <source>Mode</source>
+        <translation>Modus</translation>
+    </message>
+    <message>
+        <source>Search string</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../../FormatWidgets/SearchStrings/searchstringswidget.cpp" line="105"/>
-        <source>Text files</source>
+        <source>Search signature</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../../FormatWidgets/SearchStrings/searchstringswidget.cpp" line="105"/>
-        <source>All files</source>
+        <source>Search value</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../../FormatWidgets/SearchStrings/searchstringswidget.cpp" line="157"/>
-        <source>Copy string</source>
-        <translation></translation>
+        <source>Result</source>
+        <translation>Ergebnis</translation>
     </message>
     <message>
-        <location filename="../../FormatWidgets/SearchStrings/searchstringswidget.cpp" line="165"/>
-        <source>Copy address</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="../../FormatWidgets/SearchStrings/searchstringswidget.cpp" line="169"/>
-        <source>Copy offset</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="../../FormatWidgets/SearchStrings/searchstringswidget.cpp" line="176"/>
-        <source>Copy size</source>
-        <translation></translation>
+        <source>Values</source>
+        <translation>Werte</translation>
     </message>
 </context>
 <context>
     <name>SpecAbstract</name>
     <message>
-        <location filename="../../SpecAbstract/specabstract.cpp" line="148"/>
-        <location filename="../../SpecAbstract/specabstract.cpp" line="178"/>
-        <location filename="../../SpecAbstract/specabstract.cpp" line="182"/>
-        <location filename="../../SpecAbstract/specabstract.cpp" line="193"/>
-        <location filename="../../SpecAbstract/specabstract.cpp" line="197"/>
-        <location filename="../../SpecAbstract/specabstract.cpp" line="233"/>
-        <location filename="../../SpecAbstract/specabstract.cpp" line="762"/>
-        <location filename="../../SpecAbstract/specabstract.cpp" line="766"/>
         <source>Unknown</source>
-        <translation></translation>
+        <translation>Unbekannt</translation>
     </message>
     <message>
-        <location filename="../../SpecAbstract/specabstract.cpp" line="183"/>
-        <location filename="../../SpecAbstract/specabstract.cpp" line="767"/>
         <source>Header</source>
         <translation>Header</translation>
     </message>
     <message>
-        <location filename="../../SpecAbstract/specabstract.cpp" line="184"/>
-        <location filename="../../SpecAbstract/specabstract.cpp" line="768"/>
         <source>Overlay</source>
         <translation>Overlay</translation>
     </message>
     <message>
-        <location filename="../../SpecAbstract/specabstract.cpp" line="185"/>
-        <source>Archive record</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="../../SpecAbstract/specabstract.cpp" line="198"/>
-        <location filename="../../SpecAbstract/specabstract.cpp" line="777"/>
-        <source>Archive</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="../../SpecAbstract/specabstract.cpp" line="199"/>
-        <source>Certificate</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="../../SpecAbstract/specabstract.cpp" line="200"/>
-        <source>Compiler</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="../../SpecAbstract/specabstract.cpp" line="201"/>
-        <source>Converter</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="../../SpecAbstract/specabstract.cpp" line="202"/>
-        <source>Database</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="../../SpecAbstract/specabstract.cpp" line="203"/>
         <source>Debug data</source>
-        <translation></translation>
+        <translation>Daten Debuggen</translation>
     </message>
     <message>
-        <location filename="../../SpecAbstract/specabstract.cpp" line="204"/>
-        <source>protection</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="../../SpecAbstract/specabstract.cpp" line="205"/>
-        <source>extender</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="../../SpecAbstract/specabstract.cpp" line="206"/>
-        <source>Format</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="../../SpecAbstract/specabstract.cpp" line="207"/>
-        <source>Generic</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="../../SpecAbstract/specabstract.cpp" line="208"/>
-        <source>Image</source>
-        <translation>Image</translation>
-    </message>
-    <message>
-        <location filename="../../SpecAbstract/specabstract.cpp" line="209"/>
-        <source>Installer</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="../../SpecAbstract/specabstract.cpp" line="210"/>
-        <source>Installer data</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="../../SpecAbstract/specabstract.cpp" line="211"/>
-        <source>Joiner</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="../../SpecAbstract/specabstract.cpp" line="212"/>
-        <source>Library</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="../../SpecAbstract/specabstract.cpp" line="213"/>
-        <source>Linker</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="../../SpecAbstract/specabstract.cpp" line="214"/>
-        <source>compressor</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="../../SpecAbstract/specabstract.cpp" line="215"/>
-        <source>obfuscator</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="../../SpecAbstract/specabstract.cpp" line="216"/>
-        <source>Packer</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="../../SpecAbstract/specabstract.cpp" line="217"/>
-        <location filename="../../SpecAbstract/specabstract.cpp" line="225"/>
-        <source>Tool</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="../../SpecAbstract/specabstract.cpp" line="218"/>
-        <source>Protector</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="../../SpecAbstract/specabstract.cpp" line="219"/>
-        <source>Protector data</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="../../SpecAbstract/specabstract.cpp" line="221"/>
-        <source>data</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="../../SpecAbstract/specabstract.cpp" line="222"/>
-        <source>Sign tool</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="../../SpecAbstract/specabstract.cpp" line="223"/>
-        <source>Source code</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="../../SpecAbstract/specabstract.cpp" line="224"/>
-        <source>Stub</source>
-        <translation>Stub</translation>
-    </message>
-    <message>
-        <location filename="../../SpecAbstract/specabstract.cpp" line="769"/>
         <source>Entry point</source>
-        <translation></translation>
+        <translation>Einstiegspunkt</translation>
     </message>
     <message>
-        <location filename="../../SpecAbstract/specabstract.cpp" line="770"/>
         <source>Section name</source>
-        <translation></translation>
+        <translation>Bereichsname</translation>
     </message>
     <message>
-        <location filename="../../SpecAbstract/specabstract.cpp" line="772"/>
+        <source>Import hash</source>
+        <translation>Import hash</translation>
+    </message>
+    <message>
         <source>Code section</source>
-        <translation></translation>
+        <translation>Codeabschnitt</translation>
     </message>
     <message>
-        <location filename="../../SpecAbstract/specabstract.cpp" line="773"/>
         <source>Entry point section</source>
-        <translation></translation>
+        <translation>Einstiegspunkt-Abschnitt</translation>
     </message>
     <message>
-        <location filename="../../SpecAbstract/specabstract.cpp" line="774"/>
-        <location filename="../../SpecAbstract/specabstract.cpp" line="775"/>
         <source>String</source>
-        <translation></translation>
+        <translation>String</translation>
+    </message>
+    <message>
+        <source>Archive</source>
+        <translation>Archiv</translation>
+    </message>
+    <message>
+        <source>Resources</source>
+        <translation>Ressourcen</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation>Typ</translation>
     </message>
 </context>
 <context>
     <name>StaticScan</name>
     <message>
-        <location filename="../../StaticScan/staticscan.cpp" line="74"/>
         <source>File scan</source>
         <translation>Datei-Scan</translation>
     </message>
     <message>
-        <location filename="../../StaticScan/staticscan.cpp" line="87"/>
-        <source>Directory scan</source>
-        <translation>Ordner scannen</translation>
+        <source>Device scan</source>
+        <translation>Gerät scannen</translation>
     </message>
     <message>
-        <location filename="../../StaticScan/staticscan.cpp" line="117"/>
-        <source>Device scan</source>
-        <translation></translation>
+        <source>Memory scan</source>
+        <translation>Speicherscan</translation>
+    </message>
+    <message>
+        <source>Directory scan</source>
+        <translation>Verzeichnis scannen</translation>
     </message>
 </context>
 <context>
-    <name>StaticScanItemModel</name>
+    <name>StaticScanOptionsWidget</name>
     <message>
-        <location filename="../../StaticScan/staticscanitemmodel.cpp" line="26"/>
-        <source>Result</source>
-        <translation></translation>
+        <source>Scan after open</source>
+        <translation>Scannen nach dem Öffnen starten</translation>
+    </message>
+    <message>
+        <source>Recursive scan</source>
+        <translation>Rekursiver Scan</translation>
+    </message>
+    <message>
+        <source>Deep scan</source>
+        <translation>Tiefen-Scan</translation>
+    </message>
+    <message>
+        <source>Heuristic scan</source>
+        <translation>Heuristischer Scan</translation>
+    </message>
+    <message>
+        <source>Verbose</source>
+        <translation>Ausführlich</translation>
+    </message>
+    <message>
+        <source>All types</source>
+        <translation>Alle Arten</translation>
     </message>
 </context>
 <context>
     <name>ToolsWidget</name>
     <message>
-        <location filename="../../FormatWidgets/toolswidget.ui" line="58"/>
         <source>Strings</source>
+        <translation>Strings</translation>
+    </message>
+</context>
+<context>
+    <name>XAPK</name>
+    <message>
+        <source>Universal</source>
+        <translation>Universal</translation>
+    </message>
+    <message>
+        <source>Unknown</source>
+        <translation>Unbekannt</translation>
+    </message>
+    <message>
+        <source>Package</source>
+        <translation>Paket</translation>
+    </message>
+</context>
+<context>
+    <name>XAboutWidget</name>
+    <message>
+        <source>Info</source>
+        <translation>Info</translation>
+    </message>
+    <message>
+        <source>Follow me</source>
+        <translation>Folge mir</translation>
+    </message>
+    <message>
+        <source>Thanks</source>
+        <translation>Danke</translation>
+    </message>
+    <message>
+        <source>Check updates</source>
+        <translation>Auf Updates prüfen</translation>
+    </message>
+    <message>
+        <source>Libraries</source>
+        <translation>Bibliotheken</translation>
+    </message>
+    <message>
+        <source>Update information</source>
+        <translation>Update-Informationen</translation>
+    </message>
+    <message>
+        <source>New version available</source>
+        <translation>Neue Version verfügbar</translation>
+    </message>
+    <message>
+        <source>Go to download page?</source>
+        <translation>Zur Downloadseite gehen?</translation>
+    </message>
+    <message>
+        <source>No update available</source>
+        <translation>Kein Update verfügbar</translation>
+    </message>
+    <message>
+        <source>Network error</source>
+        <translation>Netzwerk Fehler</translation>
+    </message>
+    <message>
+        <source>Information</source>
+        <translation>Information</translation>
+    </message>
+    <message>
+        <source>The value copied to clipboard</source>
+        <translation>Der Wert wurde in die Zwischenablage kopiert</translation>
+    </message>
+</context>
+<context>
+    <name>XAbstractTableView</name>
+    <message>
+        <source>Invalid font</source>
+        <translation>Ungültige Schriftart</translation>
+    </message>
+</context>
+<context>
+    <name>XAmigaHunk</name>
+    <message>
+        <source>Unknown</source>
+        <translation>Unbekannt</translation>
+    </message>
+    <message>
+        <source>Object</source>
+        <translation>Objekt</translation>
+    </message>
+</context>
+<context>
+    <name>XArchive</name>
+    <message>
+        <source>Unknown</source>
+        <translation>Unbekannt</translation>
+    </message>
+    <message>
+        <source>Archive</source>
+        <translation>Archiv</translation>
+    </message>
+    <message>
+        <source>extender</source>
+        <translation>Extender</translation>
+    </message>
+</context>
+<context>
+    <name>XBinary</name>
+    <message>
+        <source>Unknown</source>
+        <translation>Unbekannt</translation>
+    </message>
+    <message>
+        <source>8-bit</source>
+        <translation>8 Bit</translation>
+    </message>
+    <message>
+        <source>16-bit</source>
+        <translation>16-Bit</translation>
+    </message>
+    <message>
+        <source>32-bit</source>
+        <translation>32-Bit</translation>
+    </message>
+    <message>
+        <source>64-bit</source>
+        <translation>64-Bit</translation>
+    </message>
+    <message>
+        <source>128-bit</source>
+        <translation>128-Bit</translation>
+    </message>
+    <message>
+        <source>256-bit</source>
+        <translation>256-bit</translation>
+    </message>
+    <message>
+        <source>Data</source>
+        <translation>Daten</translation>
+    </message>
+    <message>
+        <source>Region</source>
+        <translation>Region</translation>
+    </message>
+    <message>
+        <source>Process</source>
+        <translation>Prozess</translation>
+    </message>
+    <message>
+        <source>Archive</source>
+        <translation>Archiv</translation>
+    </message>
+    <message>
+        <source>Audio</source>
+        <translation>Audio</translation>
+    </message>
+    <message>
+        <source>Document</source>
+        <translation>Dokument</translation>
+    </message>
+    <message>
+        <source>Image</source>
+        <translation>Speicherabbild</translation>
+    </message>
+    <message>
+        <source>Plain Text</source>
+        <translation>Klartext</translation>
+    </message>
+    <message>
+        <source>Signature</source>
+        <translation>Signatur</translation>
+    </message>
+    <message>
+        <source>Text</source>
+        <translation>Text</translation>
+    </message>
+    <message>
+        <source>Video</source>
+        <translation>Video</translation>
+    </message>
+    <message>
+        <source>Signatures</source>
+        <translation>Signaturen</translation>
+    </message>
+    <message>
+        <source>Read error</source>
+        <translation>Lesefehler</translation>
+    </message>
+    <message>
+        <source>Maximum</source>
+        <translation>Maximum</translation>
+    </message>
+    <message>
+        <source>Regions</source>
+        <translation>Regionen</translation>
+    </message>
+    <message>
+        <source>Segments</source>
+        <translation>Segmente</translation>
+    </message>
+    <message>
+        <source>Sections</source>
+        <translation>Abschnitte</translation>
+    </message>
+    <message>
+        <source>Objects</source>
         <translation></translation>
+    </message>
+    <message>
+        <source>Maps</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Invalid signature</source>
+        <translation>Ungültige Signatur</translation>
+    </message>
+    <message>
+        <source>Write error</source>
+        <translation>Schreibfehler</translation>
+    </message>
+    <message>
+        <source>true</source>
+        <translation>true</translation>
+    </message>
+    <message>
+        <source>false</source>
+        <translation>false</translation>
+    </message>
+    <message>
+        <source>Default</source>
+        <translation>Standard</translation>
+    </message>
+    <message>
+        <source>Multiplatform</source>
+        <translation>Multiplatform</translation>
+    </message>
+    <message>
+        <source>Bytes</source>
+        <translation>Bytes</translation>
+    </message>
+    <message>
+        <source>KiB</source>
+        <translation>KiB</translation>
+    </message>
+    <message>
+        <source>kB</source>
+        <translation>kB</translation>
+    </message>
+    <message>
+        <source>MiB</source>
+        <translation>MiB</translation>
+    </message>
+    <message>
+        <source>MB</source>
+        <translation>MB</translation>
+    </message>
+    <message>
+        <source>GiB</source>
+        <translation>GiB</translation>
+    </message>
+    <message>
+        <source>GB</source>
+        <translation>GB</translation>
+    </message>
+    <message>
+        <source>TiB</source>
+        <translation>TiB</translation>
+    </message>
+    <message>
+        <source>TB</source>
+        <translation>TB</translation>
+    </message>
+    <message>
+        <source>Header</source>
+        <translation>Header</translation>
+    </message>
+    <message>
+        <source>Overlay</source>
+        <translation>Overlay</translation>
+    </message>
+    <message>
+        <source>Archive record</source>
+        <translation>Archivaufzeichnung</translation>
+    </message>
+    <message>
+        <source>Resource</source>
+        <translation>Ressource</translation>
+    </message>
+    <message>
+        <source>Debug data</source>
+        <translation>Daten Debuggen</translation>
+    </message>
+</context>
+<context>
+    <name>XCOM</name>
+    <message>
+        <source>Unknown</source>
+        <translation>Unbekannt</translation>
+    </message>
+</context>
+<context>
+    <name>XCapstone</name>
+    <message>
+        <source>Invalid opcode</source>
+        <translation>Ungültiger Opcode</translation>
     </message>
 </context>
 <context>
     <name>XComboBoxEx</name>
     <message>
-        <location filename="../../Controls/xcomboboxex.cpp" line="54"/>
         <source>Flags</source>
-        <translation>Flags</translation>
+        <translation>Markierungen</translation>
+    </message>
+</context>
+<context>
+    <name>XDEX</name>
+    <message>
+        <source>Unknown</source>
+        <translation>Unbekannt</translation>
+    </message>
+    <message>
+        <source>Main module</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Header</source>
+        <translation>Header</translation>
+    </message>
+    <message>
+        <source>Overlay</source>
+        <translation>Overlay</translation>
+    </message>
+</context>
+<context>
+    <name>XDOS16</name>
+    <message>
+        <source>Loader</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Payload</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Data</source>
+        <translation>Daten</translation>
+    </message>
+</context>
+<context>
+    <name>XDataConvertor</name>
+    <message>
+        <source>Read error</source>
+        <translation>Lesefehler</translation>
+    </message>
+    <message>
+        <source>Write error</source>
+        <translation>Schreibfehler</translation>
+    </message>
+    <message>
+        <source>Invalid size</source>
+        <translation>Ungültige Größe</translation>
+    </message>
+    <message>
+        <source>Cannot resize</source>
+        <translation>Kann nicht die Größe ändern</translation>
+    </message>
+</context>
+<context>
+    <name>XDataConvertorWidget</name>
+    <message>
+        <source>Form</source>
+        <translation>Formular</translation>
+    </message>
+    <message>
+        <source>Method</source>
+        <translation>Methode</translation>
+    </message>
+    <message>
+        <source>Encode</source>
+        <translation>Verschlüsseln</translation>
+    </message>
+    <message>
+        <source>Decode</source>
+        <translation>Entschlüsseln</translation>
+    </message>
+    <message>
+        <source>Input</source>
+        <translation>Eingabe</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>Größe</translation>
+    </message>
+    <message>
+        <source>Entropy</source>
+        <translation>Entropie</translation>
+    </message>
+    <message>
+        <source>Dump</source>
+        <translation>Abbild</translation>
+    </message>
+    <message>
+        <source>Output</source>
+        <translation>Ausgabe</translation>
+    </message>
+</context>
+<context>
+    <name>XDemangle</name>
+    <message>
+        <source>Unknown</source>
+        <translation>Unbekannt</translation>
+    </message>
+    <message>
+        <source>Automatic</source>
+        <translation>Automatisch</translation>
+    </message>
+</context>
+<context>
+    <name>XDemangleWidget</name>
+    <message>
+        <source>Mode</source>
+        <translation>Modus</translation>
+    </message>
+</context>
+<context>
+    <name>XDeviceTableEditView</name>
+    <message>
+        <source>Open file</source>
+        <translation>Datei öffnen</translation>
+    </message>
+    <message>
+        <source>Patch</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Cannot resize</source>
+        <translation>Kann nicht die Größe ändern</translation>
+    </message>
+</context>
+<context>
+    <name>XDeviceTableView</name>
+    <message>
+        <source>Save dump</source>
+        <translation>Abbild speichern</translation>
+    </message>
+    <message>
+        <source>Raw data</source>
+        <translation>Rohdaten</translation>
+    </message>
+    <message>
+        <source>Dump</source>
+        <translation>Abbild</translation>
+    </message>
+    <message>
+        <source>Nothing found</source>
+        <translation>Nichts gefunden</translation>
+    </message>
+</context>
+<context>
+    <name>XDialogProcess</name>
+    <message>
+        <source>Process</source>
+        <translation>Prozess</translation>
+    </message>
+    <message>
+        <source>Advanced</source>
+        <translation>Fortgeschritten</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Abbrechen</translation>
+    </message>
+    <message>
+        <source>Error</source>
+        <translation>Fehler</translation>
+    </message>
+    <message>
+        <source>Info</source>
+        <translation>Info</translation>
     </message>
 </context>
 <context>
     <name>XDisasmModel</name>
     <message>
-        <location filename="../../XDisasm/xdisasmmodel.cpp" line="51"/>
         <source>Address</source>
         <translation>Adresse</translation>
     </message>
     <message>
-        <location filename="../../XDisasm/xdisasmmodel.cpp" line="52"/>
         <source>Offset</source>
         <translation>Offset</translation>
     </message>
     <message>
-        <location filename="../../XDisasm/xdisasmmodel.cpp" line="53"/>
         <source>Label</source>
-        <translation></translation>
+        <translation>Label</translation>
     </message>
     <message>
-        <location filename="../../XDisasm/xdisasmmodel.cpp" line="54"/>
         <source>Bytes</source>
         <translation>Bytes</translation>
     </message>
     <message>
-        <location filename="../../XDisasm/xdisasmmodel.cpp" line="55"/>
         <source>Opcode</source>
+        <translation>Opcode</translation>
+    </message>
+</context>
+<context>
+    <name>XDisasmView</name>
+    <message>
+        <source>Address</source>
+        <translation>Adresse</translation>
+    </message>
+    <message>
+        <source>Bytes</source>
+        <translation>Bytes</translation>
+    </message>
+    <message>
+        <source>Opcode</source>
+        <translation>Opcode</translation>
+    </message>
+    <message>
+        <source>Comment</source>
+        <translation>Kommentar</translation>
+    </message>
+    <message>
+        <source>Offset</source>
+        <translation>Offset</translation>
+    </message>
+    <message>
+        <source>Analyze</source>
+        <translation>Analysieren</translation>
+    </message>
+    <message>
+        <source>Bookmarks</source>
+        <translation>Lesezeichen</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Alle</translation>
+    </message>
+    <message>
+        <source>Disasm</source>
+        <translation>Disassembler</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>Entfernen</translation>
+    </message>
+    <message>
+        <source>Symbols</source>
+        <translation>Symbole</translation>
+    </message>
+    <message>
+        <source>Functions</source>
+        <translation>Funktionen</translation>
+    </message>
+    <message>
+        <source>Clear</source>
+        <translation>Leeren</translation>
+    </message>
+    <message>
+        <source>New</source>
+        <translation>Neu</translation>
+    </message>
+    <message>
+        <source>List</source>
+        <translation>Liste</translation>
+    </message>
+    <message>
+        <source>Relative address</source>
+        <translation>Relative Adresse</translation>
+    </message>
+</context>
+<context>
+    <name>XDisasmViewOptionsWidget</name>
+    <message>
+        <source>Syntax</source>
+        <translation>Syntax</translation>
+    </message>
+    <message>
+        <source>Uppercase</source>
+        <translation>Großschreibung</translation>
+    </message>
+    <message>
+        <source>Show colons in addresses</source>
+        <translation>Doppelpunkte in Adressen anzeigen</translation>
+    </message>
+    <message>
+        <source>Highlight</source>
+        <translation>Hervorheben</translation>
+    </message>
+    <message>
+        <source>Colors</source>
+        <translation>Farben</translation>
+    </message>
+    <message>
+        <source>Arrows</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Alle</translation>
+    </message>
+    <message>
+        <source>Selected</source>
+        <translation>Ausgewählt</translation>
+    </message>
+    <message>
+        <source>Registers</source>
+        <translation>Registers</translation>
+    </message>
+    <message>
+        <source>Numbers</source>
+        <translation>Nummern</translation>
+    </message>
+    <message>
+        <source>Opcodes</source>
+        <translation>Opcodes</translation>
+    </message>
+    <message>
+        <source>References</source>
+        <translation>Referenzen</translation>
+    </message>
+    <message>
+        <source>General registers</source>
+        <translation>Generische Registers</translation>
+    </message>
+    <message>
+        <source>Stack registers</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Segment registers</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Debug registers</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Instruction pointer register</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Flags register</source>
         <translation></translation>
     </message>
 </context>
 <context>
     <name>XDisasmWidget</name>
     <message>
-        <location filename="../../XDisasm/xdisasmwidget.ui" line="40"/>
         <source>Type</source>
         <translation>Typ</translation>
     </message>
     <message>
-        <location filename="../../XDisasm/xdisasmwidget.ui" line="64"/>
         <source>Analyze</source>
-        <translation></translation>
+        <translation>Analysieren</translation>
     </message>
     <message>
-        <location filename="../../XDisasm/xdisasmwidget.ui" line="71"/>
         <source>Labels</source>
-        <translation></translation>
+        <translation>Labels</translation>
     </message>
     <message>
-        <location filename="../../XDisasm/xdisasmwidget.ui" line="85"/>
         <source>Overlay</source>
         <translation>Overlay</translation>
     </message>
     <message>
-        <location filename="../../XDisasm/xdisasmwidget.cpp" line="333"/>
         <source>Go to</source>
-        <translation></translation>
+        <translation>Gehe zu</translation>
     </message>
     <message>
-        <location filename="../../XDisasm/xdisasmwidget.cpp" line="335"/>
         <source>Entry point</source>
-        <translation></translation>
+        <translation>Einstiegspunkt</translation>
     </message>
     <message>
-        <location filename="../../XDisasm/xdisasmwidget.cpp" line="339"/>
-        <location filename="../../XDisasm/xdisasmwidget.cpp" line="360"/>
         <source>Virtual address</source>
         <translation>Virtuelle Adresse</translation>
     </message>
     <message>
-        <location filename="../../XDisasm/xdisasmwidget.cpp" line="343"/>
-        <location filename="../../XDisasm/xdisasmwidget.cpp" line="364"/>
         <source>Relative virtual address</source>
         <translation>Relative virtuelle Adresse</translation>
     </message>
     <message>
-        <location filename="../../XDisasm/xdisasmwidget.cpp" line="347"/>
-        <location filename="../../XDisasm/xdisasmwidget.cpp" line="368"/>
         <source>File offset</source>
         <translation>Datei-Offset</translation>
     </message>
     <message>
-        <location filename="../../XDisasm/xdisasmwidget.cpp" line="358"/>
         <source>Copy</source>
         <translation>Kopieren</translation>
     </message>
     <message>
-        <location filename="../../XDisasm/xdisasmwidget.cpp" line="382"/>
         <source>Signature</source>
         <translation>Signatur</translation>
     </message>
     <message>
-        <location filename="../../XDisasm/xdisasmwidget.cpp" line="386"/>
         <source>Dump to file</source>
-        <translation></translation>
+        <translation>In Datei speichern</translation>
     </message>
     <message>
-        <location filename="../../XDisasm/xdisasmwidget.cpp" line="390"/>
         <source>Disasm</source>
-        <translation></translation>
+        <translation>Disassembler</translation>
     </message>
     <message>
-        <location filename="../../XDisasm/xdisasmwidget.cpp" line="394"/>
         <source>To data</source>
-        <translation></translation>
+        <translation>Als Daten</translation>
     </message>
     <message>
-        <location filename="../../XDisasm/xdisasmwidget.cpp" line="510"/>
         <source>Raw data</source>
-        <translation></translation>
+        <translation>Rohdaten</translation>
     </message>
     <message>
-        <location filename="../../XDisasm/xdisasmwidget.cpp" line="512"/>
         <source>Save dump</source>
-        <translation></translation>
+        <translation>Abbild speichern</translation>
     </message>
     <message>
-        <location filename="../../XDisasm/xdisasmwidget.cpp" line="636"/>
         <source>Error</source>
         <translation>Fehler</translation>
     </message>
 </context>
 <context>
+    <name>XDynStructsEngine</name>
+    <message>
+        <source>Value</source>
+        <translation>Wert</translation>
+    </message>
+    <message>
+        <source>Cannot load file</source>
+        <translation>Kann Datei nicht laden</translation>
+    </message>
+</context>
+<context>
+    <name>XDynStructsOptionsWidget</name>
+    <message>
+        <source>Structs</source>
+        <translation>Structs</translation>
+    </message>
+    <message>
+        <source>Open directory</source>
+        <translation>Ordner öffnen</translation>
+    </message>
+</context>
+<context>
+    <name>XDynStructsWidget</name>
+    <message>
+        <source>Reload</source>
+        <translation>Neu laden</translation>
+    </message>
+    <message>
+        <source>Hex</source>
+        <translation>Hex</translation>
+    </message>
+    <message>
+        <source>Disasm</source>
+        <translation>Disassembler</translation>
+    </message>
+    <message>
+        <source>Prototype</source>
+        <translation>Prototyp</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Speichern</translation>
+    </message>
+    <message>
+        <source>Array</source>
+        <translation>Array</translation>
+    </message>
+    <message>
+        <source>Variable</source>
+        <translation>Variable</translation>
+    </message>
+    <message>
+        <source>Pointer</source>
+        <translation>Zeiger</translation>
+    </message>
+    <message>
+        <source>Error</source>
+        <translation>Fehler</translation>
+    </message>
+    <message>
+        <source>Cannot read memory at address</source>
+        <translation>Speicher an Adresse kann nicht gelesen werden</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Ergebnis</translation>
+    </message>
+    <message>
+        <source>Files</source>
+        <translation>Dateien</translation>
+    </message>
+    <message>
+        <source>All files</source>
+        <translation>Alle Dateien</translation>
+    </message>
+</context>
+<context>
     <name>XELF</name>
     <message>
-        <location filename="../../Formats/xelf.cpp" line="3616"/>
-        <source>Segment</source>
+        <source>Section</source>
+        <translation>Bereich</translation>
+    </message>
+    <message>
+        <source>Overlay</source>
+        <translation>Overlay</translation>
+    </message>
+    <message>
+        <source>Unknown</source>
+        <translation>Unbekannt</translation>
+    </message>
+    <message>
+        <source>String table</source>
+        <translation>Zeichentabelle</translation>
+    </message>
+    <message>
+        <source>Libraries</source>
+        <translation>Bibliotheken</translation>
+    </message>
+    <message>
+        <source>Run path</source>
         <translation></translation>
+    </message>
+    <message>
+        <source>Symbol table</source>
+        <translation>Symbol Tabelle</translation>
     </message>
 </context>
 <context>
     <name>XEntropyWidget</name>
     <message>
-        <location filename="../../XEntropyWidget/xentropywidget.ui" line="40"/>
-        <source>Type</source>
-        <translation>Typ</translation>
-    </message>
-    <message>
-        <location filename="../../XEntropyWidget/xentropywidget.ui" line="70"/>
-        <source>Total</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="../../XEntropyWidget/xentropywidget.ui" line="126"/>
-        <location filename="../../XEntropyWidget/xentropywidget.cpp" line="238"/>
-        <source>Status</source>
-        <translation>Status</translation>
-    </message>
-    <message>
-        <location filename="../../XEntropyWidget/xentropywidget.ui" line="176"/>
-        <location filename="../../XEntropyWidget/xentropywidget.cpp" line="235"/>
-        <source>Offset</source>
-        <translation>Offset</translation>
-    </message>
-    <message>
-        <location filename="../../XEntropyWidget/xentropywidget.ui" line="213"/>
-        <location filename="../../XEntropyWidget/xentropywidget.cpp" line="236"/>
-        <source>Size</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="../../XEntropyWidget/xentropywidget.ui" line="244"/>
         <source>Reload</source>
         <translation>Neu laden</translation>
     </message>
     <message>
-        <location filename="../../XEntropyWidget/xentropywidget.ui" line="257"/>
-        <location filename="../../XEntropyWidget/xentropywidget.cpp" line="237"/>
-        <source>Entropy</source>
-        <translation>Entropie</translation>
-    </message>
-    <message>
-        <location filename="../../XEntropyWidget/xentropywidget.ui" line="287"/>
-        <source>Regions</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="../../XEntropyWidget/xentropywidget.ui" line="361"/>
         <source>Save</source>
         <translation>Speichern</translation>
     </message>
     <message>
-        <location filename="../../XEntropyWidget/xentropywidget.ui" line="371"/>
+        <source>Save diagram</source>
+        <translation>Diagramm speichern</translation>
+    </message>
+    <message>
+        <source>Entropy</source>
+        <translation>Entropie</translation>
+    </message>
+    <message>
+        <source>Regions</source>
+        <translation>Regionen</translation>
+    </message>
+    <message>
+        <source>Diagram</source>
+        <translation>Diagramm</translation>
+    </message>
+    <message>
+        <source>Grid</source>
+        <translation>Gitter</translation>
+    </message>
+    <message>
         <source>Bytes</source>
         <translation>Bytes</translation>
     </message>
     <message>
-        <location filename="../../XEntropyWidget/xentropywidget.cpp" line="131"/>
+        <source>Type</source>
+        <translation>Typ</translation>
+    </message>
+    <message>
+        <source>Mode</source>
+        <translation>Modus</translation>
+    </message>
+    <message>
+        <source>Count</source>
+        <translation>Zählen</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>Größe</translation>
+    </message>
+    <message>
+        <source>Total</source>
+        <translation>Gesamt</translation>
+    </message>
+    <message>
+        <source>Offset</source>
+        <translation>Offset</translation>
+    </message>
+    <message>
         <source>Byte</source>
         <translation>Byte</translation>
     </message>
     <message>
-        <location filename="../../XEntropyWidget/xentropywidget.cpp" line="132"/>
-        <source>Count</source>
-        <translation>Zählung</translation>
+        <source>Status</source>
+        <translation>Status</translation>
     </message>
     <message>
-        <location filename="../../XEntropyWidget/xentropywidget.cpp" line="234"/>
         <source>Name</source>
         <translation>Name</translation>
     </message>
     <message>
-        <location filename="../../XEntropyWidget/xentropywidget.cpp" line="281"/>
-        <source>packed</source>
-        <translation>packed</translation>
+        <source>Strings</source>
+        <translation>Strings</translation>
+    </message>
+</context>
+<context>
+    <name>XExtractorWidget</name>
+    <message>
+        <source>Extract</source>
+        <translation>Extrahieren</translation>
     </message>
     <message>
-        <location filename="../../XEntropyWidget/xentropywidget.cpp" line="281"/>
-        <source>not packed</source>
-        <translation>not packed</translation>
+        <source>Dump all</source>
+        <translation>Alles ausgeben</translation>
     </message>
     <message>
-        <location filename="../../XEntropyWidget/xentropywidget.cpp" line="355"/>
-        <source>Images</source>
-        <translation></translation>
+        <source>Save</source>
+        <translation>Speichern</translation>
     </message>
     <message>
-        <location filename="../../XEntropyWidget/xentropywidget.cpp" line="373"/>
-        <location filename="../../XEntropyWidget/xentropywidget.cpp" line="374"/>
-        <source>Documents</source>
-        <translation></translation>
+        <source>Scan</source>
+        <translation>Scan</translation>
     </message>
     <message>
-        <location filename="../../XEntropyWidget/xentropywidget.cpp" line="380"/>
-        <source>Save diagram</source>
-        <translation>Diagramm speichern</translation>
+        <source>Deep scan</source>
+        <translation>Tiefen-Scan</translation>
+    </message>
+    <message>
+        <source>Heuristic scan</source>
+        <translation>Heuristischer Scan</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation>Typ</translation>
+    </message>
+    <message>
+        <source>Mode</source>
+        <translation>Modus</translation>
+    </message>
+    <message>
+        <source>Options</source>
+        <translation>Optionen</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>Größe</translation>
+    </message>
+    <message>
+        <source>Offset</source>
+        <translation>Offset</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Adresse</translation>
+    </message>
+    <message>
+        <source>Save dump</source>
+        <translation>Abbild speichern</translation>
+    </message>
+</context>
+<context>
+    <name>XFileInfoWidget</name>
+    <message>
+        <source>Form</source>
+        <translation>Formular</translation>
+    </message>
+    <message>
+        <source>Comment</source>
+        <translation>Kommentar</translation>
+    </message>
+    <message>
+        <source>Reload</source>
+        <translation>Neu laden</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Speichern</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation>Typ</translation>
+    </message>
+    <message>
+        <source>Method</source>
+        <translation>Methode</translation>
+    </message>
+    <message>
+        <source>Output</source>
+        <translation>Ausgabe</translation>
+    </message>
+    <message>
+        <source>Text</source>
+        <translation>Text</translation>
+    </message>
+    <message>
+        <source>Info</source>
+        <translation>Info</translation>
+    </message>
+    <message>
+        <source>Save file</source>
+        <translation>Datei speichern</translation>
+    </message>
+    <message>
+        <source>Text files</source>
+        <translation>Textdateien</translation>
+    </message>
+    <message>
+        <source>All files</source>
+        <translation>Alle Dateien</translation>
+    </message>
+</context>
+<context>
+    <name>XGzip</name>
+    <message>
+        <source>Header</source>
+        <translation>Header</translation>
+    </message>
+    <message>
+        <source>Footer</source>
+        <translation>Fußzeile</translation>
     </message>
 </context>
 <context>
     <name>XHashWidget</name>
     <message>
-        <location filename="../../XHashWidget/xhashwidget.ui" line="40"/>
+        <source>Save</source>
+        <translation>Speichern</translation>
+    </message>
+    <message>
+        <source>Reload</source>
+        <translation>Neu laden</translation>
+    </message>
+    <message>
         <source>Type</source>
         <translation>Typ</translation>
     </message>
     <message>
-        <location filename="../../XHashWidget/xhashwidget.ui" line="70"/>
         <source>Method</source>
-        <translation></translation>
+        <translation>Methode</translation>
     </message>
     <message>
-        <location filename="../../XHashWidget/xhashwidget.ui" line="100"/>
-        <location filename="../../XHashWidget/xhashwidget.cpp" line="134"/>
+        <source>Mode</source>
+        <translation>Modus</translation>
+    </message>
+    <message>
         <source>Offset</source>
         <translation>Offset</translation>
     </message>
     <message>
-        <location filename="../../XHashWidget/xhashwidget.ui" line="137"/>
-        <location filename="../../XHashWidget/xhashwidget.cpp" line="135"/>
         <source>Size</source>
-        <translation></translation>
+        <translation>Größe</translation>
     </message>
     <message>
-        <location filename="../../XHashWidget/xhashwidget.ui" line="183"/>
-        <location filename="../../XHashWidget/xhashwidget.cpp" line="136"/>
         <source>Hash</source>
-        <translation></translation>
+        <translation>Hash</translation>
     </message>
     <message>
-        <location filename="../../XHashWidget/xhashwidget.cpp" line="133"/>
+        <source>Regions</source>
+        <translation>Regionen</translation>
+    </message>
+    <message>
         <source>Name</source>
         <translation>Name</translation>
+    </message>
+</context>
+<context>
+    <name>XHeaderView</name>
+    <message>
+        <source>Filter</source>
+        <translation>Filter</translation>
+    </message>
+</context>
+<context>
+    <name>XHexEdit</name>
+    <message>
+        <source>Offset</source>
+        <translation>Offset</translation>
+    </message>
+    <message>
+        <source>Hex</source>
+        <translation>Hex</translation>
+    </message>
+</context>
+<context>
+    <name>XHexView</name>
+    <message>
+        <source>Address</source>
+        <translation>Adresse</translation>
+    </message>
+    <message>
+        <source>Hex</source>
+        <translation>Hex</translation>
+    </message>
+    <message>
+        <source>Symbols</source>
+        <translation>Symbole</translation>
+    </message>
+    <message>
+        <source>Offset</source>
+        <translation>Offset</translation>
+    </message>
+    <message>
+        <source>Location</source>
+        <translation>Position</translation>
+    </message>
+    <message>
+        <source>Mode</source>
+        <translation>Modus</translation>
+    </message>
+    <message>
+        <source>Width</source>
+        <translation>Breite</translation>
+    </message>
+</context>
+<context>
+    <name>XHexViewOptionsWidget</name>
+    <message>
+        <source>Show colons in addresses</source>
+        <translation>Doppelpunkte in Adressen anzeigen</translation>
+    </message>
+</context>
+<context>
+    <name>XHexViewWidget</name>
+    <message>
+        <source>Form</source>
+        <translation>Formular</translation>
+    </message>
+    <message>
+        <source>Data inspector</source>
+        <translation>Dateninspektor</translation>
+    </message>
+    <message>
+        <source>Strings</source>
+        <translation>Strings</translation>
+    </message>
+    <message>
+        <source>Readonly</source>
+        <translation>Nur lesen</translation>
+    </message>
+    <message>
+        <source>Hex</source>
+        <translation>Hex</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation>Typ</translation>
+    </message>
+    <message>
+        <source>Mode</source>
+        <translation>Modus</translation>
+    </message>
+</context>
+<context>
+    <name>XIcon</name>
+    <message>
+        <source>Header</source>
+        <translation>Header</translation>
+    </message>
+</context>
+<context>
+    <name>XInfoDB</name>
+    <message>
+        <source>Unknown</source>
+        <translation>Unbekannt</translation>
+    </message>
+    <message>
+        <source>Function enter</source>
+        <translation>Funktion betreten</translation>
+    </message>
+    <message>
+        <source>Function leave</source>
+        <translation>Funktion verlassen</translation>
+    </message>
+    <message>
+        <source>Step into</source>
+        <translation>Hineinsteigen</translation>
+    </message>
+    <message>
+        <source>Step over</source>
+        <translation>Schritt über</translation>
+    </message>
+    <message>
+        <source>Trace into</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Trace over</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Adresse</translation>
+    </message>
+    <message>
+        <source>Paused</source>
+        <translation>Pausiert</translation>
+    </message>
+    <message>
+        <source>Running</source>
+        <translation>Wird ausgeführt</translation>
+    </message>
+</context>
+<context>
+    <name>XInfoDBOptionsWidget</name>
+    <message>
+        <source>Info</source>
+        <translation>Info</translation>
+    </message>
+    <message>
+        <source>Open directory</source>
+        <translation>Ordner öffnen</translation>
+    </message>
+</context>
+<context>
+    <name>XInfoMenu</name>
+    <message>
+        <source>Database</source>
+        <translation>Datenbank</translation>
+    </message>
+    <message>
+        <source>Import</source>
+        <translation>Import</translation>
+    </message>
+    <message>
+        <source>Export</source>
+        <translation>Export</translation>
+    </message>
+    <message>
+        <source>Clear</source>
+        <translation>Leeren</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Speichern</translation>
+    </message>
+    <message>
+        <source>Load</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>All files</source>
+        <translation>Alle Dateien</translation>
+    </message>
+    <message>
+        <source>Open file</source>
+        <translation>Datei öffnen</translation>
+    </message>
+    <message>
+        <source>Are you sure?</source>
+        <translation>Sind Sie sicher?</translation>
+    </message>
+</context>
+<context>
+    <name>XJAR</name>
+    <message>
+        <source>Universal</source>
+        <translation>Universal</translation>
+    </message>
+    <message>
+        <source>Unknown</source>
+        <translation>Unbekannt</translation>
+    </message>
+    <message>
+        <source>Package</source>
+        <translation>Paket</translation>
+    </message>
+</context>
+<context>
+    <name>XJpeg</name>
+    <message>
+        <source>Data</source>
+        <translation>Daten</translation>
+    </message>
+</context>
+<context>
+    <name>XLE</name>
+    <message>
+        <source>Header</source>
+        <translation>Header</translation>
+    </message>
+    <message>
+        <source>Map</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Object</source>
+        <translation>Objekt</translation>
+    </message>
+    <message>
+        <source>Overlay</source>
+        <translation>Overlay</translation>
+    </message>
+    <message>
+        <source>Unknown</source>
+        <translation>Unbekannt</translation>
+    </message>
+</context>
+<context>
+    <name>XLHA</name>
+    <message>
+        <source>Header</source>
+        <translation>Header</translation>
+    </message>
+</context>
+<context>
+    <name>XLineEditHEX</name>
+    <message>
+        <source>Copy</source>
+        <translation>Kopieren</translation>
+    </message>
+    <message>
+        <source>Bits</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Clear</source>
+        <translation>Leeren</translation>
+    </message>
+</context>
+<context>
+    <name>XLineEditValidator</name>
+    <message>
+        <source>Bytes</source>
+        <translation>Bytes</translation>
+    </message>
+    <message>
+        <source>KiB</source>
+        <translation>KiB</translation>
+    </message>
+    <message>
+        <source>MiB</source>
+        <translation>MiB</translation>
+    </message>
+    <message>
+        <source>GiB</source>
+        <translation>GiB</translation>
+    </message>
+    <message>
+        <source>TiB</source>
+        <translation>TiB</translation>
     </message>
 </context>
 <context>
     <name>XMACH</name>
     <message>
-        <location filename="../../Formats/xmach.cpp" line="726"/>
         <source>Segment</source>
-        <translation></translation>
+        <translation>Segment</translation>
+    </message>
+    <message>
+        <source>Section</source>
+        <translation>Bereich</translation>
+    </message>
+    <message>
+        <source>Unknown</source>
+        <translation>Unbekannt</translation>
+    </message>
+</context>
+<context>
+    <name>XMACHOFat</name>
+    <message>
+        <source>Unknown</source>
+        <translation>Unbekannt</translation>
+    </message>
+    <message>
+        <source>Header</source>
+        <translation>Header</translation>
+    </message>
+    <message>
+        <source>Universal</source>
+        <translation>Universal</translation>
+    </message>
+    <message>
+        <source>Bundle</source>
+        <translation>Handles</translation>
+    </message>
+</context>
+<context>
+    <name>XMIMEWidget</name>
+    <message>
+        <source>All</source>
+        <translation>Alle</translation>
+    </message>
+</context>
+<context>
+    <name>XMP3</name>
+    <message>
+        <source>Header</source>
+        <translation>Header</translation>
     </message>
 </context>
 <context>
     <name>XMSDOS</name>
     <message>
-        <location filename="../../Formats/xmsdos.cpp" line="346"/>
         <source>Header</source>
         <translation>Header</translation>
+    </message>
+    <message>
+        <source>Overlay</source>
+        <translation>Overlay</translation>
+    </message>
+    <message>
+        <source>Unknown</source>
+        <translation>Unbekannt</translation>
     </message>
 </context>
 <context>
     <name>XMemoryMapWidget</name>
     <message>
-        <location filename="../../XMemoryMapWidget/xmemorymapwidget.ui" line="43"/>
-        <source>Type</source>
-        <translation>Typ</translation>
+        <source>Save</source>
+        <translation>Speichern</translation>
     </message>
     <message>
-        <location filename="../../XMemoryMapWidget/xmemorymapwidget.ui" line="69"/>
+        <source>Dump all</source>
+        <translation>Alles ausgeben</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Alle anzeigen</translation>
+    </message>
+    <message>
         <source>File offset</source>
         <translation>Datei-Offset</translation>
     </message>
     <message>
-        <location filename="../../XMemoryMapWidget/xmemorymapwidget.ui" line="82"/>
         <source>Virtual address</source>
         <translation>Virtuelle Adresse</translation>
     </message>
     <message>
-        <location filename="../../XMemoryMapWidget/xmemorymapwidget.ui" line="95"/>
         <source>Relative virtual address</source>
         <translation>Relative virtuelle Adresse</translation>
     </message>
     <message>
-        <location filename="../../XMemoryMapWidget/xmemorymapwidget.ui" line="118"/>
         <source>Mode</source>
         <translation>Modus</translation>
     </message>
     <message>
-        <location filename="../../XMemoryMapWidget/xmemorymapwidget.ui" line="158"/>
         <source>Endianness</source>
-        <translation>Endianness</translation>
+        <translation>Byte-Reihenfolge</translation>
     </message>
     <message>
-        <location filename="../../XMemoryMapWidget/xmemorymapwidget.ui" line="192"/>
         <source>Architecture</source>
-        <translation></translation>
+        <translation>Architektur</translation>
     </message>
     <message>
-        <location filename="../../XMemoryMapWidget/xmemorymapwidget.ui" line="244"/>
+        <source>Find</source>
+        <translation>Suchen</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation>Typ</translation>
+    </message>
+    <message>
         <source>Memory map</source>
-        <translation></translation>
+        <translation>Speicherbelegung</translation>
     </message>
     <message>
-        <location filename="../../XMemoryMapWidget/xmemorymapwidget.cpp" line="153"/>
-        <source>Name</source>
-        <translation>Name</translation>
-    </message>
-    <message>
-        <location filename="../../XMemoryMapWidget/xmemorymapwidget.cpp" line="154"/>
         <source>Offset</source>
         <translation>Offset</translation>
     </message>
     <message>
-        <location filename="../../XMemoryMapWidget/xmemorymapwidget.cpp" line="155"/>
         <source>Address</source>
         <translation>Adresse</translation>
     </message>
     <message>
-        <location filename="../../XMemoryMapWidget/xmemorymapwidget.cpp" line="156"/>
         <source>Size</source>
+        <translation>Größe</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Name</translation>
+    </message>
+    <message>
+        <source>Information</source>
+        <translation>Information</translation>
+    </message>
+    <message>
+        <source>Dump</source>
+        <translation>Abbild</translation>
+    </message>
+    <message>
+        <source>Save dump</source>
+        <translation>Abbild speichern</translation>
+    </message>
+    <message>
+        <source>Raw data</source>
+        <translation>Rohdaten</translation>
+    </message>
+</context>
+<context>
+    <name>XMultiDisasmWidget</name>
+    <message>
+        <source>Form</source>
+        <translation>Formular</translation>
+    </message>
+    <message>
+        <source>Readonly</source>
+        <translation>Nur lesen</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation>Typ</translation>
+    </message>
+    <message>
+        <source>Mode</source>
+        <translation>Modus</translation>
+    </message>
+    <message>
+        <source>Next visited</source>
         <translation></translation>
+    </message>
+    <message>
+        <source>Previous visited</source>
+        <translation></translation>
+    </message>
+</context>
+<context>
+    <name>XNE</name>
+    <message>
+        <source>Unknown</source>
+        <translation>Unbekannt</translation>
+    </message>
+</context>
+<context>
+    <name>XNPM</name>
+    <message>
+        <source>Universal</source>
+        <translation>Universal</translation>
+    </message>
+    <message>
+        <source>Unknown</source>
+        <translation>Unbekannt</translation>
+    </message>
+    <message>
+        <source>Package</source>
+        <translation>Paket</translation>
+    </message>
+</context>
+<context>
+    <name>XOnlineToolsOptionsWidget</name>
+    <message>
+        <source>Form</source>
+        <translation>Formular</translation>
+    </message>
+    <message>
+        <source>Get</source>
+        <translation>Abrufen</translation>
+    </message>
+    <message>
+        <source>API key</source>
+        <translation>API-Schlüssel</translation>
+    </message>
+</context>
+<context>
+    <name>XOptions</name>
+    <message>
+        <source>Cannot find file</source>
+        <translation>Datei kann nicht gefunden werden</translation>
+    </message>
+    <message>
+        <source>Automatic</source>
+        <translation>Automatisch</translation>
+    </message>
+    <message>
+        <source>Recent files</source>
+        <translation>Zuletzt verwendete Dateien</translation>
+    </message>
+    <message>
+        <source>Code pages</source>
+        <translation>Zeichensätze</translation>
+    </message>
+    <message>
+        <source>Clear</source>
+        <translation>Leeren</translation>
+    </message>
+    <message>
+        <source>Images</source>
+        <translation>Speicherabbilder</translation>
+    </message>
+    <message>
+        <source>Documents</source>
+        <translation>Dokumente</translation>
+    </message>
+</context>
+<context>
+    <name>XOptionsWidget</name>
+    <message>
+        <source>Stay on top</source>
+        <translation>Im Vordergrund bleiben</translation>
+    </message>
+    <message>
+        <source>Single application</source>
+        <translation>Einzelanwendung</translation>
+    </message>
+    <message>
+        <source>Style</source>
+        <translation>Stil</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>Sprache</translation>
+    </message>
+    <message>
+        <source>Show logo</source>
+        <translation>Logo anzeigen</translation>
+    </message>
+    <message>
+        <source>Save last directory</source>
+        <translation>Letzte Ordner speichern</translation>
+    </message>
+    <message>
+        <source>Save backup</source>
+        <translation>Backup speichern</translation>
+    </message>
+    <message>
+        <source>Save history</source>
+        <translation>Verlauf speichern</translation>
+    </message>
+    <message>
+        <source>Add to context menu</source>
+        <translation>Zum Kontextmenü hinzufügen</translation>
+    </message>
+    <message>
+        <source>Controls</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Table views</source>
+        <translation>Tabelle Anzeigen</translation>
+    </message>
+    <message>
+        <source>Tree views</source>
+        <translation>Verzeichnisanzeige</translation>
+    </message>
+    <message>
+        <source>Hex</source>
+        <translation>Hex</translation>
+    </message>
+    <message>
+        <source>Disasm</source>
+        <translation>Disassembler</translation>
+    </message>
+    <message>
+        <source>Text editors</source>
+        <translation>Texteditor</translation>
+    </message>
+    <message>
+        <source>Default</source>
+        <translation>Standard</translation>
+    </message>
+    <message>
+        <source>OK</source>
+        <translation>OK</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Abbrechen</translation>
+    </message>
+    <message>
+        <source>Appearance</source>
+        <translation>Aussehen</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>Datei</translation>
+    </message>
+    <message>
+        <source>Fonts</source>
+        <translation>Schriftarten</translation>
+    </message>
+    <message>
+        <source>Error</source>
+        <translation>Fehler</translation>
+    </message>
+    <message>
+        <source>Please run the program as an administrator</source>
+        <translation>Bitte führen Sie das Programm als Administrator aus</translation>
+    </message>
+    <message>
+        <source>Information</source>
+        <translation>Information</translation>
+    </message>
+    <message>
+        <source>Please restart the application</source>
+        <translation>Bitte die Anwendung neu starten</translation>
+    </message>
+</context>
+<context>
+    <name>XPDF</name>
+    <message>
+        <source>Header</source>
+        <translation>Header</translation>
+    </message>
+    <message>
+        <source>Object</source>
+        <translation>Objekt</translation>
+    </message>
+    <message>
+        <source>Footer</source>
+        <translation>Fußzeile</translation>
     </message>
 </context>
 <context>
     <name>XPE</name>
     <message>
-        <location filename="../../Formats/xpe.cpp" line="1655"/>
+        <source>Unknown</source>
+        <translation>Unbekannt</translation>
+    </message>
+    <message>
+        <source>Application</source>
+        <translation>Anwendung</translation>
+    </message>
+    <message>
+        <source>Console</source>
+        <translation>Konsole</translation>
+    </message>
+    <message>
+        <source>Driver</source>
+        <translation>Treiber</translation>
+    </message>
+    <message>
+        <source>Boot application</source>
+        <translation>Boot-Anwendung</translation>
+    </message>
+    <message>
+        <source>Runtime driver</source>
+        <translation>Laufzeittreiber</translation>
+    </message>
+    <message>
+        <source>Boot service driver</source>
+        <translation>Bootservice-Treiber</translation>
+    </message>
+    <message>
+        <source>Invalid address of entry point</source>
+        <translation></translation>
+    </message>
+    <message>
         <source>Header</source>
         <translation>Header</translation>
     </message>
     <message>
-        <location filename="../../Formats/xpe.cpp" line="1740"/>
         <source>Section</source>
-        <translation></translation>
+        <translation>Bereich</translation>
     </message>
     <message>
-        <location filename="../../Formats/xpe.cpp" line="1806"/>
         <source>Overlay</source>
         <translation>Overlay</translation>
     </message>
     <message>
-        <location filename="../../Formats/xpe.cpp" line="4101"/>
         <source>Cannot open file</source>
+        <translation>Kann die Datei nicht öffnen</translation>
+    </message>
+    <message>
+        <source>The file is signed and the signature was verified</source>
+        <translation>Die Datei ist signiert und die Signatur wurde verifiziert</translation>
+    </message>
+    <message>
+        <source>The file is not signed</source>
+        <translation>Die Datei ist nicht signiert</translation>
+    </message>
+    <message>
+        <source>The signature is present, but specifically disallowed</source>
+        <translation>Die Unterschrift ist vorhanden, aber ausdrücklich nicht zulässig</translation>
+    </message>
+    <message>
+        <source>The signature is present, but not trusted</source>
+        <translation>Die Signatur ist vorhanden, aber nicht vertrauenswürdig</translation>
+    </message>
+    <message>
+        <source>The signature error</source>
+        <translation>Der Signaturfehler</translation>
+    </message>
+    <message>
+        <source>Error</source>
+        <translation>Fehler</translation>
+    </message>
+    <message>
+        <source>Entry point</source>
+        <translation>Einstiegspunkt</translation>
+    </message>
+    <message>
+        <source>Export</source>
+        <translation>Export</translation>
+    </message>
+    <message>
+        <source>Import</source>
+        <translation>Import</translation>
+    </message>
+    <message>
+        <source>Relocs</source>
+        <translation>Relocs</translation>
+    </message>
+    <message>
+        <source>Resources</source>
+        <translation>Ressourcen</translation>
+    </message>
+    <message>
+        <source>Certificate</source>
+        <translation>Zertifikat</translation>
+    </message>
+    <message>
+        <source>Invalid</source>
+        <translation>Ungültig</translation>
+    </message>
+</context>
+<context>
+    <name>XPNG</name>
+    <message>
+        <source>Header</source>
+        <translation>Header</translation>
+    </message>
+</context>
+<context>
+    <name>XRar</name>
+    <message>
+        <source>Header</source>
+        <translation>Header</translation>
+    </message>
+    <message>
+        <source>Data</source>
+        <translation>Daten</translation>
+    </message>
+</context>
+<context>
+    <name>XScanEngine</name>
+    <message>
+        <source>Offset</source>
+        <translation>Offset</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>Größe</translation>
+    </message>
+    <message>
+        <source>obfuscator</source>
+        <translation>Verschleierer</translation>
+    </message>
+    <message>
+        <source>Tool</source>
+        <translation>Werkzeug</translation>
+    </message>
+    <message>
+        <source>Archive</source>
+        <translation>Archiv</translation>
+    </message>
+    <message>
+        <source>Certificate</source>
+        <translation>Zertifikat</translation>
+    </message>
+    <message>
+        <source>Compiler</source>
+        <translation>Compiler</translation>
+    </message>
+    <message>
+        <source>Converter</source>
+        <translation>Konverter</translation>
+    </message>
+    <message>
+        <source>Crypter</source>
+        <translation>Verschlüsseler</translation>
+    </message>
+    <message>
+        <source>Cryptor</source>
+        <translation>Verschlüsselungstool</translation>
+    </message>
+    <message>
+        <source>Data</source>
+        <translation>Daten</translation>
+    </message>
+    <message>
+        <source>Database</source>
+        <translation>Datenbank</translation>
+    </message>
+    <message>
+        <source>Debug data</source>
+        <translation>Daten Debuggen</translation>
+    </message>
+    <message>
+        <source>protection</source>
+        <translation>Schutz</translation>
+    </message>
+    <message>
+        <source>extender</source>
+        <translation>Extender</translation>
+    </message>
+    <message>
+        <source>Format</source>
+        <translation>Format</translation>
+    </message>
+    <message>
+        <source>Generic</source>
+        <translation>Generisch</translation>
+    </message>
+    <message>
+        <source>Image</source>
+        <translation>Speicherabbild</translation>
+    </message>
+    <message>
+        <source>Installer</source>
+        <translation>Installationsprogramm</translation>
+    </message>
+    <message>
+        <source>Installer data</source>
+        <translation>Installationsdaten</translation>
+    </message>
+    <message>
+        <source>Joiner</source>
+        <translation>Verbinder</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>Sprache</translation>
+    </message>
+    <message>
+        <source>Library</source>
+        <translation>Bibliothek</translation>
+    </message>
+    <message>
+        <source>Linker</source>
+        <translation>Linker</translation>
+    </message>
+    <message>
+        <source>compressor</source>
+        <translation>Kompressor</translation>
+    </message>
+    <message>
+        <source>Operation system</source>
+        <translation>Betriebssystem</translation>
+    </message>
+    <message>
+        <source>Overlay</source>
+        <translation>Overlay</translation>
+    </message>
+    <message>
+        <source>Packer</source>
+        <translation>Packer</translation>
+    </message>
+    <message>
+        <source>Platform</source>
+        <translation>Platform</translation>
+    </message>
+    <message>
+        <source>Player</source>
+        <translation>Spieler</translation>
+    </message>
+    <message>
+        <source>Protection</source>
+        <translation>Schutz</translation>
+    </message>
+    <message>
+        <source>Protector</source>
+        <translation>Schutz</translation>
+    </message>
+    <message>
+        <source>Protector data</source>
+        <translation>Schutz Daten</translation>
+    </message>
+    <message>
+        <source>data</source>
+        <translation>Daten</translation>
+    </message>
+    <message>
+        <source>Sign tool</source>
+        <translation>Signierungstool</translation>
+    </message>
+    <message>
+        <source>Source code</source>
+        <translation>Quellcode</translation>
+    </message>
+    <message>
+        <source>Stub</source>
+        <translation>Stub</translation>
+    </message>
+    <message>
+        <source>Virtual machine</source>
+        <translation>Virtuelle Maschine</translation>
+    </message>
+    <message>
+        <source>Virus</source>
+        <translation>Virus</translation>
+    </message>
+    <message>
+        <source>Trojan</source>
+        <translation>Trojaner</translation>
+    </message>
+    <message>
+        <source>Malware</source>
+        <translation>Malware</translation>
+    </message>
+    <message>
+        <source>Package</source>
+        <translation>Paket</translation>
+    </message>
+    <message>
+        <source>Licensing</source>
         <translation></translation>
+    </message>
+    <message>
+        <source>Recursive scan</source>
+        <translation>Rekursiver Scan</translation>
+    </message>
+    <message>
+        <source>Deep scan</source>
+        <translation>Tiefen-Scan</translation>
+    </message>
+    <message>
+        <source>Heuristic scan</source>
+        <translation>Heuristischer Scan</translation>
+    </message>
+    <message>
+        <source>Aggressive scan</source>
+        <translation>Rekursiver Scan</translation>
+    </message>
+    <message>
+        <source>Verbose</source>
+        <translation>Ausführlich</translation>
+    </message>
+    <message>
+        <source>All types</source>
+        <translation>Alle Arten</translation>
+    </message>
+    <message>
+        <source>Main</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Extra</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Custom</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>File scan</source>
+        <translation>Datei-Scan</translation>
+    </message>
+    <message>
+        <source>Device scan</source>
+        <translation>Gerät scannen</translation>
+    </message>
+    <message>
+        <source>Memory scan</source>
+        <translation>Speicherscan</translation>
+    </message>
+    <message>
+        <source>Directory scan</source>
+        <translation>Verzeichnis scannen</translation>
+    </message>
+</context>
+<context>
+    <name>XSevenZip</name>
+    <message>
+        <source>Header</source>
+        <translation>Header</translation>
+    </message>
+    <message>
+        <source>Unknown</source>
+        <translation>Unbekannt</translation>
+    </message>
+</context>
+<context>
+    <name>XShortcuts</name>
+    <message>
+        <source>Action</source>
+        <translation>Aktion</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>Datei</translation>
+    </message>
+    <message>
+        <source>View</source>
+        <translation>Sicht</translation>
+    </message>
+    <message>
+        <source>String</source>
+        <translation>String</translation>
+    </message>
+    <message>
+        <source>Strings</source>
+        <translation>Strings</translation>
+    </message>
+    <message>
+        <source>Signature</source>
+        <translation>Signatur</translation>
+    </message>
+    <message>
+        <source>Signatures</source>
+        <translation>Signaturen</translation>
+    </message>
+    <message>
+        <source>Struct</source>
+        <translation>Struct</translation>
+    </message>
+    <message>
+        <source>Hex</source>
+        <translation>Hex</translation>
+    </message>
+    <message>
+        <source>Disasm</source>
+        <translation>Disassembler</translation>
+    </message>
+    <message>
+        <source>Debug</source>
+        <translation>Debug</translation>
+    </message>
+    <message>
+        <source>Trace</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Animate</source>
+        <translation>Animieren</translation>
+    </message>
+    <message>
+        <source>Debugger</source>
+        <translation>Debugger</translation>
+    </message>
+    <message>
+        <source>Registers</source>
+        <translation>Registers</translation>
+    </message>
+    <message>
+        <source>Register</source>
+        <translation>Register</translation>
+    </message>
+    <message>
+        <source>Stack</source>
+        <translation>Stapel</translation>
+    </message>
+    <message>
+        <source>Archive</source>
+        <translation>Archiv</translation>
+    </message>
+    <message>
+        <source>Table</source>
+        <translation>Tabelle</translation>
+    </message>
+    <message>
+        <source>Process</source>
+        <translation>Prozess</translation>
+    </message>
+    <message>
+        <source>Memory</source>
+        <translation>Speicher</translation>
+    </message>
+    <message>
+        <source>Copy</source>
+        <translation>Kopieren</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>Bearbeiten</translation>
+    </message>
+    <message>
+        <source>Find</source>
+        <translation>Suchen</translation>
+    </message>
+    <message>
+        <source>Go to</source>
+        <translation>Gehe zu</translation>
+    </message>
+    <message>
+        <source>Tools</source>
+        <translation>Werkzeuge</translation>
+    </message>
+    <message>
+        <source>Help</source>
+        <translation>Hilfe</translation>
+    </message>
+    <message>
+        <source>Select</source>
+        <translation>Auswählen</translation>
+    </message>
+    <message>
+        <source>Selection</source>
+        <translation>Auswahl</translation>
+    </message>
+    <message>
+        <source>Follow in</source>
+        <translation>Verfolgen in</translation>
+    </message>
+    <message>
+        <source>Show in</source>
+        <translation>Anzeigen in</translation>
+    </message>
+    <message>
+        <source>Breakpoint</source>
+        <translation>Haltepunkt</translation>
+    </message>
+    <message>
+        <source>Modules</source>
+        <translation>Module</translation>
+    </message>
+    <message>
+        <source>Memory map</source>
+        <translation>Speicherbelegung</translation>
+    </message>
+    <message>
+        <source>Value</source>
+        <translation>Wert</translation>
+    </message>
+    <message>
+        <source>Scan</source>
+        <translation>Scan</translation>
+    </message>
+    <message>
+        <source>Editor</source>
+        <translation>Editor</translation>
+    </message>
+    <message>
+        <source>Bookmarks</source>
+        <translation>Lesezeichen</translation>
+    </message>
+    <message>
+        <source>Analyze</source>
+        <translation>Analysieren</translation>
+    </message>
+    <message>
+        <source>Hardware</source>
+        <translation>Hardware</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Show</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>Öffnen</translation>
+    </message>
+    <message>
+        <source>New</source>
+        <translation>Neu</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Speichern</translation>
+    </message>
+    <message>
+        <source>Save as</source>
+        <translation>Speichern unter</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>Schließen</translation>
+    </message>
+    <message>
+        <source>Print</source>
+        <translation>Drucken</translation>
+    </message>
+    <message>
+        <source>Exit</source>
+        <translation>Beenden</translation>
+    </message>
+    <message>
+        <source>Dump to file</source>
+        <translation>In Datei speichern</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Adresse</translation>
+    </message>
+    <message>
+        <source>End</source>
+        <translation>Ende</translation>
+    </message>
+    <message>
+        <source>Start</source>
+        <translation>Starten</translation>
+    </message>
+    <message>
+        <source>Entry point</source>
+        <translation>Einstiegspunkt</translation>
+    </message>
+    <message>
+        <source>Offset</source>
+        <translation>Offset</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>Größe</translation>
+    </message>
+    <message>
+        <source>Scripts</source>
+        <translation>Skripte</translation>
+    </message>
+    <message>
+        <source>Patch</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Opcode</source>
+        <translation>Opcode</translation>
+    </message>
+    <message>
+        <source>Demangle</source>
+        <translation>Entmangeln</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Name</translation>
+    </message>
+    <message>
+        <source>Next</source>
+        <translation>Weiter</translation>
+    </message>
+    <message>
+        <source>Data</source>
+        <translation>Daten</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Alle</translation>
+    </message>
+    <message>
+        <source>Attach</source>
+        <translation>Anfügen</translation>
+    </message>
+    <message>
+        <source>Detach</source>
+        <translation>Ablösen</translation>
+    </message>
+    <message>
+        <source>CPU</source>
+        <translation>CPU</translation>
+    </message>
+    <message>
+        <source>Log</source>
+        <translation>Log</translation>
+    </message>
+    <message>
+        <source>Breakpoints</source>
+        <translation>Haltepunkte</translation>
+    </message>
+    <message>
+        <source>Callstack</source>
+        <translation>Callstack</translation>
+    </message>
+    <message>
+        <source>Threads</source>
+        <translation>Themen</translation>
+    </message>
+    <message>
+        <source>Handles</source>
+        <translation>Handles</translation>
+    </message>
+    <message>
+        <source>Symbols</source>
+        <translation>Symbole</translation>
+    </message>
+    <message>
+        <source>Functions</source>
+        <translation>Funktionen</translation>
+    </message>
+    <message>
+        <source>Clear</source>
+        <translation>Leeren</translation>
+    </message>
+    <message>
+        <source>Shortcuts</source>
+        <translation>Verknüpfungen</translation>
+    </message>
+    <message>
+        <source>Options</source>
+        <translation>Optionen</translation>
+    </message>
+    <message>
+        <source>About</source>
+        <translation>Über</translation>
+    </message>
+    <message>
+        <source>File name</source>
+        <translation>Dateiname</translation>
+    </message>
+    <message>
+        <source>Structs</source>
+        <translation>Structs</translation>
+    </message>
+    <message>
+        <source>Viewer</source>
+        <translation>Betrachter</translation>
+    </message>
+    <message>
+        <source>Folder</source>
+        <translation>Ordner</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Ausführen</translation>
+    </message>
+    <message>
+        <source>Pause</source>
+        <translation>Pause</translation>
+    </message>
+    <message>
+        <source>Step into</source>
+        <translation>Hineinsteigen</translation>
+    </message>
+    <message>
+        <source>Step over</source>
+        <translation>Schritt über</translation>
+    </message>
+    <message>
+        <source>Stop</source>
+        <translation>Stop</translation>
+    </message>
+    <message>
+        <source>Restart</source>
+        <translation>Neu starten</translation>
+    </message>
+    <message>
+        <source>Toggle</source>
+        <translation>Umschalten</translation>
+    </message>
+    <message>
+        <source>Entropy</source>
+        <translation>Entropie</translation>
+    </message>
+    <message>
+        <source>Hash</source>
+        <translation>Hash</translation>
+    </message>
+    <message>
+        <source>Full screen</source>
+        <translation>Vollbild</translation>
+    </message>
+    <message>
+        <source>References</source>
+        <translation>Referenzen</translation>
+    </message>
+    <message>
+        <source>Bookmark</source>
+        <translation>Lesezeichen</translation>
+    </message>
+    <message>
+        <source>List</source>
+        <translation>Liste</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>Entfernen</translation>
+    </message>
+    <message>
+        <source>Resize</source>
+        <translation>Größe ändern</translation>
+    </message>
+    <message>
+        <source>Conditional</source>
+        <translation>Bedingt</translation>
+    </message>
+    <message>
+        <source>Data inspector</source>
+        <translation>Dateninspektor</translation>
+    </message>
+    <message>
+        <source>Data convertor</source>
+        <translation>Datenkonverter</translation>
+    </message>
+    <message>
+        <source>Multisearch</source>
+        <translation>Multisuche</translation>
+    </message>
+    <message>
+        <source>Visualization</source>
+        <translation>Visualisierung</translation>
+    </message>
+</context>
+<context>
+    <name>XShortcutsWidget</name>
+    <message>
+        <source>Save</source>
+        <translation>Speichern</translation>
+    </message>
+    <message>
+        <source>Text files</source>
+        <translation>Textdateien</translation>
+    </message>
+    <message>
+        <source>All files</source>
+        <translation>Alle Dateien</translation>
+    </message>
+    <message>
+        <source>Error</source>
+        <translation>Fehler</translation>
+    </message>
+    <message>
+        <source>Cannot save file</source>
+        <translation>Kann die Datei nicht speichern</translation>
+    </message>
+    <message>
+        <source>Open file</source>
+        <translation>Datei öffnen</translation>
+    </message>
+</context>
+<context>
+    <name>XSymbolsWidget</name>
+    <message>
+        <source>Form</source>
+        <translation>Formular</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Speichern</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Adresse</translation>
+    </message>
+    <message>
+        <source>Symbol</source>
+        <translation>Symbol</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>Größe</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Name</translation>
+    </message>
+    <message>
+        <source>Code</source>
+        <translation>Code</translation>
+    </message>
+    <message>
+        <source>Symbols</source>
+        <translation>Symbole</translation>
+    </message>
+</context>
+<context>
+    <name>XTiff</name>
+    <message>
+        <source>Header</source>
+        <translation>Header</translation>
+    </message>
+    <message>
+        <source>Table</source>
+        <translation>Tabelle</translation>
+    </message>
+</context>
+<context>
+    <name>XVirusTotalWidget</name>
+    <message>
+        <source>Form</source>
+        <translation>Formular</translation>
+    </message>
+    <message>
+        <source>Website</source>
+        <translation>Webseite</translation>
+    </message>
+    <message>
+        <source>Rescan</source>
+        <translation>Erneut scannen</translation>
+    </message>
+    <message>
+        <source>Show detects</source>
+        <translation>Erkennungen anzeigen</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Speichern</translation>
+    </message>
+    <message>
+        <source>Reload</source>
+        <translation>Neu laden</translation>
+    </message>
+    <message>
+        <source>First</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Last</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Information</source>
+        <translation>Information</translation>
+    </message>
+    <message>
+        <source>Upload the file for analyze?</source>
+        <translation>Datei zur Analyse hochladen?</translation>
+    </message>
+    <message>
+        <source>Scan</source>
+        <translation>Scan</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>Version</translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>Datum</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Ergebnis</translation>
+    </message>
+    <message>
+        <source>Please use valid API key</source>
+        <translation>Bitte verwenden Sie einen gültigen API-Schlüssel</translation>
+    </message>
+    <message>
+        <source>Options</source>
+        <translation>Optionen</translation>
+    </message>
+    <message>
+        <source>Online tools</source>
+        <translation>Online-Tools</translation>
+    </message>
+    <message>
+        <source>Error</source>
+        <translation>Fehler</translation>
+    </message>
+</context>
+<context>
+    <name>XVisualization</name>
+    <message>
+        <source>None</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Entropy</source>
+        <translation>Entropie</translation>
+    </message>
+    <message>
+        <source>Gradient</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Zeros</source>
+        <translation>Nullen</translation>
+    </message>
+    <message>
+        <source>Text</source>
+        <translation>Text</translation>
+    </message>
+    <message>
+        <source>Unknown</source>
+        <translation>Unbekannt</translation>
+    </message>
+</context>
+<context>
+    <name>XVisualizationWidget</name>
+    <message>
+        <source>Form</source>
+        <translation>Formular</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Speichern</translation>
+    </message>
+    <message>
+        <source>Reload</source>
+        <translation>Neu laden</translation>
+    </message>
+    <message>
+        <source>Image</source>
+        <translation>Speicherabbild</translation>
+    </message>
+    <message>
+        <source>Schema</source>
+        <translation>Schema</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation>Typ</translation>
+    </message>
+    <message>
+        <source>Mode</source>
+        <translation>Modus</translation>
+    </message>
+    <message>
+        <source>Methods</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Method</source>
+        <translation>Methode</translation>
+    </message>
+    <message>
+        <source>Block size</source>
+        <translation>Blockgröße</translation>
+    </message>
+    <message>
+        <source>Width</source>
+        <translation>Breite</translation>
+    </message>
+    <message>
+        <source>Height</source>
+        <translation>Höhe</translation>
+    </message>
+    <message>
+        <source>Zoom</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Regions</source>
+        <translation>Regionen</translation>
+    </message>
+    <message>
+        <source>Highlights</source>
+        <translation>Hervorhebungen</translation>
+    </message>
+    <message>
+        <source>Visualization</source>
+        <translation>Visualisierung</translation>
+    </message>
+</context>
+<context>
+    <name>XYara</name>
+    <message>
+        <source>Start</source>
+        <translation>Starten</translation>
+    </message>
+</context>
+<context>
+    <name>XZlib</name>
+    <message>
+        <source>Header</source>
+        <translation>Header</translation>
+    </message>
+    <message>
+        <source>Data</source>
+        <translation>Daten</translation>
+    </message>
+    <message>
+        <source>Footer</source>
+        <translation>Fußzeile</translation>
+    </message>
+</context>
+<context>
+    <name>YARAWidgetAdvanced</name>
+    <message>
+        <source>Rules</source>
+        <translation>Regeln</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Speichern</translation>
+    </message>
+    <message>
+        <source>Scan</source>
+        <translation>Scan</translation>
+    </message>
+    <message>
+        <source>Result</source>
+        <translation>Ergebnis</translation>
+    </message>
+    <message>
+        <source>Matches</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Rule name</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Offset</source>
+        <translation>Offset</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>Größe</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Name</translation>
+    </message>
+    <message>
+        <source>Text files</source>
+        <translation>Textdateien</translation>
+    </message>
+    <message>
+        <source>All files</source>
+        <translation>Alle Dateien</translation>
+    </message>
+    <message>
+        <source>Error</source>
+        <translation>Fehler</translation>
+    </message>
+    <message>
+        <source>Cannot save file</source>
+        <translation>Kann die Datei nicht speichern</translation>
+    </message>
+</context>
+<context>
+    <name>YARA_Widget</name>
+    <message>
+        <source>Info</source>
+        <translation>Info</translation>
+    </message>
+    <message>
+        <source>Rules</source>
+        <translation>Regeln</translation>
+    </message>
+    <message>
+        <source>Scan</source>
+        <translation>Scan</translation>
+    </message>
+    <message>
+        <source>msec</source>
+        <translation>Millisekunden</translation>
+    </message>
+    <message>
+        <source>Stop</source>
+        <translation>Stop</translation>
     </message>
 </context>
 </TS>
